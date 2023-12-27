@@ -1,5 +1,4 @@
 // import your componenets here and then export them
-
-const a = 10;
+import Navbar from "./Navbar";
 // add your exported componenets here
-export { a };
+export { Navbar };

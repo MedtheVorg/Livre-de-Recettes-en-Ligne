@@ -1,7 +1,7 @@
 import React from "react";
 
-const RecipieAddPage = () => {
+const RecipeAddPage = () => {
   return <div>RecipieAddPage</div>;
 };
 
-export default RecipieAddPage;
+export default RecipeAddPage;

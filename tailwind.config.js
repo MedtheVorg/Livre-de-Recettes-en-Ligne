@@ -4,7 +4,6 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        mazzard: "mazzard",
         marcellus: "Marcellus",
       },
       colors: {
