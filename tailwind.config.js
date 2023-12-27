@@ -4,7 +4,15 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        nanum: "Nanum Brush Script",
+        mazzard: "mazzard",
+        marcellus: "Marcellus",
+      },
+      colors: {
+        customWhite: "#F2F1EC",
+        customGreen: "#345333",
+        customYellow: "#f2c94c",
+        customLightGray: "#f2f2ec",
+        customBorderColor: "#e9e9e9",
       },
     },
   },
