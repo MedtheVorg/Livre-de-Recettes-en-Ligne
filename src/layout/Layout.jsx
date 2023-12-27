@@ -1,14 +1,17 @@
 import { Routes, Route } from "react-router-dom";
-import { ErrorPage, RecipieAddPage, RecipiePage } from "../pages";
+import { ErrorPage, RecipeAddPage, RecipePage } from "../pages";
+import { Navbar } from "../components";
 
 const Layout = () => {
   return (
     <div className="flex flex-col  h-screen">
-      <header></header>
+      <header>
+        <Navbar />
+      </header>
       <main className="grow">
         <Routes>
-          <Route path="/recipie" element={<RecipiePage/>} />
-          <Route path="/recipie/add" element={<RecipieAddPage />} />
+          <Route path="/recipe" element={<RecipePage />} />
+          <Route path="/recipe/add" element={<RecipeAddPage />} />
           <Route path="/*" element={<ErrorPage />} />
         </Routes>
       </main>

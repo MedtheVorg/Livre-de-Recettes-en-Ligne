@@ -4,12 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: "mazzard";
-  src: local("mazzard"),
-    url("./fonts/mazzard/MazzardL-Regular.otf") format("otf");
-}
-
 body {
-  @apply font-mazzard;
+  @apply font-marcellus;
 }
