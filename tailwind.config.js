@@ -6,6 +6,10 @@ export default {
       fontFamily: {
         nanum: "Nanum Brush Script",
       },
+      colors: {
+        customWhite: "#F2F1EC",
+        customGreen: "#345333",
+      },
     },
   },
   plugins: [],

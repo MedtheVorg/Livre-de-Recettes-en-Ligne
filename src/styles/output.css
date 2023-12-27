@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap");
 
 /*
 ! tailwindcss v3.4.0 | MIT License | https://tailwindcss.com
@@ -562,6 +562,14 @@ video {
   position: fixed;
 }
 
+.sticky{
+  position: sticky;
+}
+
+.top-0{
+  top: 0px;
+}
+
 .mx-auto{
   margin-left: auto;
   margin-right: auto;
@@ -591,6 +599,10 @@ video {
   height: 2.5rem;
 }
 
+.h-16{
+  height: 4rem;
+}
+
 .h-5{
   height: 1.25rem;
 }
@@ -599,8 +611,16 @@ video {
   height: 2rem;
 }
 
+.h-screen{
+  height: 100vh;
+}
+
 .w-10{
   width: 2.5rem;
+}
+
+.w-16{
+  width: 4rem;
 }
 
 .w-5{
@@ -613,6 +633,10 @@ video {
 
 .max-w-screen-xl{
   max-width: 1280px;
+}
+
+.grow{
+  flex-grow: 1;
 }
 
 .flex-col{
@@ -671,6 +695,10 @@ video {
   background-color: transparent;
 }
 
+.bg-opacity-0{
+  --tw-bg-opacity: 0;
+}
+
 .p-2{
   padding: 0.5rem;
 }
@@ -692,6 +720,11 @@ video {
 .text-2xl{
   font-size: 1.5rem;
   line-height: 2rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-sm{

@@ -1,10 +1,9 @@
-import React from "react";
-import Home from "./pages/home";
+import Layout from "./layout/Layout";
 
 function App() {
   return (
     <>
-      <Home />
+      <Layout />
     </>
   );
 }
