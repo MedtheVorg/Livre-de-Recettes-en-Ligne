@@ -9,7 +9,8 @@
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "tailwind": "npx tailwindcss -i ./src/index.css -o ./src/styles/output.css --watch --verbose",
-    "start": "concurrently  \"npm run dev\"  \"npm run tailwind\" "
+    "start": "concurrently  \"npm run dev\"  \"npm run tailwind\" ",
+    "serve-json": "json-server --watch ./server/data.js --port 4000 --routes ./server/routes.json"
   },
   "dependencies": {
     "react": "^18.2.0",

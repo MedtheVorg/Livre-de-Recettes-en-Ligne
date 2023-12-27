@@ -1,0 +1,972 @@
+{
+  "recipies": [
+    {
+      "id": 1,
+      "title": "BREAD PUDDING",
+      "rating": 5,
+      "description": "This recipe for Bread Pudding is an easy, versatile, and budget-friendly way to transform leftover ingredients into a decadent dessert.",
+      "ingredients": [
+        "3 Tbsp butter, divided ($0.45)",
+        "8 cups day-old bread, torn into 1'pieces ($2.00)",
+        "3 large eggs ($1.17)",
+        "2 cups half and half* ($1.99)",
+        "2/3 cup sugar ($0.22)",
+        "2 tsp cinnamon ($0.20)",
+        "1 tsp vanilla extract ($0.28)",
+        "1/4 tsp salt ($0.01)",
+        "1/4 cup chocolate chips ($0.34)"
+      ],
+      "instrctions": [
+        "Tear the day-old bread into 1” pieces, and spread them out on a parchment-lined baking sheet until dried out but not hard.",
+        "Liberally grease a baking dish with about 1/2 tablespoon of butter. Melt the remaining butter in a small saucepan or microwave. Allow the melted butter to cool slightly but not enough to solidify.",
+        "In a large mixing bowl, whisk together the eggs, half & half, vanilla extract, ⅔ cup of sugar, 2 tsp of cinnamon, and salt. Once combined, slowly stream in the melted butter, whisking constantly to incorporate.",
+        "Add the pieces of bread to the egg mixture a few handfuls at a time, tossing gently to coat in the custard. Once all the bread has been added to the bowl, let it sit for 1-2 minutes to soak up as much of the mixture as possible.",
+        "Transfer half of the soaked bread to the prepared baking dish. Sprinkle in the chocolate chips and any other mix-ins you’d like, and then cover with the rest of the soaked bread. Scrape any liquid left in the bowl on top of the casserole. Tuck in any mix-ins (especially chocolate) visible from the top of the bread pudding to keep them from burning in the oven.",
+        "Cover the filled casserole dish with aluminum foil and let it soak at room temperature for least 30 minutes (up to 2 hours), or refrigerate overnight.",
+        "Preheat the oven to 375℉. If the bread pudding was refridgerated, let it warm slightly before placing in a hot oven (especially if using a glass baking dish).",
+        "Bake the bread pudding, covered, for 30 minutes. Meanwhile, mix sugar and cinnamon for the topping in a small bowl and set aside.",
+        "Remove the foil, and sprinkle the cinnamon-sugar topping evenly over the pudding. Continue baking, uncovered, for another 20-25 minutes or until the top of the casserole is crunchy and deeply golden brown."
+      ],
+      "equipement": [
+        "Liquid Measuring Cup",
+        "Glass Casserole Dish",
+        "Parchment Paper"
+      ],
+      "nutrition": {
+        "calories": "921 kcal",
+        "carbohydrates": "138 g",
+        "protein": "27 g",
+        "fat": "29 g",
+        "sodium": "1066 mg",
+        "fiber": "6 g"
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "SPAGHETTI BOLOGNESE",
+      "rating": 4,
+      "description": "Classic Italian dish with rich tomato sauce, ground beef, and perfectly cooked spaghetti.",
+      "ingredients": [
+        "1 lb ground beef",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 can (28 oz) crushed tomatoes",
+        "2 tbsp tomato paste",
+        "1 tsp dried oregano",
+        "1 tsp dried basil",
+        "Salt and pepper to taste",
+        "1 lb spaghetti",
+        "Grated Parmesan cheese for serving"
+      ],
+      "instructions": [
+        "In a large skillet, brown the ground beef over medium heat. Drain excess fat.",
+        "Add chopped onions and minced garlic to the skillet. Cook until onions are translucent.",
+        "Stir in crushed tomatoes, tomato paste, oregano, basil, salt, and pepper. Simmer for 20-30 minutes.",
+        "Meanwhile, cook spaghetti according to package instructions. Drain and set aside.",
+        "Serve Bolognese sauce over cooked spaghetti. Sprinkle with Parmesan cheese."
+      ],
+      "equipement": ["Large Skillet", "Cooking Pot", "Colander"],
+      "nutrition": {
+        "calories": "743 kcal",
+        "carbohydrates": "87 g",
+        "protein": "31 g",
+        "fat": "31 g",
+        "sodium": "862 mg",
+        "fiber": "8 g"
+      }
+    },
+    {
+      "id": 3,
+      "title": "CHICKEN STIR-FRY",
+      "rating": 4.5,
+      "description": "A quick and flavorful chicken stir-fry with colorful vegetables and a savory soy-based sauce.",
+      "ingredients": [
+        "1 lb boneless, skinless chicken breasts, sliced",
+        "2 cups broccoli florets",
+        "1 bell pepper, sliced",
+        "1 carrot, julienned",
+        "2 tbsp soy sauce",
+        "1 tbsp oyster sauce",
+        "1 tbsp sesame oil",
+        "2 cloves garlic, minced",
+        "1 tsp ginger, grated",
+        "2 tbsp vegetable oil",
+        "Cooked rice for serving"
+      ],
+      "instructions": [
+        "In a wok or large skillet, heat vegetable oil over high heat.",
+        "Add sliced chicken and cook until browned. Remove from the wok and set aside.",
+        "In the same wok, add more oil if needed. Stir-fry broccoli, bell pepper, and carrot until crisp-tender.",
+        "Return cooked chicken to the wok. Add soy sauce, oyster sauce, sesame oil, garlic, and ginger. Stir-fry until well combined and heated through.",
+        "Serve over cooked rice."
+      ],
+      "equipement": ["Wok", "Chef's Knife", "Cutting Board"],
+      "nutrition": {
+        "calories": "485 kcal",
+        "carbohydrates": "24 g",
+        "protein": "38 g",
+        "fat": "25 g",
+        "sodium": "982 mg",
+        "fiber": "6 g"
+      }
+    },
+    {
+      "id": 4,
+      "title": "SALMON TERIYAKI",
+      "rating": 4.2,
+      "description": "Grilled salmon glazed with a sweet and savory teriyaki sauce, served with steamed vegetables.",
+      "ingredients": [
+        "4 salmon fillets",
+        "1/2 cup soy sauce",
+        "1/4 cup mirin",
+        "2 tbsp brown sugar",
+        "1 tbsp sesame oil",
+        "1 tsp grated ginger",
+        "2 cloves garlic, minced",
+        "Steamed broccoli and carrots for serving",
+        "Cooked white rice"
+      ],
+      "instructions": [
+        "In a bowl, whisk together soy sauce, mirin, brown sugar, sesame oil, ginger, and garlic to make the teriyaki sauce.",
+        "Marinate salmon fillets in the sauce for 30 minutes.",
+        "Grill salmon until cooked to desired doneness, basting with teriyaki sauce.",
+        "Serve salmon over cooked white rice with steamed broccoli and carrots."
+      ],
+      "equipement": ["Grill", "Mixing Bowl", "Tongs"],
+      "nutrition": {
+        "calories": "420 kcal",
+        "carbohydrates": "22 g",
+        "protein": "32 g",
+        "fat": "20 g",
+        "sodium": "980 mg",
+        "fiber": "3 g"
+      }
+    },
+    {
+      "id": 5,
+      "title": "CAPRESE SALAD",
+      "rating": 4.8,
+      "description": "A refreshing Italian salad featuring ripe tomatoes, fresh mozzarella, basil, and a drizzle of balsamic glaze.",
+      "ingredients": [
+        "4 large tomatoes, sliced",
+        "8 oz fresh mozzarella, sliced",
+        "1 bunch fresh basil leaves",
+        "3 tbsp extra virgin olive oil",
+        "2 tbsp balsamic glaze",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Arrange alternating slices of tomatoes and mozzarella on a serving platter.",
+        "Tuck fresh basil leaves between the tomato and mozzarella slices.",
+        "Drizzle extra virgin olive oil and balsamic glaze over the salad.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately as a light and flavorful appetizer or side dish."
+      ],
+      "equipement": ["Serving Platter", "Chef's Knife", "Basting Brush"],
+      "nutrition": {
+        "calories": "320 kcal",
+        "carbohydrates": "10 g",
+        "protein": "18 g",
+        "fat": "24 g",
+        "sodium": "400 mg",
+        "fiber": "3 g"
+      }
+    },
+    {
+      "id": 6,
+      "title": "MEDITERRANEAN QUINOA SALAD",
+      "rating": 4.5,
+      "description": "A wholesome and flavorful salad featuring quinoa, cherry tomatoes, cucumbers, olives, and feta cheese.",
+      "ingredients": [
+        "1 cup quinoa, cooked and cooled",
+        "1 cup cherry tomatoes, halved",
+        "1 cucumber, diced",
+        "1/2 cup Kalamata olives, sliced",
+        "1/2 cup feta cheese, crumbled",
+        "1/4 cup red onion, finely chopped",
+        "3 tbsp extra virgin olive oil",
+        "2 tbsp red wine vinegar",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine quinoa, cherry tomatoes, cucumber, olives, feta cheese, and red onion.",
+        "In a small bowl, whisk together olive oil, red wine vinegar, oregano, salt, and pepper to make the dressing.",
+        "Pour the dressing over the salad and toss to combine.",
+        "Refrigerate for at least 30 minutes before serving to allow flavors to meld.",
+        "Serve chilled as a delicious and nutritious side dish or main course."
+      ],
+      "equipement": ["Large Mixing Bowl", "Small Bowl", "Whisk"],
+      "nutrition": {
+        "calories": "380 kcal",
+        "carbohydrates": "38 g",
+        "protein": "10 g",
+        "fat": "22 g",
+        "sodium": "480 mg",
+        "fiber": "6 g"
+      }
+    },
+    {
+      "id": 7,
+      "title": "MOROCCAN CHICKEN TAGINE",
+      "rating": 4.7,
+      "description": "A fragrant and flavorful Moroccan dish featuring slow-cooked chicken, apricots, almonds, and a blend of exotic spices.",
+      "ingredients": [
+        "4 chicken thighs, bone-in and skin-on",
+        "1 large onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 cup dried apricots, halved",
+        "1/2 cup blanched almonds",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/4 tsp saffron threads, soaked in warm water",
+        "2 cups chicken broth",
+        "Salt and pepper to taste",
+        "Fresh cilantro for garnish"
+      ],
+      "instructions": [
+        "In a large tagine or Dutch oven, brown chicken thighs on both sides. Remove and set aside.",
+        "In the same pot, sauté chopped onions until translucent. Add minced garlic and sauté for an additional minute.",
+        "Stir in cumin, coriander, cinnamon, ginger, saffron, salt, and pepper. Cook for another 2 minutes until fragrant.",
+        "Return browned chicken to the pot. Add dried apricots and blanched almonds. Pour in chicken broth.",
+        "Cover and simmer on low heat for 1.5 to 2 hours or until chicken is tender and flavors meld.",
+        "Garnish with fresh cilantro before serving. Serve the tagine over couscous or with crusty bread."
+      ],
+      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Wooden Spoon"],
+      "nutrition": {
+        "calories": "520 kcal",
+        "carbohydrates": "35 g",
+        "protein": "28 g",
+        "fat": "32 g",
+        "sodium": "680 mg",
+        "fiber": "6 g"
+      }
+    },
+
+    {
+      "id": 8,
+      "title": "COUSCOUS WITH VEGETABLE TAGINE",
+      "rating": 4.6,
+      "description": "A vegetarian Moroccan delight featuring couscous topped with a colorful and aromatic vegetable tagine.",
+      "ingredients": [
+        "2 cups couscous, cooked",
+        "1 eggplant, diced",
+        "2 zucchini, sliced",
+        "1 red bell pepper, chopped",
+        "1 yellow bell pepper, chopped",
+        "1 onion, finely chopped",
+        "3 tomatoes, diced",
+        "3 cloves garlic, minced",
+        "1/4 cup olive oil",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp smoked paprika",
+        "1/2 tsp turmeric",
+        "Salt and pepper to taste",
+        "Fresh parsley for garnish"
+      ],
+      "instructions": [
+        "In a large pan, heat olive oil over medium heat. Sauté chopped onion and minced garlic until softened.",
+        "Add diced eggplant, sliced zucchini, and chopped bell peppers. Cook until vegetables are tender.",
+        "Stir in diced tomatoes, ground cumin, ground coriander, smoked paprika, turmeric, salt, and pepper. Simmer for 10 minutes.",
+        "Prepare couscous according to package instructions.",
+        "Serve the vegetable tagine over a bed of couscous. Garnish with fresh parsley."
+      ],
+      "equipement": ["Large Pan", "Cooking Pot", "Serving Platter"],
+      "nutrition": {
+        "calories": "420 kcal",
+        "carbohydrates": "72 g",
+        "protein": "10 g",
+        "fat": "12 g",
+        "sodium": "480 mg",
+        "fiber": "8 g"
+      }
+    },
+    {
+      "id": 9,
+      "title": "MOROCCAN LAMB STEW",
+      "rating": 4.9,
+      "description": "A hearty and aromatic Moroccan lamb stew slow-cooked with spices, dried fruits, and served with couscous.",
+      "ingredients": [
+        "1.5 lbs lamb shoulder, cubed",
+        "2 onions, finely chopped",
+        "3 carrots, sliced",
+        "1 cup dried apricots, halved",
+        "1 cup dried figs, quartered",
+        "3 cloves garlic, minced",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp cayenne pepper",
+        "4 cups beef or lamb broth",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "Salt and pepper to taste",
+        "Fresh mint leaves for garnish"
+      ],
+      "instructions": [
+        "In a large pot, brown lamb cubes over medium-high heat. Remove and set aside.",
+        "Sauté chopped onions until translucent. Add minced garlic and cook for an additional minute.",
+        "Stir in ground cumin, ground coriander, ground cinnamon, ground turmeric, and cayenne pepper. Cook for 2 minutes.",
+        "Return browned lamb to the pot. Add sliced carrots, dried apricots, dried figs, and chickpeas. Pour in broth.",
+        "Bring to a boil, then reduce heat and simmer for 2 to 2.5 hours until lamb is tender.",
+        "Season with salt and pepper to taste. Serve the stew over couscous and garnish with fresh mint leaves."
+      ],
+      "equipement": ["Large Pot", "Chef's Knife", "Serving Bowl"],
+      "nutrition": {
+        "calories": "580 kcal",
+        "carbohydrates": "65 g",
+        "protein": "28 g",
+        "fat": "24 g",
+        "sodium": "880 mg",
+        "fiber": "14 g"
+      }
+    },
+    {
+      "id": 10,
+      "title": "MOROCCAN SPICED CHICKEN COUSCOUS",
+      "rating": 4.5,
+      "description": "A flavorful and aromatic dish featuring spiced chicken, fluffy couscous, and a medley of vegetables.",
+      "ingredients": [
+        "4 boneless, skinless chicken breasts",
+        "1 cup couscous",
+        "1 onion, finely chopped",
+        "2 carrots, diced",
+        "1 red bell pepper, sliced",
+        "1 zucchini, sliced",
+        "3 cloves garlic, minced",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp smoked paprika",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp cayenne pepper",
+        "2 cups chicken broth",
+        "1/2 cup raisins",
+        "Fresh cilantro for garnish",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season chicken breasts with salt, pepper, and half of the ground cumin, coriander, smoked paprika, cinnamon, and cayenne pepper.",
+        "In a large skillet, brown chicken on both sides. Remove and set aside.",
+        "In the same skillet, sauté chopped onion until translucent. Add minced garlic, carrots, bell pepper, and zucchini. Cook until vegetables are tender.",
+        "Stir in couscous and remaining spices. Add chicken broth and bring to a simmer.",
+        "Place browned chicken on top of the couscous and vegetable mixture. Cover and simmer for 15-20 minutes until chicken is cooked through.",
+        "Sprinkle raisins over the dish and let them plump in the heat for a few minutes.",
+        "Garnish with fresh cilantro before serving. Serve hot."
+      ],
+      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "nutrition": {
+        "calories": "480 kcal",
+        "carbohydrates": "58 g",
+        "protein": "32 g",
+        "fat": "12 g",
+        "sodium": "720 mg",
+        "fiber": "7 g"
+      }
+    },
+    {
+      "id": 11,
+      "title": "MOROCCAN LENTIL SOUP",
+      "rating": 4.7,
+      "description": "A comforting and nutritious lentil soup infused with Moroccan spices, tomatoes, and a hint of lemon.",
+      "ingredients": [
+        "1 cup dry red lentils, rinsed",
+        "1 onion, finely chopped",
+        "2 carrots, diced",
+        "2 celery stalks, chopped",
+        "3 tomatoes, diced",
+        "3 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground turmeric",
+        "1/2 tsp smoked paprika",
+        "1/4 tsp cayenne pepper",
+        "6 cups vegetable broth",
+        "Juice of 1 lemon",
+        "Fresh cilantro for garnish",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large pot, sauté chopped onion until translucent. Add minced garlic, carrots, and celery. Cook until vegetables are softened.",
+        "Stir in ground cumin, ground coriander, ground turmeric, smoked paprika, and cayenne pepper. Cook for 2 minutes until fragrant.",
+        "Add diced tomatoes and dry red lentils. Pour in vegetable broth and bring to a boil.",
+        "Reduce heat and simmer for 20-25 minutes or until lentils are tender.",
+        "Stir in lemon juice and season with salt and pepper to taste.",
+        "Garnish with fresh cilantro before serving. Serve hot."
+      ],
+      "equipement": ["Large Pot", "Chef's Knife", "Ladle"],
+      "nutrition": {
+        "calories": "280 kcal",
+        "carbohydrates": "48 g",
+        "protein": "18 g",
+        "fat": "2 g",
+        "sodium": "960 mg",
+        "fiber": "16 g"
+      }
+    },
+    {
+      "id": 12,
+      "title": "MOROCCAN CHICKEN PASTILLA",
+      "rating": 4.8,
+      "description": "An exquisite Moroccan savory pie featuring layers of spiced chicken, almonds, and eggs encased in delicate phyllo pastry.",
+      "ingredients": [
+        "2 lbs boneless, skinless chicken thighs, diced",
+        "1 large onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1/2 cup blanched almonds, chopped",
+        "4 large eggs, beaten",
+        "1/4 cup fresh parsley, chopped",
+        "1 tsp ground cinnamon",
+        "1 tsp ground ginger",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp saffron threads, soaked in warm water",
+        "Salt and pepper to taste",
+        "8 sheets phyllo pastry",
+        "1/2 cup unsalted butter, melted",
+        "Powdered sugar for dusting"
+      ],
+      "instructions": [
+        "In a large skillet, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Add diced chicken to the skillet and cook until browned. Stir in chopped almonds, ground cinnamon, ground ginger, ground turmeric, saffron, salt, and pepper.",
+        "Pour beaten eggs over the chicken mixture and stir constantly until eggs are cooked and everything is well combined. Stir in fresh parsley.",
+        "Preheat the oven to 375°F (190°C).",
+        "Layer 4 sheets of phyllo pastry, brushing each with melted butter, in a pie dish. Spoon the chicken and egg mixture over the phyllo layers.",
+        "Layer the remaining 4 sheets of phyllo on top, again brushing each with melted butter. Tuck in the edges to form a sealed pie.",
+        "Bake for 25-30 minutes or until the phyllo is golden brown and crispy.",
+        "Dust with powdered sugar before serving. Allow to cool slightly before slicing and serving."
+      ],
+      "equipement": ["Large Skillet", "Pie Dish", "Pastry Brush"],
+      "nutrition": {
+        "calories": "420 kcal",
+        "carbohydrates": "25 g",
+        "protein": "30 g",
+        "fat": "22 g",
+        "sodium": "480 mg",
+        "fiber": "3 g"
+      }
+    },
+    {
+      "id": 13,
+      "title": "MOROCCAN VEGETABLE TAGINE",
+      "rating": 4.6,
+      "description": "A flavorful and aromatic vegetable tagine featuring a medley of colorful vegetables, chickpeas, and Moroccan spices.",
+      "ingredients": [
+        "1 eggplant, diced",
+        "2 zucchini, sliced",
+        "2 carrots, diced",
+        "1 bell pepper, chopped",
+        "1 onion, finely chopped",
+        "3 tomatoes, diced",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "3 cloves garlic, minced",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp cayenne pepper",
+        "1 cup vegetable broth",
+        "1/4 cup fresh cilantro, chopped",
+        "Salt and pepper to taste",
+        "Cooked couscous for serving"
+      ],
+      "instructions": [
+        "In a large tagine or Dutch oven, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Add diced eggplant, sliced zucchini, diced carrots, chopped bell pepper, diced tomatoes, and chickpeas to the pot.",
+        "Stir in ground cumin, ground coriander, ground cinnamon, ground turmeric, cayenne pepper, salt, and pepper. Mix well.",
+        "Pour vegetable broth over the vegetables. Cover and simmer on low heat for 30-40 minutes or until vegetables are tender.",
+        "Stir in fresh cilantro just before serving. Adjust seasoning if needed.",
+        "Serve the vegetable tagine over cooked couscous."
+      ],
+      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Serving Spoon"],
+      "nutrition": {
+        "calories": "320 kcal",
+        "carbohydrates": "65 g",
+        "protein": "12 g",
+        "fat": "3 g",
+        "sodium": "680 mg",
+        "fiber": "14 g"
+      }
+    },
+    {
+      "id": 14,
+      "title": "MOROCCAN LEMON CHICKEN",
+      "rating": 4.7,
+      "description": "A zesty and aromatic Moroccan lemon chicken dish with a blend of spices, preserved lemons, and green olives.",
+      "ingredients": [
+        "4 chicken thighs, bone-in and skin-on",
+        "1 large onion, finely chopped",
+        "3 cloves garlic, minced",
+        "1 preserved lemon, seeds removed and thinly sliced",
+        "1/2 cup green olives, pitted",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp ground turmeric",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp cayenne pepper",
+        "1 cup chicken broth",
+        "Juice of 1 lemon",
+        "2 tbsp olive oil",
+        "Fresh parsley for garnish",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season chicken thighs with salt, pepper, ground cumin, ground coriander, ground turmeric, ground cinnamon, and cayenne pepper.",
+        "In a large skillet, heat olive oil over medium-high heat. Brown chicken thighs on both sides. Remove and set aside.",
+        "In the same skillet, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Stir in preserved lemon slices, green olives, chicken broth, and lemon juice. Bring to a simmer.",
+        "Return browned chicken to the skillet. Cover and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
+        "Garnish with fresh parsley before serving. Serve hot."
+      ],
+      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "nutrition": {
+        "calories": "380 kcal",
+        "carbohydrates": "8 g",
+        "protein": "22 g",
+        "fat": "30 g",
+        "sodium": "980 mg",
+        "fiber": "3 g"
+      }
+    },
+    {
+      "id": 15,
+      "title": "MOROCCAN HARIRA SOUP",
+      "rating": 4.6,
+      "description": "A hearty and nourishing Moroccan soup with a base of tomatoes, lentils, chickpeas, and fragrant spices.",
+      "ingredients": [
+        "1 cup dried lentils, rinsed",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "1 onion, finely chopped",
+        "2 carrots, diced",
+        "2 celery stalks, chopped",
+        "3 tomatoes, diced",
+        "3 cloves garlic, minced",
+        "1/2 cup chopped fresh cilantro",
+        "1/2 cup chopped fresh parsley",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/4 tsp cayenne pepper",
+        "6 cups vegetable broth",
+        "Juice of 1 lemon",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large pot, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Stir in diced tomatoes, chopped carrots, chopped celery, dried lentils, and chickpeas.",
+        "Add ground cumin, ground coriander, ground cinnamon, cayenne pepper, salt, and pepper. Mix well.",
+        "Pour vegetable broth over the ingredients and bring to a boil. Reduce heat and simmer for 30-40 minutes or until lentils are tender.",
+        "Stir in fresh cilantro, fresh parsley, olive oil, and lemon juice. Adjust seasoning if needed.",
+        "Serve hot and enjoy this comforting Moroccan Harira Soup."
+      ],
+      "equipement": ["Large Pot", "Chef's Knife", "Serving Ladle"],
+      "nutrition": {
+        "calories": "320 kcal",
+        "carbohydrates": "48 g",
+        "protein": "15 g",
+        "fat": "8 g",
+        "sodium": "780 mg",
+        "fiber": "12 g"
+      }
+    },
+    {
+      "id": 16,
+      "title": "MOROCCAN CHICKPEA STEW",
+      "rating": 4.5,
+      "description": "A rich and flavorful Moroccan chickpea stew with a medley of vegetables, spices, and a hint of sweetness from dried fruits.",
+      "ingredients": [
+        "2 cans (15 oz each) chickpeas, drained and rinsed",
+        "1 large onion, finely chopped",
+        "2 carrots, diced",
+        "2 sweet potatoes, peeled and diced",
+        "1 zucchini, diced",
+        "1 red bell pepper, chopped",
+        "3 cloves garlic, minced",
+        "1 can (14 oz) diced tomatoes",
+        "1/2 cup dried apricots, chopped",
+        "1/4 cup raisins",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp cayenne pepper",
+        "4 cups vegetable broth",
+        "2 tbsp olive oil",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large pot, sauté chopped onion in olive oil until translucent. Add minced garlic and cook until fragrant.",
+        "Add diced carrots, sweet potatoes, zucchini, and red bell pepper to the pot. Cook until vegetables begin to soften.",
+        "Stir in chickpeas, diced tomatoes, dried apricots, raisins, ground cumin, ground coriander, ground cinnamon, ground turmeric, cayenne pepper, salt, and pepper.",
+        "Pour vegetable broth over the ingredients and bring to a simmer. Cover and cook for 25-30 minutes or until vegetables are tender.",
+        "Adjust seasoning if needed. Serve hot, and enjoy the rich flavors of this Moroccan Chickpea Stew."
+      ],
+      "equipement": ["Large Pot", "Chef's Knife", "Wooden Spoon"],
+      "nutrition": {
+        "calories": "380 kcal",
+        "carbohydrates": "68 g",
+        "protein": "14 g",
+        "fat": "8 g",
+        "sodium": "860 mg",
+        "fiber": "15 g"
+      }
+    },
+    {
+      "id": 17,
+      "title": "MOROCCAN SPICED LAMB KEBABS",
+      "rating": 4.8,
+      "description": "Delicious and aromatic Moroccan spiced lamb kebabs, grilled to perfection and served with a flavorful yogurt sauce.",
+      "ingredients": [
+        "1.5 lbs ground lamb",
+        "1 onion, finely grated",
+        "3 cloves garlic, minced",
+        "1/4 cup fresh parsley, chopped",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/4 tsp cayenne pepper",
+        "Salt and pepper to taste",
+        "Wooden skewers, soaked in water",
+        "1 cup Greek yogurt",
+        "1 tbsp fresh mint, chopped",
+        "1 tbsp fresh cilantro, chopped",
+        "1 tbsp lemon juice",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine ground lamb, grated onion, minced garlic, chopped parsley, ground cumin, ground coriander, ground cinnamon, ground ginger, cayenne pepper, salt, and pepper.",
+        "Mix the ingredients thoroughly and shape the mixture into kebabs around the soaked wooden skewers.",
+        "Preheat a grill or grill pan over medium-high heat. Grill the lamb kebabs for about 4-5 minutes per side or until cooked to your liking.",
+        "In a small bowl, mix Greek yogurt with chopped mint, cilantro, lemon juice, and salt to taste. This will be the dipping sauce for the kebabs.",
+        "Serve the Moroccan spiced lamb kebabs hot off the grill with the refreshing yogurt sauce."
+      ],
+      "equipement": ["Mixing Bowl", "Grill or Grill Pan", "Wooden Skewers"],
+      "nutrition": {
+        "calories": "420 kcal",
+        "carbohydrates": "5 g",
+        "protein": "25 g",
+        "fat": "35 g",
+        "sodium": "520 mg",
+        "fiber": "1 g"
+      }
+    },
+    {
+      "id": 18,
+      "title": "MOROCCAN DATE AND WALNUT COOKIES",
+      "rating": 4.7,
+      "description": "Delightful Moroccan cookies made with dates, walnuts, and warm spices, offering a perfect balance of sweetness and nuttiness.",
+      "ingredients": [
+        "1 cup Medjool dates, pitted and finely chopped",
+        "1 cup walnuts, finely chopped",
+        "1 cup all-purpose flour",
+        "1/2 cup unsalted butter, softened",
+        "1/4 cup honey",
+        "1 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/4 tsp ground cloves",
+        "1/4 tsp salt",
+        "Powdered sugar for dusting"
+      ],
+      "instructions": [
+        "Preheat the oven to 350°F (175°C) and line a baking sheet with parchment paper.",
+        "In a large bowl, combine chopped dates, chopped walnuts, all-purpose flour, softened butter, honey, ground cinnamon, ground ginger, ground cloves, and salt. Mix until well combined.",
+        "Shape the cookie dough into small balls and place them on the prepared baking sheet, leaving some space between each cookie.",
+        "Bake in the preheated oven for 12-15 minutes or until the edges are golden brown.",
+        "Remove the cookies from the oven and let them cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.",
+        "Once cooled, dust the Moroccan date and walnut cookies with powdered sugar before serving."
+      ],
+      "equipement": ["Mixing Bowl", "Baking Sheet", "Parchment Paper"],
+      "nutrition": {
+        "calories": "120 kcal (per cookie)",
+        "carbohydrates": "14 g",
+        "protein": "2 g",
+        "fat": "7 g",
+        "sodium": "30 mg",
+        "fiber": "1 g"
+      }
+    },
+    {
+      "id": 19,
+      "title": "MOROCCAN ORANGE BLOSSOM WATER COCKTAIL",
+      "rating": 4.9,
+      "description": "A refreshing Moroccan-inspired cocktail featuring orange blossom water, citrus juices, and a hint of mint for a burst of flavors.",
+      "ingredients": [
+        "1 cup freshly squeezed orange juice",
+        "1/2 cup freshly squeezed lemon juice",
+        "1/4 cup simple syrup",
+        "1 tsp orange blossom water",
+        "Crushed ice",
+        "Fresh mint leaves for garnish",
+        "Orange slices for garnish"
+      ],
+      "instructions": [
+        "In a pitcher, combine freshly squeezed orange juice, freshly squeezed lemon juice, simple syrup, and orange blossom water. Stir well to combine.",
+        "Fill glasses with crushed ice and pour the citrus mixture over the ice.",
+        "Garnish each glass with fresh mint leaves and a slice of orange.",
+        "Stir before serving to mix the flavors, and enjoy this Moroccan-inspired Orange Blossom Water Cocktail!"
+      ],
+      "equipement": ["Pitcher", "Citrus Juicer", "Glasses"],
+      "nutrition": {
+        "calories": "80 kcal (per serving)",
+        "carbohydrates": "20 g",
+        "protein": "1 g",
+        "fat": "0 g",
+        "sodium": "5 mg",
+        "fiber": "1 g"
+      }
+    },
+    {
+      "id": 20,
+      "title": "MOROCCAN MINT TEA",
+      "rating": 5,
+      "description": "A classic and aromatic Moroccan mint tea, known for its refreshing taste and cultural significance.",
+      "ingredients": [
+        "3 tbsp loose green tea leaves",
+        "1 bunch fresh mint leaves",
+        "3 tbsp sugar (adjust to taste)",
+        "4 cups boiling water"
+      ],
+      "instructions": [
+        "Rinse the loose green tea leaves under cold water.",
+        "In a teapot, combine the rinsed tea leaves and fresh mint leaves.",
+        "Add sugar to the tea leaves and mint. Adjust the amount based on your desired sweetness.",
+        "Pour boiling water over the tea leaves, mint, and sugar. Let it steep for about 5 minutes.",
+        "Strain the tea into cups, and serve the Moroccan Mint Tea hot.",
+        "Optionally, garnish each cup with a sprig of fresh mint.",
+        "Enjoy the authentic taste of Moroccan Mint Tea!"
+      ],
+      "equipement": ["Teapot", "Tea Strainer", "Cups"],
+      "nutrition": {
+        "calories": "15 kcal (per serving)",
+        "carbohydrates": "4 g",
+        "protein": "0 g",
+        "fat": "0 g",
+        "sodium": "5 mg",
+        "fiber": "0 g"
+      }
+    },
+    {
+      "id": 21,
+      "title": "MOROCCAN VEGETABLE COUSCOUS",
+      "rating": 4.6,
+      "description": "A flavorful and hearty Moroccan vegetable couscous featuring a variety of vegetables, chickpeas, and aromatic spices.",
+      "ingredients": [
+        "1 cup couscous",
+        "1 can (15 oz) chickpeas, drained and rinsed",
+        "1 onion, finely chopped",
+        "2 carrots, diced",
+        "1 zucchini, sliced",
+        "1 bell pepper, chopped",
+        "3 tomatoes, diced",
+        "3 cloves garlic, minced",
+        "2 tsp ground cumin",
+        "2 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground turmeric",
+        "1/4 tsp cayenne pepper",
+        "4 cups vegetable broth",
+        "1/4 cup fresh cilantro, chopped",
+        "1/4 cup fresh parsley, chopped",
+        "Salt and pepper to taste",
+        "Lemon wedges for serving"
+      ],
+      "instructions": [
+        "In a large pot, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Add diced carrots, sliced zucchini, chopped bell pepper, diced tomatoes, and chickpeas to the pot.",
+        "Stir in ground cumin, ground coriander, ground cinnamon, ground turmeric, cayenne pepper, salt, and pepper. Mix well.",
+        "Pour vegetable broth over the ingredients and bring to a boil. Stir in couscous and cover the pot. Remove from heat and let it sit for 5 minutes.",
+        "Fluff the couscous with a fork and stir in fresh cilantro and parsley.",
+        "Serve the Moroccan vegetable couscous with lemon wedges on the side."
+      ],
+      "equipement": ["Large Pot", "Chef's Knife", "Serving Spoon"],
+      "nutrition": {
+        "calories": "320 kcal",
+        "carbohydrates": "65 g",
+        "protein": "12 g",
+        "fat": "3 g",
+        "sodium": "780 mg",
+        "fiber": "14 g"
+      }
+    },
+    {
+      "id": 22,
+      "title": "MOROCCAN CHICKEN TAGINE WITH APRICOTS",
+      "rating": 4.7,
+      "description": "A succulent Moroccan chicken tagine featuring tender chicken, sweet apricots, and a blend of aromatic spices.",
+      "ingredients": [
+        "4 bone-in, skin-on chicken thighs",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1/2 cup dried apricots, sliced",
+        "1/4 cup blanched almonds, toasted",
+        "1 tsp ground cumin",
+        "1 tsp ground coriander",
+        "1/2 tsp ground cinnamon",
+        "1/2 tsp ground ginger",
+        "1/4 tsp saffron threads, soaked in warm water",
+        "1 cup chicken broth",
+        "2 tbsp honey",
+        "1 lemon, thinly sliced",
+        "Fresh cilantro for garnish",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Season chicken thighs with salt, pepper, ground cumin, ground coriander, ground cinnamon, and ground ginger.",
+        "In a tagine or heavy-bottomed pot, brown the chicken on both sides. Remove and set aside.",
+        "In the same pot, sauté chopped onion until translucent. Add minced garlic and cook until fragrant.",
+        "Stir in soaked saffron threads, dried apricots, and toasted almonds.",
+        "Place the browned chicken back in the pot. Pour in chicken broth and honey. Add lemon slices on top.",
+        "Cover the tagine or pot and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
+        "Garnish with fresh cilantro before serving. Serve the Moroccan Chicken Tagine with apricots over couscous or rice."
+      ],
+      "equipement": [
+        "Tagine or Heavy-Bottomed Pot",
+        "Chef's Knife",
+        "Serving Platter"
+      ],
+      "nutrition": {
+        "calories": "420 kcal",
+        "carbohydrates": "30 g",
+        "protein": "28 g",
+        "fat": "20 g",
+        "sodium": "720 mg",
+        "fiber": "5 g"
+      }
+    },
+    {
+      "id": 22,
+      "title": "MEXICAN STREET CORN (ELOTE)",
+      "rating": 4.8,
+      "description": "Grilled corn on the cob smothered with mayonnaise, cotija cheese, chili powder, and lime juice.",
+      "ingredients": [
+        "4 ears of corn, husked",
+        "1/4 cup mayonnaise",
+        "1/2 cup crumbled cotija cheese",
+        "1 tsp chili powder",
+        "1 lime, cut into wedges",
+        "Fresh cilantro for garnish",
+        "Salt to taste"
+      ],
+      "instructions": [
+        "Grill the corn on the cob until slightly charred on all sides.",
+        "Brush each corn with mayonnaise, then sprinkle with cotija cheese, chili powder, and salt.",
+        "Serve with lime wedges and garnish with fresh cilantro."
+      ],
+      "equipement": ["Grill", "Basting Brush", "Small Bowl"],
+      "nutrition": {
+        "calories": "180 kcal",
+        "carbohydrates": "24 g",
+        "protein": "5 g",
+        "fat": "9 g",
+        "sodium": "320 mg",
+        "fiber": "3 g"
+      }
+    },
+    {
+      "id": 23,
+      "title": "MEDITERRANEAN QUINOA SALAD",
+      "rating": 4.7,
+      "description": "A refreshing salad with quinoa, cherry tomatoes, cucumber, feta cheese, and a zesty lemon vinaigrette.",
+      "ingredients": [
+        "1 cup quinoa, cooked and cooled",
+        "1 cup cherry tomatoes, halved",
+        "1 cucumber, diced",
+        "1/2 cup Kalamata olives, sliced",
+        "1/2 cup feta cheese, crumbled",
+        "1/4 cup red onion, finely chopped",
+        "1/4 cup fresh parsley, chopped",
+        "3 tbsp olive oil",
+        "2 tbsp lemon juice",
+        "1 tsp dried oregano",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "In a large bowl, combine quinoa, cherry tomatoes, cucumber, olives, feta cheese, red onion, and parsley.",
+        "In a small bowl, whisk together olive oil, lemon juice, oregano, salt, and pepper to make the vinaigrette.",
+        "Pour the vinaigrette over the salad and toss to combine.",
+        "Refrigerate for at least 30 minutes before serving to allow flavors to meld.",
+        "Serve chilled as a refreshing side dish or a light main course."
+      ],
+      "equipement": ["Large Mixing Bowl", "Small Bowl", "Whisk"],
+      "nutrition": {
+        "calories": "320 kcal",
+        "carbohydrates": "35 g",
+        "protein": "8 g",
+        "fat": "18 g",
+        "sodium": "480 mg",
+        "fiber": "5 g"
+      }
+    },
+    {
+      "id": 24,
+      "title": "VEGETARIAN PAD THAI",
+      "rating": 4.7,
+      "description": "A delicious and colorful vegetarian version of the classic Thai noodle dish with tofu, peanuts, and fresh lime.",
+      "ingredients": [
+        "8 oz rice noodles",
+        "1 cup firm tofu, cubed",
+        "2 tbsp vegetable oil",
+        "3 cloves garlic, minced",
+        "1 cup bean sprouts",
+        "2 green onions, sliced",
+        "1/4 cup crushed peanuts",
+        "2 eggs, lightly beaten",
+        "2 tbsp soy sauce",
+        "1 tbsp tamarind paste",
+        "1 tbsp brown sugar",
+        "Fresh lime wedges for serving"
+      ],
+      "instructions": [
+        "Cook rice noodles according to package instructions. Drain and set aside.",
+        "In a wok, heat vegetable oil over medium-high heat. Add minced garlic and cook until fragrant.",
+        "Add cubed tofu and cook until golden brown. Push tofu to one side of the wok.",
+        "Pour beaten eggs into the wok and scramble until just set. Mix eggs with tofu.",
+        "Add cooked rice noodles, bean sprouts, green onions, peanuts, soy sauce, tamarind paste, and brown sugar. Toss everything together until well combined and heated through.",
+        "Serve with fresh lime wedges."
+      ],
+      "equipement": ["Wok", "Pot for Noodles", "Strainer"],
+      "nutrition": {
+        "calories": "380 kcal",
+        "carbohydrates": "48 g",
+        "protein": "15 g",
+        "fat": "16 g",
+        "sodium": "620 mg",
+        "fiber": "4 g"
+      }
+    },
+    {
+      "id": 25,
+      "title": "CAPRESE SALAD",
+      "rating": 4.7,
+      "description": "A refreshing and simple Italian salad featuring tomatoes, fresh mozzarella, basil, and balsamic glaze.",
+      "ingredients": [
+        "4 large tomatoes, sliced",
+        "1 lb fresh mozzarella, sliced",
+        "1 bunch fresh basil leaves",
+        "2 tbsp extra-virgin olive oil",
+        "2 tbsp balsamic glaze",
+        "Salt and pepper to taste"
+      ],
+      "instructions": [
+        "Alternate slices of tomatoes and fresh mozzarella on a serving platter.",
+        "Tuck fresh basil leaves between tomato and mozzarella slices.",
+        "Drizzle extra-virgin olive oil and balsamic glaze over the salad.",
+        "Season with salt and pepper to taste.",
+        "Serve immediately as a light and flavorful appetizer or side dish."
+      ],
+      "equipement": ["Sharp Knife", "Serving Platter", "Drizzle Bottle"],
+      "nutrition": {
+        "calories": "310 kcal",
+        "carbohydrates": "10 g",
+        "protein": "18 g",
+        "fat": "24 g",
+        "sodium": "480 mg",
+        "fiber": "3 g"
+      }
+    }
+  ]
+}
