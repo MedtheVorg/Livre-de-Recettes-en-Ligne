@@ -2,7 +2,11 @@
 export default {
   content: ["./index.html", "./src/**/*.jsx"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        nanum: "Nanum Brush Script",
+      },
+    },
   },
   plugins: [],
 };
