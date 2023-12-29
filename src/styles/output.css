@@ -606,6 +606,10 @@ video {
   margin-bottom: 1rem;
 }
 
+.mb-8{
+  margin-bottom: 2rem;
+}
+
 .mr-2{
   margin-right: 0.5rem;
 }
@@ -624,6 +628,10 @@ video {
 
 .flex{
   display: flex;
+}
+
+.inline-flex{
+  display: inline-flex;
 }
 
 .grid{
@@ -646,6 +654,10 @@ video {
   height: 8rem;
 }
 
+.h-8{
+  height: 2rem;
+}
+
 .h-\[40px\]{
   height: 40px;
 }
@@ -654,24 +666,28 @@ video {
   height: 100%;
 }
 
-.h-screen{
-  height: 100vh;
-}
-
 .max-h-52{
   max-height: 13rem;
 }
 
-.max-h-80{
-  max-height: 20rem;
+.min-h-screen{
+  min-height: 100vh;
 }
 
 .w-1\/2{
   width: 50%;
 }
 
+.w-10{
+  width: 2.5rem;
+}
+
 .w-12{
   width: 3rem;
+}
+
+.w-8{
+  width: 2rem;
 }
 
 .w-\[40px\]{
@@ -686,8 +702,8 @@ video {
   max-width: 70vw;
 }
 
-.max-w-screen-md{
-  max-width: 768px;
+.max-w-screen-2xl{
+  max-width: 1536px;
 }
 
 .grow{
@@ -704,8 +720,22 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+@keyframes spin{
+  to{
+    transform: rotate(360deg);
+  }
+}
+
+.animate-spin{
+  animation: spin 1s linear infinite;
+}
+
 .cursor-pointer{
   cursor: pointer;
+}
+
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row{
@@ -736,9 +766,18 @@ video {
   gap: 0.5rem;
 }
 
+.gap-8{
+  gap: 2rem;
+}
+
 .gap-x-16{
   -moz-column-gap: 4rem;
        column-gap: 4rem;
+}
+
+.gap-x-4{
+  -moz-column-gap: 1rem;
+       column-gap: 1rem;
 }
 
 .gap-y-2{
@@ -769,6 +808,14 @@ video {
   border-width: 2px;
 }
 
+.border-4{
+  border-width: 4px;
+}
+
+.border-r-2{
+  border-right-width: 2px;
+}
+
 .border-customBorderColor{
   --tw-border-opacity: 1;
   border-color: rgb(233 233 233 / var(--tw-border-opacity));
@@ -776,6 +823,20 @@ video {
 
 .border-transparent{
   border-color: transparent;
+}
+
+.border-white{
+  --tw-border-opacity: 1;
+  border-color: rgb(255 255 255 / var(--tw-border-opacity));
+}
+
+.border-b-transparent{
+  border-bottom-color: transparent;
+}
+
+.border-r-customBorderColor{
+  --tw-border-opacity: 1;
+  border-right-color: rgb(233 233 233 / var(--tw-border-opacity));
 }
 
 .bg-customGreen{
@@ -801,6 +862,10 @@ video {
 .bg-slate-600{
   --tw-bg-opacity: 1;
   background-color: rgb(71 85 105 / var(--tw-bg-opacity));
+}
+
+.bg-transparent{
+  background-color: transparent;
 }
 
 .bg-white{
@@ -900,9 +965,27 @@ video {
   color: rgb(33 37 41 / var(--tw-text-opacity));
 }
 
+.text-gray-600{
+  --tw-text-opacity: 1;
+  color: rgb(75 85 99 / var(--tw-text-opacity));
+}
+
+.text-gray-700{
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
+}
+
 .text-white{
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.underline{
+  text-decoration-line: underline;
+}
+
+.underline-offset-2{
+  text-underline-offset: 2px;
 }
 
 .shadow-2xl{
@@ -1051,6 +1134,49 @@ body{
   border-radius: 0.75rem;
 }
 
+.disabled\:cursor-not-allowed:disabled{
+  cursor: not-allowed;
+}
+
+.disabled\:bg-customBorderColor:disabled{
+  --tw-bg-opacity: 1;
+  background-color: rgb(233 233 233 / var(--tw-bg-opacity));
+}
+
+.disabled\:bg-gray-500:disabled{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.disabled\:text-gray-400:disabled{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.file\:disabled\:cursor-not-allowed:disabled::file-selector-button{
+  cursor: not-allowed;
+}
+
+.file\:disabled\:bg-gray-500:disabled::file-selector-button{
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
+}
+
+.file\:disabled\:text-gray-400:disabled::file-selector-button{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.disabled\:placeholder\:text-gray-400:disabled::-moz-placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
+.disabled\:placeholder\:text-gray-400:disabled::placeholder{
+  --tw-text-opacity: 1;
+  color: rgb(156 163 175 / var(--tw-text-opacity));
+}
+
 .child\:cursor-pointer > *{
   cursor: pointer;
 }
@@ -1100,6 +1226,11 @@ body{
     padding: 0px;
   }
 
+  .md\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
   .md\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
@@ -1109,5 +1240,10 @@ body{
 @media (min-width: 1024px){
   .lg\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .lg\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
   }
 }
