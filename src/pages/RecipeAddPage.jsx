@@ -9,9 +9,9 @@ import { placehoderImage } from "../assets";
 const RecipeAddPage = () => {
   const [recipeImage, setRecipeImage] = useState(null);
   const [displayedImage, setDisplayedImage] = useState(null);
-  const [title, setTitle] = useState(null);
+  const [title, setTitle] = useState("");
   const [rating, setRating] = useState(null);
-  const [description, setDescription] = useState(null);
+  const [description, setDescription] = useState("");
   const [category, setCategory] = useState(null);
   const [ingredients, setIngredients] = useState([]);
   const [instructions, setInstructions] = useState([]);
