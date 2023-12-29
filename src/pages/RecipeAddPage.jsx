@@ -1,17 +1,18 @@
 import React, { useState } from "react";
-import darkSoulsImage from "./dark_souls.jpg";
 import { ItemsList } from "../components";
 import { uploadImageToCloudinary } from "../utils/cloudinaryConfig";
 import { createRecipe } from "../../server/apiMethods";
 import Spinner from "../components/Spinner";
+import { toast } from "react-toastify";
+import { placehoderImage } from "../assets";
 
 const RecipeAddPage = () => {
   const [recipeImage, setRecipeImage] = useState(null);
   const [displayedImage, setDisplayedImage] = useState(null);
-  const [title, setTitle] = useState("");
-  const [rating, setRating] = useState(1);
-  const [description, setDescription] = useState("");
-  const [category, setCategory] = useState("");
+  const [title, setTitle] = useState(null);
+  const [rating, setRating] = useState(null);
+  const [description, setDescription] = useState(null);
+  const [category, setCategory] = useState(null);
   const [ingredients, setIngredients] = useState([]);
   const [instructions, setInstructions] = useState([]);
   const [equipements, setEquipements] = useState([]);
@@ -47,7 +48,20 @@ const RecipeAddPage = () => {
   async function uploadRecipe(eventObject) {
     eventObject.preventDefault();
     setIsLoading(true);
-
+    if (
+      !displayedImage ||
+      !title ||
+      !rating ||
+      !description ||
+      !category ||
+      ingredients.length == 0 ||
+      instructions.length == 0 ||
+      equipements.length == 0
+    ) {
+      toast.warn("all fields are required");
+      setIsLoading(false);
+      return;
+    }
     try {
       const uploadedImageUrl = await uploadImageToCloudinary(recipeImage);
       if (uploadedImageUrl == null) {
@@ -59,9 +73,10 @@ const RecipeAddPage = () => {
           title: title,
           rating: rating,
           description: description,
-          ingredients: ingredients,
-          instrctions: instructions,
-          equipements: equipements,
+          ingredients: ingredients.map((ingredient) => ingredient.text),
+          instrctions: instructions.map((intstruction) => intstruction.text),
+          equipements: equipements.map((equipement) => equipement.text),
+          category: category,
           nutrition: {
             calories: nutritions.calories,
             carbohydrates: nutritions.carbohydrates,
@@ -72,11 +87,12 @@ const RecipeAddPage = () => {
           },
         };
         const createdRecipe = await createRecipe(newRecipe);
-
-        console.log(createdRecipe);
+        if (createRecipe !== null) {
+          toast.success("recipe Created");
+        }
       }
     } catch (error) {
-      console.error(error.message);
+      toast.error(error.message);
     } finally {
       setIsLoading(false);
     }
@@ -100,23 +116,24 @@ const RecipeAddPage = () => {
   return (
     <section className="container  h-full p-2 md:p-0  ">
       <div className="md:mt-6 border-2 border-customBorderColor p-6 max-w-screen-2xl mx-auto rounded-[20px] flex flex-col gap-y-4 bg-white">
-        {/* <h1
-          className="text-4xl capitalize font-semibold text-center
-          underline underline-offset-2 lg:text-6xl text-customBlack mb-8 p-2"
+        <h1
+          className="text-4xl capitalize font-semibold text-left
+           lg:text-6xl text-customGreen mb-8 p-2"
         >
-          add your own Recipe !{" "}
-        </h1> */}
+          <span className="text-customYellow">new</span> Recipe.
+        </h1>
 
         {/* image */}
         <div>
-          <div className=" overflow-hidden bg-slate-600">
+          <div className=" max-h-96 overflow-hidden bg-slate-600">
             <img
-              src={displayedImage || ""}
+              src={displayedImage || placehoderImage}
               alt="random image"
               className="object-cover  w-full h-full aspect-video"
             />
           </div>
           <input
+            required
             disabled={isLoading}
             type="file"
             accept="image/*"
@@ -135,6 +152,7 @@ const RecipeAddPage = () => {
         <div className="flex flex-col gap-y-4">
           <label className="capitalize text-xl font-semibold">title :</label>
           <input
+            required
             disabled={isLoading}
             type="text"
             className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack
@@ -155,9 +173,7 @@ const RecipeAddPage = () => {
         <div className="grid grid-cols-2 gap-x-4">
           {/*rating  */}
           <div className="flex flex-col gap-y-4">
-            <label className="capitalize text-xl font-semibold">
-              rating :{" "}
-            </label>
+            <label className="capitalize text-xl font-semibold">rating :</label>
             <select
               disabled={isLoading}
               className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack cursor-pointer text-xl font-bold *:
@@ -259,6 +275,7 @@ const RecipeAddPage = () => {
                 </label>
                 <div className="flex flex-row  items-center   border-2 border-customBorderColor">
                   <input
+                    required
                     disabled={isLoading}
                     type="number"
                     name={nutritionName}
