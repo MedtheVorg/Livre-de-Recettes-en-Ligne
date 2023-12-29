@@ -1,7 +1,13 @@
 import React, { useState } from "react";
 import { IoMdClose } from "react-icons/io";
 
-const ItemsList = ({ itemsList, setItemsList, label, placeholder }) => {
+const ItemsList = ({
+  itemsList,
+  setItemsList,
+  label,
+  placeholder,
+  isLoading,
+}) => {
   const [listItem, setListItem] = useState("");
 
   function appendItem(e) {
@@ -30,15 +36,24 @@ const ItemsList = ({ itemsList, setItemsList, label, placeholder }) => {
         <label className="capitalize text-xl font-semibold">{label} :</label>
         <div className="flex  ">
           <input
+            disabled={isLoading}
             type="text"
-            className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent   focus-within:border-customBorderColor placeholder:text-customBlack grow "
+            className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent   focus-within:border-customBorderColor placeholder:text-customBlack grow animate  disabled:bg-customBorderColor
+            disabled:placeholder:text-gray-400
+            disabled:cursor-not-allowed
+            "
             placeholder={placeholder}
             value={listItem}
             onChange={updateInput}
           />
           <button
+            disabled={isLoading}
             type="submit"
-            className="bg-customGreen text-white   p-3 uppercase text-sm font-semibold  duration-200 hover:text-customBlack hover:bg-customYellow tracking-wider"
+            className="bg-customGreen text-white   p-3 uppercase text-sm font-semibold  duration-200 hover:text-customBlack hover:bg-customYellow tracking-wider
+            disabled:bg-gray-500
+            disabled:text-gray-400
+            disabled:cursor-not-allowed
+            "
           >
             add
           </button>

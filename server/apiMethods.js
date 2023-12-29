@@ -1,55 +1,55 @@
-const API_URL = "http://localhost:4000/";
+const API_URL = "http://localhost:4000";
 
 // ---------------GET Request-------------------------------------
 
-//  get all recipies
-async function getRecipies() {
+//  get all recipes
+async function getRecipes() {
   try {
-    const response = await fetch(`${API_URL}/recipies`);
-    const recipies = await response.json();
-    return recipies;
+    const response = await fetch(`${API_URL}/recipes`);
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
   }
 }
 
-// get recipie by id
-async function getRecipieById(id) {
+// get recipe by id
+async function getrecipeById(id) {
   try {
     if (!id) throw new Error("id must not be null or undefined");
 
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
-    const response = await fetch(`${API_URL}/recipies/${id}`, requestOptions);
-    const recipie = await response.json();
-    return recipie;
+    const response = await fetch(`${API_URL}/recipes/${id}`, requestOptions);
+    const recipe = await response.json();
+    return recipe;
   } catch (error) {
     console.error(error.message);
     return null;
   }
 }
 // filterring by field
-async function getRecipieBy(fieldName, fieldValue) {
+async function getrecipeBy(fieldName, fieldValue) {
   try {
     if (!fieldName || !fieldValue)
       throw new Error("field , fieldValue must not be null or undefined");
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?${fieldName}=${fieldValue}`,
+      `${API_URL}/recipes?${fieldName}=${fieldValue}`,
       requestOptions
     );
-    const recipie = await response.json();
-    return recipie;
+    const recipe = await response.json();
+    return recipe;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -57,22 +57,22 @@ async function getRecipieBy(fieldName, fieldValue) {
 }
 
 // sorting by field in Ascending order
-async function getRecipiesAndSortByAscendingOrder(fieldName) {
+async function getRecipesAndSortByAscendingOrder(fieldName) {
   //TODO : add additional fieldNames
   try {
     if (!fieldName) throw new Error("fieldName must not be null or undefined");
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?_sort=${fieldName}`,
+      `${API_URL}/recipes?_sort=${fieldName}`,
       requestOptions
     );
-    const recipies = await response.json();
-    return recipies;
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -80,22 +80,22 @@ async function getRecipiesAndSortByAscendingOrder(fieldName) {
 }
 
 // sorting by field in Descending order
-async function getRecipiesAndSortByDescendingOrder(fieldName) {
+async function getRecipesAndSortByDescendingOrder(fieldName) {
   //TODO : add additional fieldNames
   try {
     if (!fieldName) throw new Error("field  must not be null or undefined");
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?_sort=${fieldName}&_order=desc`,
+      `${API_URL}/recipes?_sort=${fieldName}&_order=desc`,
       requestOptions
     );
-    const recipies = await response.json();
-    return recipies;
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -103,23 +103,23 @@ async function getRecipiesAndSortByDescendingOrder(fieldName) {
 }
 
 // Paginateing
-async function getRecipiesByPageNumber(pageNumber = 1, limit = 10) {
+async function getRecipesByPageNumber(pageNumber = 1, limit = 10) {
   try {
     if (!pageNumber)
       throw new Error("pageNumber  must not be null or undefined");
 
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?_page=${pageNumber}&_limit=${limit}`,
+      `${API_URL}/recipes?_page=${pageNumber}&_limit=${limit}`,
       requestOptions
     );
-    const recipies = await response.json();
-    return recipies;
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -127,7 +127,7 @@ async function getRecipiesByPageNumber(pageNumber = 1, limit = 10) {
 }
 
 // Paginateing
-async function getRecipiesBetweenRange(fieldName, lowestValue, highestValue) {
+async function getRecipesBetweenRange(fieldName, lowestValue, highestValue) {
   try {
     if (!fieldName || !lowestValue || highestValue)
       throw new Error(
@@ -135,38 +135,38 @@ async function getRecipiesBetweenRange(fieldName, lowestValue, highestValue) {
       );
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?${fieldName}_gte=${lowestValue}&${fieldName}_lte=${highestValue}`,
+      `${API_URL}/recipes?${fieldName}_gte=${lowestValue}&${fieldName}_lte=${highestValue}`,
       requestOptions
     );
-    const recipies = await response.json();
-    return recipies;
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
   }
 }
 
-// search the whole Recipies table
-async function getRecipiesByTextQuery(queryText) {
+// search the whole recipes table
+async function getRecipesByTextQuery(queryText) {
   try {
     if (!queryText) throw new Error("query must not be null or undefined");
     const requestOptions = {
       method: "GET",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
     };
     const response = await fetch(
-      `${API_URL}/recipies?q=${queryText}`,
+      `${API_URL}/recipes?q=${queryText}`,
       requestOptions
     );
-    const recipies = await response.json();
-    return recipies;
+    const recipes = await response.json();
+    return recipes;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -175,20 +175,22 @@ async function getRecipiesByTextQuery(queryText) {
 //----------------------------------------------------------------
 
 // ---------------POST Request-------------------------------------
-async function createRecipie(Recipie) {
+async function createRecipe(recipe) {
   try {
-    if (!Recipie) throw new Error("Recipie must not be null or undefined");
+    if (!recipe) throw new Error("Recipe must not be null or undefined");
 
     const requestOptions = {
       method: "POST",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
-      body: Recipie,
+      body: JSON.stringify(recipe),
     };
-    const response = await fetch(`${API_URL}/recipies`, requestOptions);
-    const createdRecipie = await response.json();
-    return createdRecipie;
+
+    const response = await fetch(`${API_URL}/recipes`, requestOptions);
+    if (response.status !== 201) return null;
+    const createdrecipe = await response.json();
+    return createdrecipe;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -197,21 +199,21 @@ async function createRecipie(Recipie) {
 //----------------------------------------------------------------
 
 // ---------------PATCH Request-------------------------------------
-async function updateRecipieById(id, updatedRecipieBody) {
+async function updaterecipeById(id, updatedrecipeBody) {
   try {
-    if (!id || !updatedRecipieBody)
-      throw new Error("id, updatedRecipieBody must not be null or undefined");
+    if (!id || !updatedrecipeBody)
+      throw new Error("id, updatedrecipeBody must not be null or undefined");
 
     const requestOptions = {
       method: "PATCH",
-      Headers: {
+      headers: {
         "Content-Type": "application/json",
       },
-      body: updatedRecipieBody,
+      body: JSON.stringify(updatedrecipeBody),
     };
-    const response = await fetch(`${API_URL}/recipies/${id}`, requestOptions);
-    const updatedRecipie = await response.json();
-    return updatedRecipie;
+    const response = await fetch(`${API_URL}/recipes/${id}`, requestOptions);
+    const updatedrecipe = await response.json();
+    return updatedrecipe;
   } catch (error) {
     console.error(error.message);
     return null;
@@ -220,17 +222,17 @@ async function updateRecipieById(id, updatedRecipieBody) {
 //----------------------------------------------------------------
 
 // ---------------DELETE Request-------------------------------------
-async function deleteRecipieById(id) {
+async function deleterecipeById(id) {
   try {
     if (!id) throw new Error("id must not be null or undefined");
 
     const requestOptions = {
       method: "DELETE",
     };
-    const response = await fetch(`${API_URL}/recipies/${id}`, requestOptions);
-    const deletedRecipie = await response.json();
-    return Object.keys(deletedRecipie).length === 0 &&
-      deletedRecipie.constructor === Object
+    const response = await fetch(`${API_URL}/recipes/${id}`, requestOptions);
+    const deletedrecipe = await response.json();
+    return Object.keys(deletedrecipe).length === 0 &&
+      deletedrecipe.constructor === Object
       ? true
       : false;
   } catch (error) {
@@ -241,15 +243,15 @@ async function deleteRecipieById(id) {
 //----------------------------------------------------------------
 
 export {
-  createRecipie,
-  deleteRecipieById,
-  getRecipieBy,
-  getRecipieById,
-  getRecipies,
-  getRecipiesAndSortByAscendingOrder,
-  getRecipiesAndSortByDescendingOrder,
-  getRecipiesBetweenRange,
-  getRecipiesByPageNumber,
-  getRecipiesByTextQuery,
-  updateRecipieById,
+  createRecipe,
+  deleterecipeById,
+  getrecipeBy,
+  getrecipeById,
+  getRecipes,
+  getRecipesAndSortByAscendingOrder,
+  getRecipesAndSortByDescendingOrder,
+  getRecipesBetweenRange,
+  getRecipesByPageNumber,
+  getRecipesByTextQuery,
+  updaterecipeById,
 };
