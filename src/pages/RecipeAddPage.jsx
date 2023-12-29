@@ -55,6 +55,7 @@ const RecipeAddPage = () => {
       } else {
         const newRecipe = {
           imageUrl: uploadedImageUrl,
+          thumbnail: uploadedImageUrl,
           title: title,
           rating: rating,
           description: description,
