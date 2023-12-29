@@ -117,6 +117,7 @@ const RecipeAddPage = () => {
             />
           </div>
           <input
+            required
             disabled={isLoading}
             type="file"
             accept="image/*"
@@ -135,6 +136,7 @@ const RecipeAddPage = () => {
         <div className="flex flex-col gap-y-4">
           <label className="capitalize text-xl font-semibold">title :</label>
           <input
+            required
             disabled={isLoading}
             type="text"
             className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack
@@ -259,6 +261,7 @@ const RecipeAddPage = () => {
                 </label>
                 <div className="flex flex-row  items-center   border-2 border-customBorderColor">
                   <input
+                    required
                     disabled={isLoading}
                     type="number"
                     name={nutritionName}
