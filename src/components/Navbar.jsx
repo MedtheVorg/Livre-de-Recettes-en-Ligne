@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { logoImage } from "../assets";
-import { RxHamburgerMenu } from "react-icons/rx";
-import { IoMdClose } from "react-icons/io";
+import React, { useState } from 'react';
+import { logoImage } from '../assets';
+import { RxHamburgerMenu } from 'react-icons/rx';
+import { IoMdClose } from 'react-icons/io';
 
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -28,14 +28,14 @@ const Navbar = () => {
           </p>
         </div>
         {/* mobile nav */}
-        <div className="sm:hidden ">
+        <div className="sm:hidden  ">
           <button onClick={toggleMenu}>
             <RxHamburgerMenu className="text-white" size={30} />
           </button>
 
           <div
-            className={`fixed top-0 left-0 animate   h-full w-full ${
-              isOpen ? "translate-x-0" : "translate-x-[-100%]"
+            className={`fixed top-0 left-0 animate    h-full w-full ${
+              isOpen ? 'translate-x-0' : 'translate-x-[-100%]'
             } `}
           >
             <nav className={`relative h-full animate  `}>
@@ -47,17 +47,17 @@ const Navbar = () => {
                   <IoMdClose className="  bg-customGreen text-white h-12 w-12 p-3 animate hover:scale-95 " />
                 </button>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={"/"} className="w-full h-full inline-block">
+                  <Link to={'/'} className="w-full h-full inline-block">
                     Home
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={"/about"} className="w-full h-full inline-block">
+                  <Link to={'/about'} className="w-full h-full inline-block">
                     About
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={"/recipe"} className="w-full h-full inline-block">
+                  <Link to={'/recipe'} className="w-full h-full inline-block">
                     Recipes
                   </Link>
                 </li>
@@ -69,13 +69,13 @@ const Navbar = () => {
         <nav className="hidden sm:block">
           <ul className="flex flex-row items-center gap-x-16 text-white text-xl">
             <li>
-              <Link to={"/"}>Home</Link>
+              <Link to={'/'}>Home</Link>
             </li>
             <li>
-              <Link to={"/about"}>About</Link>
+              <Link to={'/about'}>About</Link>
             </li>
             <li>
-              <Link to={"/recipe"}>Recipes</Link>
+              <Link to={'/recipe'}>Recipes</Link>
             </li>
           </ul>
         </nav>
