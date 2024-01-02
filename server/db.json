@@ -3,11 +3,11 @@
     {
       "id": 5,
       "title": " LENTIL SOUP",
+      "description": "A comforting and nutritious lentil soup infused with Moroccan spices, tomatoes, and a hint of lemon.",
       "imageUrl": "https://images.unsplash.com/photo-1552298013-de2af4b94854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMRU5USUwlMjBTT1VQfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1552298013-de2af4b94854?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMRU5USUwlMjBTT1VQfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.7,
-      "description": "A comforting and nutritious lentil soup infused with Moroccan spices, tomatoes, and a hint of lemon.",
       "ingredients": [
         "1 cup dry red lentils, rinsed",
         "1 onion, finely chopped",
@@ -33,23 +33,45 @@
         "Stir in lemon juice and season with salt and pepper to taste.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Ladle"],
-      "nutrition": {
-        "calories": "280 kcal",
-        "carbohydrates": "48 g",
-        "protein": "18 g",
-        "fat": "2 g",
-        "sodium": "960 mg",
-        "fiber": "16 g"
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Ladle"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "48",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "2",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "960",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "16",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 2,
       "title": "COUSCOUS WITH VEGETABLE TAGINE",
-      "imageUrl": "https://images.unsplash.com/photo-1445282768818-728615cc910a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDT1VTQ09VUyUyMFdJVEglMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
-      "thumbnail": "https://images.unsplash.com/photo-1445282768818-728615cc910a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDT1VTQ09VUyUyMFdJVEglMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
-      "rating": 4.6,
       "description": "A vegetarian Moroccan delight featuring couscous topped with a colorful and aromatic vegetable tagine.",
+      "imageUrl": "https://images.unsplash.com/photo-1445282768818-728615cc910a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDT1VTQ09VUyUyMFdJVEglMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
+      "thumbnail": "https://images.unsplash.com/photo-1445282768818-728615cc910a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDT1VTQ09VUyUyMFdJVEglMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "ingredients": [
         "2 cups couscous, cooked",
         "1 eggplant, diced",
@@ -74,24 +96,46 @@
         "Prepare couscous according to package instructions.",
         "Serve the vegetable tagine over a bed of couscous. Garnish with fresh parsley."
       ],
-      "equipement": ["Large Pan", "Cooking Pot", "Serving Platter"],
-      "nutrition": {
-        "calories": "420 kcal",
-        "carbohydrates": "72 g",
-        "protein": "10 g",
-        "fat": "12 g",
-        "sodium": "480 mg",
-        "fiber": "8 g"
+      "equipments": [
+        "Large Pan",
+        "Cooking Pot",
+        "Serving Platter"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "72",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "10",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "480",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "8",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 15,
       "title": " VEGETABLE COUSCOUS",
+      "description": "A flavorful and hearty Moroccan vegetable couscous featuring a variety of vegetables, chickpeas, and aromatic spices.",
       "imageUrl": "https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBWRUdFVEFCTEUlMjBDT1VTQ09VU3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
       "thumbnail": "https://images.unsplash.com/photo-1582576163090-09d3b6f8a969?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBWRUdFVEFCTEUlMjBDT1VTQ09VU3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.6,
-      "description": "A flavorful and hearty Moroccan vegetable couscous featuring a variety of vegetables, chickpeas, and aromatic spices.",
       "ingredients": [
         "1 cup couscous",
         "1 can (15 oz) chickpeas, drained and rinsed",
@@ -120,24 +164,46 @@
         "Fluff the couscous with a fork and stir in fresh cilantro and parsley.",
         "Serve the Moroccan vegetable couscous with lemon wedges on the side."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Spoon"],
-      "nutrition": {
-        "calories": "320 kcal",
-        "carbohydrates": "65 g",
-        "protein": "12 g",
-        "fat": "3 g",
-        "sodium": "780 mg",
-        "fiber": "14 g"
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Spoon"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "780",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 8,
       "title": " LEMON CHICKEN",
+      "description": "A zesty and aromatic Moroccan lemon chicken dish with a blend of spices, preserved lemons, and green olives.",
       "imageUrl": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMRU1PTiUyMENISUNLRU58ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1532550907401-a500c9a57435?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMRU1PTiUyMENISUNLRU58ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.7,
-      "description": "A zesty and aromatic Moroccan lemon chicken dish with a blend of spices, preserved lemons, and green olives.",
       "ingredients": [
         "4 chicken thighs, bone-in and skin-on",
         "1 large onion, finely chopped",
@@ -163,24 +229,46 @@
         "Return browned chicken to the skillet. Cover and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
         "Garnish with fresh parsley before serving. Serve hot."
       ],
-      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
-      "nutrition": {
-        "calories": "380 kcal",
-        "carbohydrates": "8 g",
-        "protein": "22 g",
-        "fat": "30 g",
-        "sodium": "980 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Large Skillet",
+        "Chef's Knife",
+        "Serving Platter"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "8",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "22",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "30",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "980",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 19,
       "title": "ENCHILADAS VERDES",
+      "description": "Classic Mexican enchiladas with a green tomatillo sauce, filled with shredded chicken, cheese, and topped with sour cream.",
       "imageUrl": "https://images.unsplash.com/photo-1601039641847-7857b994d704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxFTkNISUxBREFTJTIwVkVSREVTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1601039641847-7857b994d704?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxFTkNISUxBREFTJTIwVkVSREVTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.7,
-      "description": "Classic Mexican enchiladas with a green tomatillo sauce, filled with shredded chicken, cheese, and topped with sour cream.",
       "ingredients": [
         "2 cups shredded chicken",
         "1 cup shredded cheese (cheddar or Mexican blend)",
@@ -199,24 +287,45 @@
         "Pour tomatillo salsa over the enchiladas and bake until cheese is melted and bubbly.",
         "Serve hot, topped with sour cream and chopped green onions."
       ],
-      "equipment": ["Baking Dish", "Bowl"],
-      "nutrition": {
-        "calories": "220 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "18 g",
-        "fat": "10 g",
-        "sodium": "300 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Baking Dish",
+        "Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "220",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 3,
       "title": " LAMB STEW",
+      "description": "A hearty and aromatic Moroccan lamb stew slow-cooked with spices, dried fruits, and served with couscous.",
       "imageUrl": "https://images.unsplash.com/photo-1678684277915-5d3f48977b87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMQU1CJTIwU1RFV3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1678684277915-5d3f48977b87?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBMQU1CJTIwU1RFV3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.9,
-      "description": "A hearty and aromatic Moroccan lamb stew slow-cooked with spices, dried fruits, and served with couscous.",
       "ingredients": [
         "1.5 lbs lamb shoulder, cubed",
         "2 onions, finely chopped",
@@ -242,24 +351,46 @@
         "Bring to a boil, then reduce heat and simmer for 2 to 2.5 hours until lamb is tender.",
         "Season with salt and pepper to taste. Serve the stew over couscous and garnish with fresh mint leaves."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Bowl"],
-      "nutrition": {
-        "calories": "580 kcal",
-        "carbohydrates": "65 g",
-        "protein": "28 g",
-        "fat": "24 g",
-        "sodium": "880 mg",
-        "fiber": "14 g"
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "580",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "24",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "880",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 25,
       "title": "MEXICAN SHRIMP CEVICHE",
+      "description": "Refreshing Mexican shrimp ceviche with marinated shrimp, tomatoes, onions, avocados, and citrus juices.",
       "imageUrl": "https://images.unsplash.com/photo-1680737365844-ff1ff25f28a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU0hSSU1QJTIwQ0VWSUNIRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1680737365844-ff1ff25f28a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU0hSSU1QJTIwQ0VWSUNIRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.9,
-      "description": "Refreshing Mexican shrimp ceviche with marinated shrimp, tomatoes, onions, avocados, and citrus juices.",
       "ingredients": [
         "1 lb medium shrimp, peeled and deveined",
         "1 cup diced tomatoes",
@@ -278,24 +409,44 @@
         "Season with salt and pepper. Refrigerate for at least 30 minutes to let flavors meld.",
         "Serve chilled with tortilla chips for a delicious Mexican shrimp ceviche."
       ],
-      "equipment": ["Bowl"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "12 g",
-        "protein": "15 g",
-        "fat": "10 g",
-        "sodium": "300 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "12",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 18,
       "title": "MEXICAN STREET TACOS",
+      "description": "Authentic Mexican street tacos filled with flavorful seasoned meat, fresh salsa, and topped with cilantro and onions.",
       "imageUrl": "https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwVEFDT1N8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.5,
       "thumbnail": "https://images.unsplash.com/photo-1529704640551-eef9ba5d774a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwVEFDT1N8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.5,
-      "description": "Authentic Mexican street tacos filled with flavorful seasoned meat, fresh salsa, and topped with cilantro and onions.",
       "ingredients": [
         "1 lb beef or chicken, thinly sliced",
         "1 onion, finely diced",
@@ -317,24 +468,46 @@
         "Assemble tacos by placing a portion of the seasoned meat on each tortilla, topping with salsa, and garnishing with additional cilantro and onions.",
         "Serve immediately and enjoy these delicious Mexican street tacos!"
       ],
-      "equipment": ["Skillet", "Bowl", "Pan or Griddle"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "12 g",
-        "protein": "15 g",
-        "fat": "8 g",
-        "sodium": "200 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Skillet",
+        "Bowl",
+        "Pan or Griddle"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "12",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "200",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 4,
       "title": " SPICED CHICKEN COUSCOUS",
+      "description": "A flavorful and aromatic dish featuring spiced chicken, fluffy couscous, and a medley of vegetables.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBTUElDRUQlMjBDSElDS0VOJTIwQ09VU0NPVVN8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.5,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBTUElDRUQlMjBDSElDS0VOJTIwQ09VU0NPVVN8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.5,
-      "description": "A flavorful and aromatic dish featuring spiced chicken, fluffy couscous, and a medley of vegetables.",
       "ingredients": [
         "4 boneless, skinless chicken breasts",
         "1 cup couscous",
@@ -362,24 +535,46 @@
         "Sprinkle raisins over the dish and let them plump in the heat for a few minutes.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
-      "nutrition": {
-        "calories": "480 kcal",
-        "carbohydrates": "58 g",
-        "protein": "32 g",
-        "fat": "12 g",
-        "sodium": "720 mg",
-        "fiber": "7 g"
+      "equipments": [
+        "Large Skillet",
+        "Chef's Knife",
+        "Serving Platter"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "480",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "58",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "32",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "720",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "7",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 6,
       "title": " CHICKEN PASTILLA",
+      "description": "An exquisite Moroccan savory pie featuring layers of spiced chicken, almonds, and eggs encased in delicate phyllo pastry.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwUEFTVElMTEF8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwUEFTVElMTEF8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.8,
-      "description": "An exquisite Moroccan savory pie featuring layers of spiced chicken, almonds, and eggs encased in delicate phyllo pastry.",
       "ingredients": [
         "2 lbs boneless, skinless chicken thighs, diced",
         "1 large onion, finely chopped",
@@ -406,24 +601,46 @@
         "Bake for 25-30 minutes or until the phyllo is golden brown and crispy.",
         "Dust with powdered sugar before serving. Allow to cool slightly before slicing and serving."
       ],
-      "equipement": ["Large Skillet", "Pie Dish", "Pastry Brush"],
-      "nutrition": {
-        "calories": "420 kcal",
-        "carbohydrates": "25 g",
-        "protein": "30 g",
-        "fat": "22 g",
-        "sodium": "480 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Large Skillet",
+        "Pie Dish",
+        "Pastry Brush"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "22",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "480",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 17,
       "title": " EGGPLANT ZAALOUK",
+      "description": "A flavorful Moroccan eggplant salad known as Zaalouk, featuring roasted eggplants, tomatoes, and a blend of aromatic spices.",
       "imageUrl": "https://images.unsplash.com/photo-1528825950832-560a4a11473a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBFR0dQTEFOVCUyMFpBQUxPVUt8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1528825950832-560a4a11473a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBFR0dQTEFOVCUyMFpBQUxPVUt8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.8,
-      "description": "A flavorful Moroccan eggplant salad known as Zaalouk, featuring roasted eggplants, tomatoes, and a blend of aromatic spices.",
       "ingredients": [
         "2 large eggplants, diced",
         "4 tomatoes, diced",
@@ -447,24 +664,46 @@
         "Remove from heat and stir in fresh parsley, fresh cilantro, olive oil, and lemon juice.",
         "Let the Zaalouk cool to room temperature before serving. Serve as a salad or side dish."
       ],
-      "equipement": ["Baking Sheet", "Pan", "Chef's Knife"],
-      "nutrition": {
-        "calories": "120 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "3 g",
-        "fat": "7 g",
-        "sodium": "150 mg",
-        "fiber": "7 g"
+      "equipments": [
+        "Baking Sheet",
+        "Pan",
+        "Chef's Knife"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "3",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "150",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "7",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 20,
       "title": "MEXICAN STREET CORN (ELOTE)",
+      "description": "Grilled corn on the cob, slathered with a creamy mixture of mayonnaise, cotija cheese, chili powder, and lime juice.",
       "imageUrl": "https://images.unsplash.com/photo-1561398024-910a2c6cf1a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwQ09STiUyMCUyOEVMT1RFJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
       "thumbnail": "https://images.unsplash.com/photo-1561398024-910a2c6cf1a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwQ09STiUyMCUyOEVMT1RFJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.6,
-      "description": "Grilled corn on the cob, slathered with a creamy mixture of mayonnaise, cotija cheese, chili powder, and lime juice.",
       "ingredients": [
         "6 ears of corn, husked",
         "1/2 cup mayonnaise",
@@ -478,24 +717,44 @@
         "Brush each ear of corn with mayonnaise, then roll in crumbled cotija cheese.",
         "Sprinkle with chili powder and serve with lime wedges for squeezing over the top."
       ],
-      "equipment": ["Grill Brush"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "20 g",
-        "protein": "5 g",
-        "fat": "10 g",
-        "sodium": "250 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Grill Brush"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "5",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 16,
       "title": " CHICKEN TAGINE WITH APRICOTS",
+      "description": "A succulent Moroccan chicken tagine featuring tender chicken, sweet apricots, and a blend of aromatic spices.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwVEFHSU5FJTIwV0lUSCUyMEFQUklDT1RTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwVEFHSU5FJTIwV0lUSCUyMEFQUklDT1RTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.7,
-      "description": "A succulent Moroccan chicken tagine featuring tender chicken, sweet apricots, and a blend of aromatic spices.",
       "ingredients": [
         "4 bone-in, skin-on chicken thighs",
         "1 onion, finely chopped",
@@ -522,28 +781,46 @@
         "Cover the tagine or pot and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
         "Garnish with fresh cilantro before serving. Serve the Moroccan Chicken Tagine with apricots over couscous or rice."
       ],
-      "equipement": [
+      "equipments": [
         "Tagine or Heavy-Bottomed Pot",
         "Chef's Knife",
         "Serving Platter"
       ],
-      "nutrition": {
-        "calories": "420 kcal",
-        "carbohydrates": "30 g",
-        "protein": "28 g",
-        "fat": "20 g",
-        "sodium": "720 mg",
-        "fiber": "5 g"
+      "nutritionValues": {
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "720",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 9,
       "title": " HARIRA SOUP",
+      "description": "A hearty and nourishing Moroccan soup with a base of tomatoes, lentils, chickpeas, and fragrant spices.",
       "imageUrl": "https://images.unsplash.com/photo-1478749485505-2a903a729c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBIQVJJUkElMjBTT1VQfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
       "thumbnail": "https://images.unsplash.com/photo-1478749485505-2a903a729c63?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBIQVJJUkElMjBTT1VQfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.6,
-      "description": "A hearty and nourishing Moroccan soup with a base of tomatoes, lentils, chickpeas, and fragrant spices.",
       "ingredients": [
         "1 cup dried lentils, rinsed",
         "1 can (15 oz) chickpeas, drained and rinsed",
@@ -571,24 +848,46 @@
         "Stir in fresh cilantro, fresh parsley, olive oil, and lemon juice. Adjust seasoning if needed.",
         "Serve hot and enjoy this comforting Moroccan Harira Soup."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Ladle"],
-      "nutrition": {
-        "calories": "320 kcal",
-        "carbohydrates": "48 g",
-        "protein": "15 g",
-        "fat": "8 g",
-        "sodium": "780 mg",
-        "fiber": "12 g"
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Ladle"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "48",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "780",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "12",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 11,
       "title": " SPICED LAMB KEBABS",
+      "description": "Delicious and aromatic Moroccan spiced lamb kebabs, grilled to perfection and served with a flavorful yogurt sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1520252729650-ddced2015543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBTUElDRUQlMjBMQU1CJTIwS0VCQUJTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1520252729650-ddced2015543?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBTUElDRUQlMjBMQU1CJTIwS0VCQUJTfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.8,
-      "description": "Delicious and aromatic Moroccan spiced lamb kebabs, grilled to perfection and served with a flavorful yogurt sauce.",
       "ingredients": [
         "1.5 lbs ground lamb",
         "1 onion, finely grated",
@@ -614,24 +913,46 @@
         "In a small bowl, mix Greek yogurt with chopped mint, cilantro, lemon juice, and salt to taste. This will be the dipping sauce for the kebabs.",
         "Serve the Moroccan spiced lamb kebabs hot off the grill with the refreshing yogurt sauce."
       ],
-      "equipement": ["Mixing Bowl", "Grill or Grill Pan", "Wooden Skewers"],
-      "nutrition": {
-        "calories": "420 kcal",
-        "carbohydrates": "5 g",
-        "protein": "25 g",
-        "fat": "35 g",
-        "sodium": "520 mg",
-        "fiber": "1 g"
+      "equipments": [
+        "Mixing Bowl",
+        "Grill or Grill Pan",
+        "Wooden Skewers"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "5",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "35",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "520",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 23,
       "title": "MEXICAN RICE (ARROZ ROJO)",
+      "description": "Flavorful Mexican rice cooked with tomatoes, onions, garlic, and spices, a perfect side dish for any Mexican meal.",
       "imageUrl": "https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwUklDRSUyMCUyOEFSUk9aJTIwUk9KTyUyOXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1564834744159-ff0ea41ba4b9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwUklDRSUyMCUyOEFSUk9aJTIwUk9KTyUyOXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.7,
-      "description": "Flavorful Mexican rice cooked with tomatoes, onions, garlic, and spices, a perfect side dish for any Mexican meal.",
       "ingredients": [
         "1 cup long-grain white rice",
         "1 cup diced tomatoes",
@@ -651,24 +972,44 @@
         "Fluff rice with a fork and stir in chopped cilantro. Season with salt to taste.",
         "Serve hot as a delicious and aromatic side dish for your Mexican feast."
       ],
-      "equipment": ["Skillet"],
-      "nutrition": {
-        "calories": "160 kcal (per serving)",
-        "carbohydrates": "30 g",
-        "protein": "3 g",
-        "fat": "3 g",
-        "sodium": "400 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Skillet"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "160",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "3",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 12,
       "title": " DATE AND WALNUT COOKIES",
+      "description": "Delightful Moroccan cookies made with dates, walnuts, and warm spices, offering a perfect balance of sweetness and nuttiness.",
       "imageUrl": "https://images.unsplash.com/photo-1576717585968-8ea8166b89b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBEQVRFJTIwQU5EJTIwV0FMTlVUJTIwQ09PS0lFU3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1576717585968-8ea8166b89b8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBEQVRFJTIwQU5EJTIwV0FMTlVUJTIwQ09PS0lFU3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.7,
-      "description": "Delightful Moroccan cookies made with dates, walnuts, and warm spices, offering a perfect balance of sweetness and nuttiness.",
       "ingredients": [
         "1 cup Medjool dates, pitted and finely chopped",
         "1 cup walnuts, finely chopped",
@@ -689,24 +1030,46 @@
         "Remove the cookies from the oven and let them cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.",
         "Once cooled, dust the Moroccan date and walnut cookies with powdered sugar before serving."
       ],
-      "equipement": ["Mixing Bowl", "Baking Sheet", "Parchment Paper"],
-      "nutrition": {
-        "calories": "120 kcal (per cookie)",
-        "carbohydrates": "14 g",
-        "protein": "2 g",
-        "fat": "7 g",
-        "sodium": "30 mg",
-        "fiber": "1 g"
+      "equipments": [
+        "Mixing Bowl",
+        "Baking Sheet",
+        "Parchment Paper"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "14",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "2",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "30",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 21,
       "title": "CHICKEN QUESADILLAS",
+      "description": "Delicious and cheesy chicken quesadillas with seasoned chicken, melted cheese, and served with salsa and sour cream.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwUVVFU0FESUxMQVN8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwUVVFU0FESUxMQVN8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.8,
-      "description": "Delicious and cheesy chicken quesadillas with seasoned chicken, melted cheese, and served with salsa and sour cream.",
       "ingredients": [
         "2 cups cooked and shredded chicken",
         "2 cups shredded Monterey Jack cheese",
@@ -724,24 +1087,44 @@
         "Cook quesadillas in a skillet over medium heat until cheese is melted and tortillas are golden brown.",
         "Serve hot, topped with salsa, sour cream, and chopped cilantro."
       ],
-      "equipment": ["Skillet"],
-      "nutrition": {
-        "calories": "280 kcal (per serving)",
-        "carbohydrates": "22 g",
-        "protein": "18 g",
-        "fat": "14 g",
-        "sodium": "350 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Skillet"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "22",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "14",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "350",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 26,
       "title": "MEXICAN CHOCOLATE MOUSSE",
+      "description": "Decadent Mexican chocolate mousse with a hint of cinnamon, topped with whipped cream and chocolate shavings.",
       "imageUrl": "https://images.unsplash.com/photo-1582570675095-9b679953577e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwQ0hPQ09MQVRFJTIwTU9VU1NFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1582570675095-9b679953577e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwQ0hPQ09MQVRFJTIwTU9VU1NFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.7,
-      "description": "Decadent Mexican chocolate mousse with a hint of cinnamon, topped with whipped cream and chocolate shavings.",
       "ingredients": [
         "8 oz bittersweet chocolate, chopped",
         "1/2 cup unsalted butter",
@@ -759,24 +1142,46 @@
         "Pour into serving glasses and refrigerate for at least 4 hours or until set.",
         "Top with whipped cream and chocolate shavings before serving."
       ],
-      "equipment": ["Double Boiler", "Electric Mixer", "Serving Glasses"],
-      "nutrition": {
-        "calories": "280 kcal (per serving)",
-        "carbohydrates": "20 g",
-        "protein": "5 g",
-        "fat": "20 g",
-        "sodium": "50 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Double Boiler",
+        "Electric Mixer",
+        "Serving Glasses"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "5",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "50",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 13,
       "title": " ORANGE BLOSSOM WATER COCKTAIL",
+      "description": "A refreshing Moroccan-inspired cocktail featuring orange blossom water, citrus juices, and a hint of mint for a burst of flavors.",
       "imageUrl": "https://images.unsplash.com/photo-1545873681-d8affd67677b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBPUkFOR0UlMjBCTE9TU09NJTIwV0FURVIlMjBDT0NLVEFJTHxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1545873681-d8affd67677b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBPUkFOR0UlMjBCTE9TU09NJTIwV0FURVIlMjBDT0NLVEFJTHxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.9,
-      "description": "A refreshing Moroccan-inspired cocktail featuring orange blossom water, citrus juices, and a hint of mint for a burst of flavors.",
       "ingredients": [
         "1 cup freshly squeezed orange juice",
         "1/2 cup freshly squeezed lemon juice",
@@ -792,24 +1197,46 @@
         "Garnish each glass with fresh mint leaves and a slice of orange.",
         "Stir before serving to mix the flavors, and enjoy this Moroccan-inspired Orange Blossom Water Cocktail!"
       ],
-      "equipement": ["Pitcher", "Citrus Juicer", "Glasses"],
-      "nutrition": {
-        "calories": "80 kcal (per serving)",
-        "carbohydrates": "20 g",
-        "protein": "1 g",
-        "fat": "0 g",
-        "sodium": "5 mg",
-        "fiber": "1 g"
+      "equipments": [
+        "Pitcher",
+        "Citrus Juicer",
+        "Glasses"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "80",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "1",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 1,
       "title": " CHICKEN TAGINE",
+      "description": "A fragrant and flavorful Moroccan dish featuring slow-cooked chicken, apricots, almonds, and a blend of exotic spices.",
       "imageUrl": "https://images.unsplash.com/photo-1519624014191-508652cbd7b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwVEFHSU5FfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1519624014191-508652cbd7b5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS0VOJTIwVEFHSU5FfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.7,
-      "description": "A fragrant and flavorful Moroccan dish featuring slow-cooked chicken, apricots, almonds, and a blend of exotic spices.",
       "ingredients": [
         "4 chicken thighs, bone-in and skin-on",
         "1 large onion, finely chopped",
@@ -833,24 +1260,46 @@
         "Cover and simmer on low heat for 1.5 to 2 hours or until chicken is tender and flavors meld.",
         "Garnish with fresh cilantro before serving. Serve the tagine over couscous or with crusty bread."
       ],
-      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Wooden Spoon"],
-      "nutrition": {
-        "calories": "520 kcal",
-        "carbohydrates": "35 g",
-        "protein": "28 g",
-        "fat": "32 g",
-        "sodium": "680 mg",
-        "fiber": "6 g"
+      "equipments": [
+        "Tagine or Dutch Oven",
+        "Chef's Knife",
+        "Wooden Spoon"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "520",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "32",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "680",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 27,
       "title": "MEXICAN STREET CORN SALAD",
+      "description": "A deconstructed version of Mexican street corn, this salad features grilled corn, cotija cheese, lime, and a creamy dressing.",
       "imageUrl": "https://images.unsplash.com/photo-1561398024-910a2c6cf1a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwQ09STiUyMFNBTEFEfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
       "thumbnail": "https://images.unsplash.com/photo-1561398024-910a2c6cf1a3?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU1RSRUVUJTIwQ09STiUyMFNBTEFEfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.6,
-      "description": "A deconstructed version of Mexican street corn, this salad features grilled corn, cotija cheese, lime, and a creamy dressing.",
       "ingredients": [
         "4 cups grilled corn kernels",
         "1/2 cup mayonnaise",
@@ -866,24 +1315,45 @@
         "Chill in the refrigerator for at least 1 hour before serving.",
         "Serve as a refreshing side salad for your Mexican-inspired meals."
       ],
-      "equipment": ["Grill", "Large Bowl"],
-      "nutrition": {
-        "calories": "220 kcal (per serving)",
-        "carbohydrates": "18 g",
-        "protein": "6 g",
-        "fat": "15 g",
-        "sodium": "250 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Grill",
+        "Large Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "220",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "18",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "6",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 28,
       "title": "MEXICAN CHICKEN ENCHILADA CASSEROLE",
+      "description": "A layered casserole of corn tortillas, seasoned chicken, enchilada sauce, and melted cheese, baked to perfection.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwQ0hJQ0tFTiUyMEVOQ0hJTEFEQSUyMENBU1NFUk9MRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwQ0hJQ0tFTiUyMEVOQ0hJTEFEQSUyMENBU1NFUk9MRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Mexican",
-      "rating": 4.9,
-      "description": "A layered casserole of corn tortillas, seasoned chicken, enchilada sauce, and melted cheese, baked to perfection.",
       "ingredients": [
         "3 cups shredded cooked chicken",
         "1 can black beans, drained and rinsed",
@@ -906,24 +1376,45 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with chopped cilantro, and let it cool slightly before serving."
       ],
-      "equipment": ["Baking Dish", "Bowl"],
-      "nutrition": {
-        "calories": "300 kcal (per serving)",
-        "carbohydrates": "25 g",
-        "protein": "20 g",
-        "fat": "15 g",
-        "sodium": "450 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Baking Dish",
+        "Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "450",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 31,
       "title": "CHICKEN ALFREDO",
+      "description": "Creamy and indulgent Chicken Alfredo pasta with tender pieces of chicken in a rich Alfredo sauce, served over fettuccine.",
       "imageUrl": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQUxGUkVET3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1645112411341-6c4fd023714a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQUxGUkVET3xlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Italian",
-      "rating": 4.7,
-      "description": "Creamy and indulgent Chicken Alfredo pasta with tender pieces of chicken in a rich Alfredo sauce, served over fettuccine.",
       "ingredients": [
         "1 lb fettuccine pasta",
         "2 boneless, skinless chicken breasts, sliced",
@@ -941,24 +1432,44 @@
         "Toss cooked fettuccine in the Alfredo sauce until well coated. Garnish with fresh parsley.",
         "Serve hot, and enjoy this decadent Chicken Alfredo pasta!"
       ],
-      "equipment": ["Skillet"],
-      "nutrition": {
-        "calories": "500 kcal (per serving)",
-        "carbohydrates": "40 g",
-        "protein": "25 g",
-        "fat": "28 g",
-        "sodium": "400 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Skillet"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "500",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "28",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 14,
       "title": " MINT TEA",
+      "description": "A classic and aromatic Moroccan mint tea, known for its refreshing taste and cultural significance.",
       "imageUrl": "https://images.unsplash.com/photo-1576066772170-0ebda6b3c597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBNSU5UJTIwVEVBfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 5,
       "thumbnail": "https://images.unsplash.com/photo-1576066772170-0ebda6b3c597?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBNSU5UJTIwVEVBfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 5,
-      "description": "A classic and aromatic Moroccan mint tea, known for its refreshing taste and cultural significance.",
       "ingredients": [
         "3 tbsp loose green tea leaves",
         "1 bunch fresh mint leaves",
@@ -974,24 +1485,46 @@
         "Optionally, garnish each cup with a sprig of fresh mint.",
         "Enjoy the authentic taste of Moroccan Mint Tea!"
       ],
-      "equipement": ["Teapot", "Tea Strainer", "Cups"],
-      "nutrition": {
-        "calories": "15 kcal (per serving)",
-        "carbohydrates": "4 g",
-        "protein": "0 g",
-        "fat": "0 g",
-        "sodium": "5 mg",
-        "fiber": "0 g"
+      "equipments": [
+        "Teapot",
+        "Tea Strainer",
+        "Cups"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "15",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "4",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "0",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "0",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 37,
       "title": "LASAGNA BOLOGNESE",
+      "description": "Homemade Italian Lasagna Bolognese with layers of pasta, rich meat sauce, creamy béchamel, and melted cheese.",
       "imageUrl": "https://images.unsplash.com/photo-1551892269-860b1e482f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxMQVNBR05BJTIwQk9MT0dORVNFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1551892269-860b1e482f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxMQVNBR05BJTIwQk9MT0dORVNFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Italian",
-      "rating": 4.9,
-      "description": "Homemade Italian Lasagna Bolognese with layers of pasta, rich meat sauce, creamy béchamel, and melted cheese.",
       "ingredients": [
         "1 lb ground beef",
         "1/2 lb ground pork",
@@ -1018,24 +1551,45 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, let it cool slightly, and then slice and serve this delicious Lasagna Bolognese!"
       ],
-      "equipment": ["Large Pot", "Baking Dish"],
-      "nutrition": {
-        "calories": "450 kcal (per serving)",
-        "carbohydrates": "40 g",
-        "protein": "25 g",
-        "fat": "20 g",
-        "sodium": "600 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Large Pot",
+        "Baking Dish"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "450",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 33,
       "title": "LASAGNA BOLOGNESE",
+      "description": "Homemade Italian lasagna with layers of Bolognese sauce, béchamel, lasagna noodles, and melted mozzarella, baked to perfection.",
       "imageUrl": "https://images.unsplash.com/photo-1551892269-860b1e482f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxMQVNBR05BJTIwQk9MT0dORVNFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1551892269-860b1e482f98?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxMQVNBR05BJTIwQk9MT0dORVNFfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Italian",
-      "rating": 4.9,
-      "description": "Homemade Italian lasagna with layers of Bolognese sauce, béchamel, lasagna noodles, and melted mozzarella, baked to perfection.",
       "ingredients": [
         "1 lb ground beef",
         "1 onion, finely chopped",
@@ -1060,24 +1614,45 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with grated Parmesan cheese, and let it cool slightly before serving."
       ],
-      "equipment": ["Large Pot", "Baking Dish"],
-      "nutrition": {
-        "calories": "450 kcal (per serving)",
-        "carbohydrates": "35 g",
-        "protein": "25 g",
-        "fat": "20 g",
-        "sodium": "650 mg",
-        "fiber": "4 g"
+      "equipments": [
+        "Large Pot",
+        "Baking Dish"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "450",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "650",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 44,
       "title": "TURKISH LENTIL SOUP (MERCIMEK ÇORBASI)",
+      "description": "A comforting Turkish lentil soup made with red lentils, tomatoes, onions, and a blend of aromatic spices.",
       "imageUrl": "https://images.unsplash.com/photo-1553522622-dbbcea69d15f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxUVVJLSVNIJTIwTEVOVElMJTIwU09VUCUyMCUyOE1FUkNJTUVLJTIwJUMzJTg3T1JCQVNJJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1553522622-dbbcea69d15f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxUVVJLSVNIJTIwTEVOVElMJTIwU09VUCUyMCUyOE1FUkNJTUVLJTIwJUMzJTg3T1JCQVNJJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.8,
-      "description": "A comforting Turkish lentil soup made with red lentils, tomatoes, onions, and a blend of aromatic spices.",
       "ingredients": [
         "1 cup red lentils, rinsed",
         "1 onion, finely chopped",
@@ -1101,24 +1676,45 @@
         "Using an immersion blender, blend the soup until smooth. Add lemon juice, salt, and pepper to taste.",
         "Serve hot, garnished with chopped fresh parsley."
       ],
-      "equipment": ["Pot", "Immersion Blender"],
-      "nutrition": {
-        "calories": "250 kcal (per serving)",
-        "carbohydrates": "30 g",
-        "protein": "12 g",
-        "fat": "10 g",
-        "sodium": "700 mg",
-        "fiber": "8 g"
+      "equipments": [
+        "Pot",
+        "Immersion Blender"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "250",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "8",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 42,
       "title": "MANTI (TURKISH DUMPLINGS)",
+      "description": "Delicious Turkish dumplings filled with spiced ground meat, served with yogurt and drizzled with red pepper-infused butter.",
       "imageUrl": "https://images.unsplash.com/photo-1553522622-dbbcea69d15f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNQU5USSUyMCUyOFRVUktJU0glMjBEVU1QTElOR1MlMjl8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1553522622-dbbcea69d15f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNQU5USSUyMCUyOFRVUktJU0glMjBEVU1QTElOR1MlMjl8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.7,
-      "description": "Delicious Turkish dumplings filled with spiced ground meat, served with yogurt and drizzled with red pepper-infused butter.",
       "ingredients": [
         "500g ground beef or lamb",
         "2 cups all-purpose flour",
@@ -1139,24 +1735,46 @@
         "In a pan, melt butter and add red pepper flakes. Drizzle the butter over cooked dumplings.",
         "Serve the dumplings with yogurt and garnish with chopped fresh mint."
       ],
-      "equipment": ["Bowl", "Rolling Pin", "Pan"],
-      "nutrition": {
-        "calories": "350 kcal (per serving)",
-        "carbohydrates": "25 g",
-        "protein": "18 g",
-        "fat": "20 g",
-        "sodium": "400 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Bowl",
+        "Rolling Pin",
+        "Pan"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 7,
       "title": " VEGETABLE TAGINE",
+      "description": "A flavorful and aromatic vegetable tagine featuring a medley of colorful vegetables, chickpeas, and Moroccan spices.",
       "imageUrl": "https://images.unsplash.com/photo-1517314626714-ac1b9a16515e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.6,
       "thumbnail": "https://images.unsplash.com/photo-1517314626714-ac1b9a16515e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBWRUdFVEFCTEUlMjBUQUdJTkV8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.6,
-      "description": "A flavorful and aromatic vegetable tagine featuring a medley of colorful vegetables, chickpeas, and Moroccan spices.",
       "ingredients": [
         "1 eggplant, diced",
         "2 zucchini, sliced",
@@ -1184,24 +1802,46 @@
         "Stir in fresh cilantro just before serving. Adjust seasoning if needed.",
         "Serve the vegetable tagine over cooked couscous."
       ],
-      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Serving Spoon"],
-      "nutrition": {
-        "calories": "320 kcal",
-        "carbohydrates": "65 g",
-        "protein": "12 g",
-        "fat": "3 g",
-        "sodium": "680 mg",
-        "fiber": "14 g"
+      "equipments": [
+        "Tagine or Dutch Oven",
+        "Chef's Knife",
+        "Serving Spoon"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "680",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 48,
       "title": "TURKISH DELIGHT (LOKUM)",
+      "description": "A sweet confection made from sugar, water, cornstarch, and various flavors, typically cut into small cubes and dusted with powdered sugar.",
       "imageUrl": "https://images.unsplash.com/photo-1550946715-c2d98d2f5c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxUVVJLSVNIJTIwREVMSUdIVCUyMCUyOExPS1VNJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1550946715-c2d98d2f5c74?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxUVVJLSVNIJTIwREVMSUdIVCUyMCUyOExPS1VNJTI5fGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.7,
-      "description": "A sweet confection made from sugar, water, cornstarch, and various flavors, typically cut into small cubes and dusted with powdered sugar.",
       "ingredients": [
         "2 cups granulated sugar",
         "1 cup water",
@@ -1219,24 +1859,45 @@
         "Let it cool and set for several hours or overnight.",
         "Cut into small cubes and dust with powdered sugar before serving."
       ],
-      "equipment": ["Saucepan", "Mold"],
-      "nutrition": {
-        "calories": "80 kcal (per serving)",
-        "carbohydrates": "20 g",
-        "protein": "0 g",
-        "fat": "0 g",
-        "sodium": "5 mg",
-        "fiber": "0 g"
+      "equipments": [
+        "Saucepan",
+        "Mold"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "80",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "0",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "0",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 35,
       "title": "EGGPLANT PARMESAN",
+      "description": "Delicious Eggplant Parmesan with layers of breaded and baked eggplant slices, marinara sauce, and melted mozzarella and Parmesan cheese.",
       "imageUrl": "https://images.unsplash.com/photo-1630875413974-ec783f55a948?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxFR0dQTEFOVCUyMFBBUk1FU0FOfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1630875413974-ec783f55a948?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxFR0dQTEFOVCUyMFBBUk1FU0FOfGVufDB8MHx8fDE3MDM4NTY3Njd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Italian",
-      "rating": 4.7,
-      "description": "Delicious Eggplant Parmesan with layers of breaded and baked eggplant slices, marinara sauce, and melted mozzarella and Parmesan cheese.",
       "ingredients": [
         "2 large eggplants, sliced",
         "1 cup all-purpose flour",
@@ -1255,24 +1916,45 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, garnish with fresh basil leaves, and let it cool slightly before serving."
       ],
-      "equipment": ["Baking Sheet", "Baking Dish"],
-      "nutrition": {
-        "calories": "300 kcal (per serving)",
-        "carbohydrates": "35 g",
-        "protein": "15 g",
-        "fat": "12 g",
-        "sodium": "700 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Baking Sheet",
+        "Baking Dish"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 30,
       "title": "MARGHERITA PIZZA",
+      "description": "Authentic Italian Margherita pizza with a thin crust, tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.",
       "imageUrl": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNQVJHSEVSSVRBJTIwUElaWkF8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1595854341625-f33ee10dbf94?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNQVJHSEVSSVRBJTIwUElaWkF8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Italian",
-      "rating": 4.9,
-      "description": "Authentic Italian Margherita pizza with a thin crust, tomato sauce, fresh mozzarella, basil, and a drizzle of olive oil.",
       "ingredients": [
         "1 lb pizza dough",
         "1/2 cup tomato sauce",
@@ -1289,24 +1971,44 @@
         "Bake in the preheated oven until the crust is golden and the cheese is melted and bubbly.",
         "Slice and enjoy this classic Margherita pizza!"
       ],
-      "equipment": ["Pizza Stone or Baking Sheet"],
-      "nutrition": {
-        "calories": "300 kcal (per serving)",
-        "carbohydrates": "35 g",
-        "protein": "15 g",
-        "fat": "12 g",
-        "sodium": "500 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Pizza Stone or Baking Sheet"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "500",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 10,
       "title": " CHICKPEA STEW",
+      "description": "A rich and flavorful Moroccan chickpea stew with a medley of vegetables, spices, and a hint of sweetness from dried fruits.",
       "imageUrl": "https://images.unsplash.com/photo-1591386767153-987783380885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS1BFQSUyMFNURVd8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.5,
       "thumbnail": "https://images.unsplash.com/photo-1591386767153-987783380885?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHwlMjBDSElDS1BFQSUyMFNURVd8ZW58MHwwfHx8MTcwMzg1Njc2N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Moroccan",
-      "rating": 4.5,
-      "description": "A rich and flavorful Moroccan chickpea stew with a medley of vegetables, spices, and a hint of sweetness from dried fruits.",
       "ingredients": [
         "2 cans (15 oz each) chickpeas, drained and rinsed",
         "1 large onion, finely chopped",
@@ -1334,24 +2036,46 @@
         "Pour vegetable broth over the ingredients and bring to a simmer. Cover and cook for 25-30 minutes or until vegetables are tender.",
         "Adjust seasoning if needed. Serve hot, and enjoy the rich flavors of this Moroccan Chickpea Stew."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Wooden Spoon"],
-      "nutrition": {
-        "calories": "380 kcal",
-        "carbohydrates": "68 g",
-        "protein": "14 g",
-        "fat": "8 g",
-        "sodium": "860 mg",
-        "fiber": "15 g"
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Wooden Spoon"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "68",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "14",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "860",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "15",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 50,
       "title": "MIDYE DOLMA",
+      "description": "Turkish stuffed mussels filled with seasoned rice, pine nuts, and currants, steamed to perfection.",
       "imageUrl": "https://images.unsplash.com/photo-1621953723422-6023013f659d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxNSURZRSUyMERPTE1BfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1621953723422-6023013f659d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxNSURZRSUyMERPTE1BfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.7,
-      "description": "Turkish stuffed mussels filled with seasoned rice, pine nuts, and currants, steamed to perfection.",
       "ingredients": [
         "1 cup medium-grain rice",
         "2 dozen large mussels, cleaned and debearded",
@@ -1373,24 +2097,45 @@
         "Arrange the stuffed mussels in a steamer basket and steam for about 20-25 minutes or until the rice is cooked.",
         "Sprinkle with chopped fresh parsley and serve with lemon wedges."
       ],
-      "equipment": ["Pan", "Steamer Basket"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "25 g",
-        "protein": "8 g",
-        "fat": "7 g",
-        "sodium": "250 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Pan",
+        "Steamer Basket"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "8",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 49,
       "title": "ALI NAZIK KEBAB",
+      "description": "A delightful Turkish dish featuring smoked eggplant mixed with yogurt, topped with tender pieces of grilled meat.",
       "imageUrl": "https://images.unsplash.com/photo-1498530875991-2806ee9dd6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxBTEklMjBOQVpJSyUyMEtFQkFCfGVufDB8MHx8fDE3MDM4NTY1ODJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1498530875991-2806ee9dd6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxBTEklMjBOQVpJSyUyMEtFQkFCfGVufDB8MHx8fDE3MDM4NTY1ODJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.8,
-      "description": "A delightful Turkish dish featuring smoked eggplant mixed with yogurt, topped with tender pieces of grilled meat.",
       "ingredients": [
         "2 large eggplants, roasted and peeled",
         "1 cup Greek yogurt",
@@ -1411,24 +2156,45 @@
         "Garnish with chopped fresh mint and pomegranate seeds.",
         "Serve Ali Nazik Kebab with flatbread or pita."
       ],
-      "equipment": ["Grill", "Bowl"],
-      "nutrition": {
-        "calories": "280 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "20 g",
-        "fat": "15 g",
-        "sodium": "350 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Grill",
+        "Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "350",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 51,
       "title": "KUMPİR",
+      "description": "A Turkish baked potato dish where a large potato is baked, mashed, and mixed with various toppings.",
       "imageUrl": "https://www.dietsmealplan.com/wp-content/uploads/2021/10/Kumpir-recipe-Classic.jpg",
+      "rating": 4.9,
       "thumbnail": "https://www.dietsmealplan.com/wp-content/uploads/2021/10/Kumpir-recipe-Classic.jpg",
       "category": "Turkish",
-      "rating": 4.9,
-      "description": "A Turkish baked potato dish where a large potato is baked, mashed, and mixed with various toppings.",
       "ingredients": [
         "4 large baking potatoes",
         "1/2 cup unsalted butter",
@@ -1448,24 +2214,44 @@
         "Season with salt and pepper to taste. Garnish with chopped fresh parsley.",
         "Serve the Kumpir hot as a flavorful baked potato."
       ],
-      "equipment": ["Oven"],
-      "nutrition": {
-        "calories": "300 kcal (per serving)",
-        "carbohydrates": "35 g",
-        "protein": "7 g",
-        "fat": "15 g",
-        "sodium": "200 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Oven"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "7",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "200",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 53,
       "title": "KUNG PAO CHICKEN",
+      "description": "A classic Chinese stir-fry dish featuring diced chicken, peanuts, and vegetables in a flavorful Kung Pao sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxLVU5HJTIwUEFPJTIwQ0hJQ0tFTnxlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxLVU5HJTIwUEFPJTIwQ0hJQ0tFTnxlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.9,
-      "description": "A classic Chinese stir-fry dish featuring diced chicken, peanuts, and vegetables in a flavorful Kung Pao sauce.",
       "ingredients": [
         "500g boneless, skinless chicken breasts, diced",
         "1 cup unsalted peanuts",
@@ -1492,24 +2278,45 @@
         "Add the cooked chicken back to the pan along with peanuts and the sauce mixture. Stir-fry until everything is well-coated and heated through.",
         "Garnish with chopped green onions and serve the Kung Pao Chicken over rice."
       ],
-      "equipment": ["Wok", "Pan"],
-      "nutrition": {
-        "calories": "350 kcal (per serving)",
-        "carbohydrates": "18 g",
-        "protein": "30 g",
-        "fat": "20 g",
-        "sodium": "600 mg",
-        "fiber": "4 g"
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "18",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 52,
       "title": "ŞİŞ KEBAB",
+      "description": "Grilled skewers of marinated meat, typically lamb or beef, served with flatbread and fresh vegetables.",
       "imageUrl": "https://images.unsplash.com/photo-1498530875991-2806ee9dd6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHwlQzUlOUUlQzQlQjAlQzUlOUUlMjBLRUJBQnxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1498530875991-2806ee9dd6d1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHwlQzUlOUUlQzQlQjAlQzUlOUUlMjBLRUJBQnxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Turkish",
-      "rating": 4.8,
-      "description": "Grilled skewers of marinated meat, typically lamb or beef, served with flatbread and fresh vegetables.",
       "ingredients": [
         "500g lamb or beef, cubed",
         "1 onion, grated",
@@ -1529,24 +2336,45 @@
         "Grill the skewers over medium-high heat until the meat is cooked to your liking.",
         "Serve the Şiş Kebab with flatbread and garnish with chopped fresh parsley."
       ],
-      "equipment": ["Grill", "Bowl"],
-      "nutrition": {
-        "calories": "250 kcal (per serving)",
-        "carbohydrates": "5 g",
-        "protein": "20 g",
-        "fat": "16 g",
-        "sodium": "300 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Grill",
+        "Bowl"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "250",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "5",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "16",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 63,
       "title": "SICHUAN MAPO TOFU",
+      "description": "A flavorful and spicy Sichuan dish featuring tofu and minced meat (usually beef or pork) in a bold and aromatic sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1663053553502-87a1848bfd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTSUNIVUFOJTIwTUFQTyUyMFRPRlV8ZW58MHwwfHx8MTcwMzg1MDU0N3ww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1663053553502-87a1848bfd8a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTSUNIVUFOJTIwTUFQTyUyMFRPRlV8ZW58MHwwfHx8MTcwMzg1MDU0N3ww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.9,
-      "description": "A flavorful and spicy Sichuan dish featuring tofu and minced meat (usually beef or pork) in a bold and aromatic sauce.",
       "ingredients": [
         "1 block (400g) firm tofu, cubed",
         "200g ground beef or pork",
@@ -1569,24 +2397,45 @@
         "Pour in chicken or vegetable broth. Simmer for 10-15 minutes until the sauce thickens.",
         "Garnish with sliced green onions and serve Sichuan Mapo Tofu hot over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan"],
-      "nutrition": {
-        "calories": "300 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "20 g",
-        "fat": "18 g",
-        "sodium": "700 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 56,
       "title": "GENERAL TSO'S CHICKEN",
+      "description": "A popular Chinese-American dish featuring crispy fried chicken in a sweet and tangy General Tso's sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxHRU5FUkFMJTIwVFNPJTI3UyUyMENISUNLRU58ZW58MHwwfHx8MTcwMzg1NzIxMnww&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1471623817296-aa07ae5c9f47?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxHRU5FUkFMJTIwVFNPJTI3UyUyMENISUNLRU58ZW58MHwwfHx8MTcwMzg1NzIxMnww&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.9,
-      "description": "A popular Chinese-American dish featuring crispy fried chicken in a sweet and tangy General Tso's sauce.",
       "ingredients": [
         "500g boneless, skinless chicken thighs, cut into bite-sized pieces",
         "1 cup cornstarch",
@@ -1610,24 +2459,45 @@
         "Add the fried chicken to the pan, pour the sauce over, and toss until the chicken is coated and the sauce thickens.",
         "Garnish with toasted sesame seeds and serve the General Tso's Chicken over rice."
       ],
-      "equipment": ["Pan", "Deep Fryer"],
-      "nutrition": {
-        "calories": "380 kcal (per serving)",
-        "carbohydrates": "30 g",
-        "protein": "20 g",
-        "fat": "18 g",
-        "sodium": "600 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Pan",
+        "Deep Fryer"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 54,
       "title": "DIM SUM (STEAMED DUMPLINGS)",
+      "description": "Assorted Chinese steamed dumplings filled with a variety of ingredients, served with dipping sauces.",
       "imageUrl": "https://images.unsplash.com/photo-1617694455303-59af55af7e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxESU0lMjBTVU0lMjAlMjhTVEVBTUVEJTIwRFVNUExJTkdTJTI5fGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1617694455303-59af55af7e58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxESU0lMjBTVU0lMjAlMjhTVEVBTUVEJTIwRFVNUExJTkdTJTI5fGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.8,
-      "description": "Assorted Chinese steamed dumplings filled with a variety of ingredients, served with dipping sauces.",
       "ingredients": [
         "1 cup ground pork",
         "1 cup finely chopped shrimp",
@@ -1649,24 +2519,45 @@
         "Arrange the dumplings in a steamer basket and steam for about 15-20 minutes or until cooked through.",
         "Serve the Dim Sum with soy sauce and chili oil for dipping."
       ],
-      "equipment": ["Bowl", "Steamer Basket"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "12 g",
-        "fat": "8 g",
-        "sodium": "400 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Bowl",
+        "Steamer Basket"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 58,
       "title": "PEKING DUCK",
+      "description": "A famous Chinese dish featuring crispy roasted duck, typically served with thin pancakes, hoisin sauce, and sliced scallions.",
       "imageUrl": "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxQRUtJTkclMjBEVUNLfGVufDB8MHx8fDE3MDM4NTA1NDd8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.9,
       "thumbnail": "https://images.unsplash.com/photo-1598514982205-f36b96d1e8d4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxQRUtJTkclMjBEVUNLfGVufDB8MHx8fDE3MDM4NTA1NDd8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.9,
-      "description": "A famous Chinese dish featuring crispy roasted duck, typically served with thin pancakes, hoisin sauce, and sliced scallions.",
       "ingredients": [
         "1 whole duck, cleaned and dried",
         "2 tbsp soy sauce",
@@ -1686,24 +2577,44 @@
         "Let the duck rest for 15 minutes before carving.",
         "Serve Peking Duck with thin Chinese pancakes, hoisin sauce, julienned cucumber, and sliced scallions."
       ],
-      "equipment": ["Oven"],
-      "nutrition": {
-        "calories": "400 kcal (per serving)",
-        "carbohydrates": "10 g",
-        "protein": "30 g",
-        "fat": "25 g",
-        "sodium": "800 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Oven"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "400",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "10",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "25",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 61,
       "title": "MONGOLIAN BEEF",
+      "description": "A savory and slightly sweet Chinese stir-fry featuring tender strips of beef, green onions, and a flavorful soy-based sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1605291569092-5cbe5ded7b60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxNT05HT0xJQU4lMjBCRUVGfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1605291569092-5cbe5ded7b60?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxNT05HT0xJQU4lMjBCRUVGfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.7,
-      "description": "A savory and slightly sweet Chinese stir-fry featuring tender strips of beef, green onions, and a flavorful soy-based sauce.",
       "ingredients": [
         "500g flank steak, thinly sliced",
         "1/2 cup cornstarch",
@@ -1726,24 +2637,46 @@
         "Return the crispy beef to the pan and toss until well-coated in the sauce.",
         "Serve Mongolian Beef over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan", "Deep Fryer"],
-      "nutrition": {
-        "calories": "400 kcal (per serving)",
-        "carbohydrates": "30 g",
-        "protein": "25 g",
-        "fat": "18 g",
-        "sodium": "800 mg",
-        "fiber": "3 g"
+      "equipments": [
+        "Wok",
+        "Pan",
+        "Deep Fryer"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "400",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 57,
       "title": "CHICKEN AND BROCCOLI STIR-FRY",
-      "imageUrl": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "thumbnail": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400",
-      "category": "Chinese",
-      "rating": 4.8,
       "description": "A quick and flavorful Chinese stir-fry featuring tender chicken, crisp broccoli, and a savory soy-based sauce.",
+      "imageUrl": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4,
+      "thumbnail": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "category": "Chinese",
       "ingredients": [
         "500g boneless, skinless chicken breast, thinly sliced",
         "4 cups broccoli florets",
@@ -1767,24 +2700,45 @@
         "Return the cooked chicken to the pan and pour the sauce over. Stir-fry until everything is well-coated and heated through.",
         "Serve the Chicken and Broccoli Stir-Fry over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan"],
-      "nutrition": {
-        "calories": "320 kcal (per serving)",
-        "carbohydrates": "20 g",
-        "protein": "25 g",
-        "fat": "15 g",
-        "sodium": "800 mg",
-        "fiber": "5 g"
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 59,
       "title": "SWEET AND SOUR PORK",
+      "description": "Classic Chinese dish featuring crispy pork pieces tossed in a sweet and tangy sauce with bell peppers and pineapple.",
       "imageUrl": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTV0VFVCUyMEFORCUyMFNPVVIlMjBQT1JLfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1486427944299-d1955d23e34d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTV0VFVCUyMEFORCUyMFNPVVIlMjBQT1JLfGVufDB8MHx8fDE3MDM4NTcyMTJ8MA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.7,
-      "description": "Classic Chinese dish featuring crispy pork pieces tossed in a sweet and tangy sauce with bell peppers and pineapple.",
       "ingredients": [
         "500g pork loin, cut into bite-sized pieces",
         "1 cup cornstarch",
@@ -1806,24 +2760,45 @@
         "Add the crispy fried pork to the pan and toss until well-coated in the sweet and sour sauce.",
         "Serve Sweet and Sour Pork over cooked white rice."
       ],
-      "equipment": ["Pan", "Deep Fryer"],
-      "nutrition": {
-        "calories": "380 kcal (per serving)",
-        "carbohydrates": "30 g",
-        "protein": "20 g",
-        "fat": "18 g",
-        "sodium": "600 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Pan",
+        "Deep Fryer"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 60,
       "title": "HONG KONG STYLE NOODLES",
+      "description": "Stir-fried Hong Kong-style noodles with a combination of meats, vegetables, and a savory soy-based sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1544514060-6648583acaaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxIT05HJTIwS09ORyUyMFNUWUxFJTIwTk9PRExFU3xlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.8,
       "thumbnail": "https://images.unsplash.com/photo-1544514060-6648583acaaf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxIT05HJTIwS09ORyUyMFNUWUxFJTIwTk9PRExFU3xlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.8,
-      "description": "Stir-fried Hong Kong-style noodles with a combination of meats, vegetables, and a savory soy-based sauce.",
       "ingredients": [
         "300g Hong Kong-style thin egg noodles",
         "200g shrimp, peeled and deveined",
@@ -1847,24 +2822,45 @@
         "Return the cooked shrimp and chicken to the pan. Stir-fry until heated through.",
         "Garnish with chopped green onions and serve the Hong Kong Style Noodles hot."
       ],
-      "equipment": ["Wok", "Pan"],
-      "nutrition": {
-        "calories": "350 kcal (per serving)",
-        "carbohydrates": "40 g",
-        "protein": "20 g",
-        "fat": "15 g",
-        "sodium": "800 mg",
-        "fiber": "4 g"
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
       "id": 55,
       "title": "HOT AND SOUR SOUP",
+      "description": "A classic Chinese soup with a balance of hot and sour flavors, featuring tofu, mushrooms, bamboo shoots, and eggs.",
       "imageUrl": "https://images.unsplash.com/photo-1641595573308-8964aa5d6a21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxIT1QlMjBBTkQlMjBTT1VSJTIwU09VUHxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
+      "rating": 4.7,
       "thumbnail": "https://images.unsplash.com/photo-1641595573308-8964aa5d6a21?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxIT1QlMjBBTkQlMjBTT1VSJTIwU09VUHxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400",
       "category": "Chinese",
-      "rating": 4.7,
-      "description": "A classic Chinese soup with a balance of hot and sour flavors, featuring tofu, mushrooms, bamboo shoots, and eggs.",
       "ingredients": [
         "4 cups chicken or vegetable broth",
         "1 cup sliced shiitake mushrooms",
@@ -1886,55 +2882,219 @@
         "Slowly pour beaten eggs into the soup, stirring gently to create ribbons of egg.",
         "Garnish with chopped green onions and serve the Hot and Sour Soup hot."
       ],
-      "equipment": ["Pot"],
-      "nutrition": {
-        "calories": "120 kcal (per serving)",
-        "carbohydrates": "10 g",
-        "protein": "8 g",
-        "fat": "6 g",
-        "sodium": "500 mg",
-        "fiber": "2 g"
+      "equipments": [
+        "Pot"
+      ],
+      "nutritionValues": {
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "10",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "8",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "6",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "500",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
-      "id": 62,
-      "title": "SPRING ROLLS",
-      "imageUrl": "https://images.unsplash.com/photo-1606525437679-037aca74a3e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTUFJJTkclMjBST0xMU3xlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "thumbnail": "https://images.unsplash.com/photo-1606525437679-037aca74a3e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxTUFJJTkclMjBST0xMU3xlbnwwfDB8fHwxNzAzODU3MjEyfDA&ixlib=rb-4.0.3&q=80&w=400",
-      "category": "Chinese",
-      "rating": 4.8,
-      "description": "Crispy Chinese spring rolls filled with a mix of vegetables, shrimp, and pork, served with a sweet and tangy dipping sauce.",
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204567/recipes_images/Screenshot_2022.06.04_21.08.33.432_ejrmkv.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204567/recipes_images/Screenshot_2022.06.04_21.08.33.432_ejrmkv.png",
+      "title": "Pastila wa3ra",
+      "rating": 5,
+      "description": "best dish ever best dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish ever",
       "ingredients": [
-        "1 cup shredded cabbage",
-        "1 cup shredded carrots",
-        "1/2 cup bean sprouts",
-        "1/2 cup cooked and chopped shrimp",
-        "1/2 cup cooked and chopped pork",
-        "2 cloves garlic, minced",
-        "2 tbsp soy sauce",
-        "1 tbsp oyster sauce",
-        "1 tsp sesame oil",
-        "Spring roll wrappers",
-        "Vegetable oil for frying",
-        "Sweet and sour dipping sauce"
+        "chicken",
+        "sugar",
+        "honey",
+        "eggs"
       ],
       "instructions": [
-        "In a wok or pan, stir-fry shredded cabbage, shredded carrots, bean sprouts, chopped shrimp, and chopped pork until vegetables are tender.",
-        "Add minced garlic, soy sauce, oyster sauce, and sesame oil. Stir to combine.",
-        "Lay out a spring roll wrapper and place a spoonful of the filling in the center. Fold the sides and roll tightly.",
-        "Seal the edge with a mixture of cornstarch and water.",
-        "In a deep fryer or pan, heat vegetable oil and fry the spring rolls until golden brown. Drain on paper towels.",
-        "Serve Spring Rolls with sweet and sour dipping sauce."
+        "follow the instructions",
+        "follow your heart"
       ],
-      "equipment": ["Wok", "Pan", "Deep Fryer"],
-      "nutrition": {
-        "calories": "180 kcal (per serving)",
-        "carbohydrates": "15 g",
-        "protein": "10 g",
-        "fat": "8 g",
-        "sodium": "400 mg",
-        "fiber": "2 g"
-      }
+      "equipments": [
+        "your hands",
+        "an oven"
+      ],
+      "category": "Moroccan",
+      "nutritionValues": {
+        "calories": {
+          "value": "999",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "99",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "99",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "99",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "45",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "45",
+          "unit": "g"
+        }
+      },
+      "id": 64
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204105/recipes_images/1703465910680_ee1jpl.gif",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204105/recipes_images/1703465910680_ee1jpl.gif",
+      "title": "eeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "rating": 3,
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 65
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204303/recipes_images/Screenshot_2022.06.04_21.08.30.632_lytudg.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204303/recipes_images/Screenshot_2022.06.04_21.08.30.632_lytudg.png",
+      "title": "dsfdsfdsf",
+      "rating": "3",
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 66
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204370/recipes_images/Screenshot_2022.06.04_21.08.30.632_qb1lty.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204370/recipes_images/Screenshot_2022.06.04_21.08.30.632_qb1lty.png",
+      "title": "dsfdsfdsf",
+      "rating": "3",
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 67
     }
   ]
 }

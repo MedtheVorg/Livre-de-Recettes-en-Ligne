@@ -1,9 +1,15 @@
 import { Routes, Route, useLocation } from 'react-router-dom';
 import { Navbar } from '../components';
-import { ErrorPage, RecipeAddPage, RecipesPage } from '../pages';
-import Test from '../pages/Test';
+import { ErrorPage, RecipeAddPage, RecipePage, RecipesPage } from '../pages';
 import { AnimatePresence } from 'framer-motion';
-import Animate from '../components/Animate';
+import withAnimation from '../components/withAnimation';
+import RecipeUpdatePage from '../pages/RecipeUpdatePage';
+
+const RecipePageWA = withAnimation(RecipePage);
+const RecipeAddPageWA = withAnimation(RecipeAddPage);
+const RecipeUpdatePageWA = withAnimation(RecipeUpdatePage);
+const RecipesPageWA = withAnimation(RecipesPage);
+const ErrorPageWA = withAnimation(ErrorPage);
 
 const Layout = () => {
   const location = useLocation();
@@ -15,47 +21,14 @@ const Layout = () => {
       <main className="grow bg-customLightGray overflow-hidden ">
         <AnimatePresence initial={false} mode="wait">
           <Routes location={location} key={location.pathname}>
+            <Route path="/recipe/:recipeId" element={<RecipePageWA />} />
+            <Route path="/recipe/add" element={<RecipeAddPageWA />} />
             <Route
-              index
-              path="/"
-              element={
-                <Animate>
-                  <Test />
-                </Animate>
-              }
+              path="/recipe/update/:recipeId"
+              element={<RecipeUpdatePageWA />}
             />
-            <Route
-              path="/recipe"
-              element={
-                <Animate>
-                  <RecipesPage />
-                </Animate>
-              }
-            />
-            <Route
-              path="/recipe/add"
-              element={
-                <Animate>
-                  <RecipeAddPage />
-                </Animate>
-              }
-            />
-            <Route
-              path="/recipes"
-              element={
-                <Animate>
-                  <RecipesPage />
-                </Animate>
-              }
-            />
-            <Route
-              path="/*"
-              element={
-                <Animate>
-                  <ErrorPage />
-                </Animate>
-              }
-            />
+            <Route path="/recipes" element={<RecipesPageWA />} />
+            <Route path="/*" element={<ErrorPageWA />} />
           </Routes>
         </AnimatePresence>
       </main>
