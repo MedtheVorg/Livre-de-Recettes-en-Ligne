@@ -165,7 +165,8 @@ const RecipeUpdatePage = () => {
 
       try {
         const fetchedRecipe = await getRecipeById(recipeId);
-        if (Object.keys(fetchRecipe).length == 0) {
+        if (Object.keys(fetchedRecipe).length == 0) {
+          console.log('fetched recipe :', fetchedRecipe);
           // toast.error('Error occurred while fetching recipe data');
           navigate('/');
           return;
