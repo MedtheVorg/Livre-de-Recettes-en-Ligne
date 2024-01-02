@@ -290,7 +290,7 @@ const RecipeUpdatePage = () => {
             disabled:placeholder:text-gray-400
             disabled:cursor-not-allowed
             "
-              value={rating}
+              value={rating || 1}
               onChange={(eventObject) => {
                 setRating(eventObject.target.value);
               }}
@@ -312,7 +312,7 @@ const RecipeUpdatePage = () => {
               className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack cursor-pointer text-xl font-bold disabled:bg-customBorderColor
             disabled:placeholder:text-gray-400
             disabled:cursor-not-allowed container"
-              value={category}
+              value={category || 'Moroccan'}
               onChange={(eventObject) => {
                 setCategory(eventObject.target.value);
               }}
