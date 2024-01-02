@@ -33,14 +33,36 @@
         "Stir in lemon juice and season with salt and pepper to taste.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipments": ["Large Pot", "Chef's Knife", "Ladle"],
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Ladle"
+      ],
       "nutritionValues": {
-        "calories": { "value": "280", "unit": "kcal" },
-        "carbohydrates": { "value": "48", "unit": "g" },
-        "protein": { "value": "18", "unit": "g" },
-        "fat": { "value": "2", "unit": "g" },
-        "sodium": { "value": "960", "unit": "mg" },
-        "fiber": { "value": "16", "unit": "g" }
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "48",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "2",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "960",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "16",
+          "unit": "g"
+        }
       }
     },
     {
@@ -74,14 +96,36 @@
         "Prepare couscous according to package instructions.",
         "Serve the vegetable tagine over a bed of couscous. Garnish with fresh parsley."
       ],
-      "equipments": ["Large Pan", "Cooking Pot", "Serving Platter"],
+      "equipments": [
+        "Large Pan",
+        "Cooking Pot",
+        "Serving Platter"
+      ],
       "nutritionValues": {
-        "calories": { "value": "420", "unit": "kcal" },
-        "carbohydrates": { "value": "72", "unit": "g" },
-        "protein": { "value": "10", "unit": "g" },
-        "fat": { "value": "12", "unit": "g" },
-        "sodium": { "value": "480", "unit": "mg" },
-        "fiber": { "value": "8", "unit": "g" }
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "72",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "10",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "480",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "8",
+          "unit": "g"
+        }
       }
     },
     {
@@ -120,14 +164,36 @@
         "Fluff the couscous with a fork and stir in fresh cilantro and parsley.",
         "Serve the Moroccan vegetable couscous with lemon wedges on the side."
       ],
-      "equipments": ["Large Pot", "Chef's Knife", "Serving Spoon"],
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Spoon"
+      ],
       "nutritionValues": {
-        "calories": { "value": "320", "unit": "kcal" },
-        "carbohydrates": { "value": "65", "unit": "g" },
-        "protein": { "value": "12", "unit": "g" },
-        "fat": { "value": "3", "unit": "g" },
-        "sodium": { "value": "780", "unit": "mg" },
-        "fiber": { "value": "14", "unit": "g" }
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "780",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
@@ -163,14 +229,36 @@
         "Return browned chicken to the skillet. Cover and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
         "Garnish with fresh parsley before serving. Serve hot."
       ],
-      "equipments": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "equipments": [
+        "Large Skillet",
+        "Chef's Knife",
+        "Serving Platter"
+      ],
       "nutritionValues": {
-        "calories": { "value": "380", "unit": "kcal" },
-        "carbohydrates": { "value": "8", "unit": "g" },
-        "protein": { "value": "22", "unit": "g" },
-        "fat": { "value": "30", "unit": "g" },
-        "sodium": { "value": "980", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "8",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "22",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "30",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "980",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -199,14 +287,35 @@
         "Pour tomatillo salsa over the enchiladas and bake until cheese is melted and bubbly.",
         "Serve hot, topped with sour cream and chopped green onions."
       ],
-      "equipments": ["Baking Dish", "Bowl"],
+      "equipments": [
+        "Baking Dish",
+        "Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "220", "unit": "kcal" },
-        "carbohydrates": { "value": "15", "unit": "g" },
-        "protein": { "value": "18", "unit": "g" },
-        "fat": { "value": "10", "unit": "g" },
-        "sodium": { "value": "300", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "220",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -242,14 +351,36 @@
         "Bring to a boil, then reduce heat and simmer for 2 to 2.5 hours until lamb is tender.",
         "Season with salt and pepper to taste. Serve the stew over couscous and garnish with fresh mint leaves."
       ],
-      "equipments": ["Large Pot", "Chef's Knife", "Serving Bowl"],
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "580", "unit": "kcal" },
-        "carbohydrates": { "value": "65", "unit": "g" },
-        "protein": { "value": "28", "unit": "g" },
-        "fat": { "value": "24", "unit": "g" },
-        "sodium": { "value": "880", "unit": "mg" },
-        "fiber": { "value": "14", "unit": "g" }
+        "calories": {
+          "value": "580",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "24",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "880",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
@@ -278,14 +409,34 @@
         "Season with salt and pepper. Refrigerate for at least 30 minutes to let flavors meld.",
         "Serve chilled with tortilla chips for a delicious Mexican shrimp ceviche."
       ],
-      "equipments": ["Bowl"],
+      "equipments": [
+        "Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "180", "unit": "kcal" },
-        "carbohydrates": { "value": "12", "unit": "g" },
-        "protein": { "value": "15", "unit": "g" },
-        "fat": { "value": "10", "unit": "g" },
-        "sodium": { "value": "300", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "12",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -317,14 +468,36 @@
         "Assemble tacos by placing a portion of the seasoned meat on each tortilla, topping with salsa, and garnishing with additional cilantro and onions.",
         "Serve immediately and enjoy these delicious Mexican street tacos!"
       ],
-      "equipments": ["Skillet", "Bowl", "Pan or Griddle"],
+      "equipments": [
+        "Skillet",
+        "Bowl",
+        "Pan or Griddle"
+      ],
       "nutritionValues": {
-        "calories": { "value": "180", "unit": "kcal" },
-        "carbohydrates": { "value": "12", "unit": "g" },
-        "protein": { "value": "15", "unit": "g" },
-        "fat": { "value": "8", "unit": "g" },
-        "sodium": { "value": "200", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "12",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "200",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -362,14 +535,36 @@
         "Sprinkle raisins over the dish and let them plump in the heat for a few minutes.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipments": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "equipments": [
+        "Large Skillet",
+        "Chef's Knife",
+        "Serving Platter"
+      ],
       "nutritionValues": {
-        "calories": { "value": "480", "unit": "kcal" },
-        "carbohydrates": { "value": "58", "unit": "g" },
-        "protein": { "value": "32", "unit": "g" },
-        "fat": { "value": "12", "unit": "g" },
-        "sodium": { "value": "720", "unit": "mg" },
-        "fiber": { "value": "7", "unit": "g" }
+        "calories": {
+          "value": "480",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "58",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "32",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "720",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "7",
+          "unit": "g"
+        }
       }
     },
     {
@@ -406,14 +601,36 @@
         "Bake for 25-30 minutes or until the phyllo is golden brown and crispy.",
         "Dust with powdered sugar before serving. Allow to cool slightly before slicing and serving."
       ],
-      "equipments": ["Large Skillet", "Pie Dish", "Pastry Brush"],
+      "equipments": [
+        "Large Skillet",
+        "Pie Dish",
+        "Pastry Brush"
+      ],
       "nutritionValues": {
-        "calories": { "value": "420", "unit": "kcal" },
-        "carbohydrates": { "value": "25", "unit": "g" },
-        "protein": { "value": "30", "unit": "g" },
-        "fat": { "value": "22", "unit": "g" },
-        "sodium": { "value": "480", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "22",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "480",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -447,14 +664,36 @@
         "Remove from heat and stir in fresh parsley, fresh cilantro, olive oil, and lemon juice.",
         "Let the Zaalouk cool to room temperature before serving. Serve as a salad or side dish."
       ],
-      "equipments": ["Baking Sheet", "Pan", "Chef's Knife"],
+      "equipments": [
+        "Baking Sheet",
+        "Pan",
+        "Chef's Knife"
+      ],
       "nutritionValues": {
-        "calories": { "value": "120", "unit": "kcal" },
-        "carbohydrates": { "value": "15", "unit": "g" },
-        "protein": { "value": "3", "unit": "g" },
-        "fat": { "value": "7", "unit": "g" },
-        "sodium": { "value": "150", "unit": "mg" },
-        "fiber": { "value": "7", "unit": "g" }
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "3",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "150",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "7",
+          "unit": "g"
+        }
       }
     },
     {
@@ -478,14 +717,34 @@
         "Brush each ear of corn with mayonnaise, then roll in crumbled cotija cheese.",
         "Sprinkle with chili powder and serve with lime wedges for squeezing over the top."
       ],
-      "equipments": ["Grill Brush"],
+      "equipments": [
+        "Grill Brush"
+      ],
       "nutritionValues": {
-        "calories": { "value": "180", "unit": "kcal" },
-        "carbohydrates": { "value": "20", "unit": "g" },
-        "protein": { "value": "5", "unit": "g" },
-        "fat": { "value": "10", "unit": "g" },
-        "sodium": { "value": "250", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "5",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -528,12 +787,30 @@
         "Serving Platter"
       ],
       "nutritionValues": {
-        "calories": { "value": "420", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "28", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "720", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "720",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -571,14 +848,36 @@
         "Stir in fresh cilantro, fresh parsley, olive oil, and lemon juice. Adjust seasoning if needed.",
         "Serve hot and enjoy this comforting Moroccan Harira Soup."
       ],
-      "equipments": ["Large Pot", "Chef's Knife", "Serving Ladle"],
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Serving Ladle"
+      ],
       "nutritionValues": {
-        "calories": { "value": "320", "unit": "kcal" },
-        "carbohydrates": { "value": "48", "unit": "g" },
-        "protein": { "value": "15", "unit": "g" },
-        "fat": { "value": "8", "unit": "g" },
-        "sodium": { "value": "780", "unit": "mg" },
-        "fiber": { "value": "12", "unit": "g" }
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "48",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "780",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "12",
+          "unit": "g"
+        }
       }
     },
     {
@@ -614,14 +913,36 @@
         "In a small bowl, mix Greek yogurt with chopped mint, cilantro, lemon juice, and salt to taste. This will be the dipping sauce for the kebabs.",
         "Serve the Moroccan spiced lamb kebabs hot off the grill with the refreshing yogurt sauce."
       ],
-      "equipments": ["Mixing Bowl", "Grill or Grill Pan", "Wooden Skewers"],
+      "equipments": [
+        "Mixing Bowl",
+        "Grill or Grill Pan",
+        "Wooden Skewers"
+      ],
       "nutritionValues": {
-        "calories": { "value": "420", "unit": "kcal" },
-        "carbohydrates": { "value": "5", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "35", "unit": "g" },
-        "sodium": { "value": "520", "unit": "mg" },
-        "fiber": { "value": "1", "unit": "g" }
+        "calories": {
+          "value": "420",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "5",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "35",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "520",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
@@ -651,14 +972,34 @@
         "Fluff rice with a fork and stir in chopped cilantro. Season with salt to taste.",
         "Serve hot as a delicious and aromatic side dish for your Mexican feast."
       ],
-      "equipments": ["Skillet"],
+      "equipments": [
+        "Skillet"
+      ],
       "nutritionValues": {
-        "calories": { "value": "160", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "3", "unit": "g" },
-        "fat": { "value": "3", "unit": "g" },
-        "sodium": { "value": "400", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "160",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "3",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -689,14 +1030,36 @@
         "Remove the cookies from the oven and let them cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.",
         "Once cooled, dust the Moroccan date and walnut cookies with powdered sugar before serving."
       ],
-      "equipments": ["Mixing Bowl", "Baking Sheet", "Parchment Paper"],
+      "equipments": [
+        "Mixing Bowl",
+        "Baking Sheet",
+        "Parchment Paper"
+      ],
       "nutritionValues": {
-        "calories": { "value": "120", "unit": "kcal" },
-        "carbohydrates": { "value": "14", "unit": "g" },
-        "protein": { "value": "2", "unit": "g" },
-        "fat": { "value": "7", "unit": "g" },
-        "sodium": { "value": "30", "unit": "mg" },
-        "fiber": { "value": "1", "unit": "g" }
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "14",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "2",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "30",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
@@ -724,14 +1087,34 @@
         "Cook quesadillas in a skillet over medium heat until cheese is melted and tortillas are golden brown.",
         "Serve hot, topped with salsa, sour cream, and chopped cilantro."
       ],
-      "equipments": ["Skillet"],
+      "equipments": [
+        "Skillet"
+      ],
       "nutritionValues": {
-        "calories": { "value": "280", "unit": "kcal" },
-        "carbohydrates": { "value": "22", "unit": "g" },
-        "protein": { "value": "18", "unit": "g" },
-        "fat": { "value": "14", "unit": "g" },
-        "sodium": { "value": "350", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "22",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "14",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "350",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -759,14 +1142,36 @@
         "Pour into serving glasses and refrigerate for at least 4 hours or until set.",
         "Top with whipped cream and chocolate shavings before serving."
       ],
-      "equipments": ["Double Boiler", "Electric Mixer", "Serving Glasses"],
+      "equipments": [
+        "Double Boiler",
+        "Electric Mixer",
+        "Serving Glasses"
+      ],
       "nutritionValues": {
-        "calories": { "value": "280", "unit": "kcal" },
-        "carbohydrates": { "value": "20", "unit": "g" },
-        "protein": { "value": "5", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "50", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "5",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "50",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -792,14 +1197,36 @@
         "Garnish each glass with fresh mint leaves and a slice of orange.",
         "Stir before serving to mix the flavors, and enjoy this Moroccan-inspired Orange Blossom Water Cocktail!"
       ],
-      "equipments": ["Pitcher", "Citrus Juicer", "Glasses"],
+      "equipments": [
+        "Pitcher",
+        "Citrus Juicer",
+        "Glasses"
+      ],
       "nutritionValues": {
-        "calories": { "value": "80", "unit": "kcal" },
-        "carbohydrates": { "value": "20", "unit": "g" },
-        "protein": { "value": "1", "unit": "g" },
-        "fat": { "value": "0", "unit": "g" },
-        "sodium": { "value": "5", "unit": "mg" },
-        "fiber": { "value": "1", "unit": "g" }
+        "calories": {
+          "value": "80",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "1",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "1",
+          "unit": "g"
+        }
       }
     },
     {
@@ -833,14 +1260,36 @@
         "Cover and simmer on low heat for 1.5 to 2 hours or until chicken is tender and flavors meld.",
         "Garnish with fresh cilantro before serving. Serve the tagine over couscous or with crusty bread."
       ],
-      "equipments": ["Tagine or Dutch Oven", "Chef's Knife", "Wooden Spoon"],
+      "equipments": [
+        "Tagine or Dutch Oven",
+        "Chef's Knife",
+        "Wooden Spoon"
+      ],
       "nutritionValues": {
-        "calories": { "value": "520", "unit": "kcal" },
-        "carbohydrates": { "value": "35", "unit": "g" },
-        "protein": { "value": "28", "unit": "g" },
-        "fat": { "value": "32", "unit": "g" },
-        "sodium": { "value": "680", "unit": "mg" },
-        "fiber": { "value": "6", "unit": "g" }
+        "calories": {
+          "value": "520",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "28",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "32",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "680",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
       }
     },
     {
@@ -866,14 +1315,35 @@
         "Chill in the refrigerator for at least 1 hour before serving.",
         "Serve as a refreshing side salad for your Mexican-inspired meals."
       ],
-      "equipments": ["Grill", "Large Bowl"],
+      "equipments": [
+        "Grill",
+        "Large Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "220", "unit": "kcal" },
-        "carbohydrates": { "value": "18", "unit": "g" },
-        "protein": { "value": "6", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "250", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "220",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "18",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "6",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -906,14 +1376,35 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with chopped cilantro, and let it cool slightly before serving."
       ],
-      "equipments": ["Baking Dish", "Bowl"],
+      "equipments": [
+        "Baking Dish",
+        "Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "300", "unit": "kcal" },
-        "carbohydrates": { "value": "25", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "450", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "450",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -941,14 +1432,34 @@
         "Toss cooked fettuccine in the Alfredo sauce until well coated. Garnish with fresh parsley.",
         "Serve hot, and enjoy this decadent Chicken Alfredo pasta!"
       ],
-      "equipments": ["Skillet"],
+      "equipments": [
+        "Skillet"
+      ],
       "nutritionValues": {
-        "calories": { "value": "500", "unit": "kcal" },
-        "carbohydrates": { "value": "40", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "28", "unit": "g" },
-        "sodium": { "value": "400", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "500",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "28",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -974,14 +1485,36 @@
         "Optionally, garnish each cup with a sprig of fresh mint.",
         "Enjoy the authentic taste of Moroccan Mint Tea!"
       ],
-      "equipments": ["Teapot", "Tea Strainer", "Cups"],
+      "equipments": [
+        "Teapot",
+        "Tea Strainer",
+        "Cups"
+      ],
       "nutritionValues": {
-        "calories": { "value": "15", "unit": "kcal" },
-        "carbohydrates": { "value": "4", "unit": "g" },
-        "protein": { "value": "0", "unit": "g" },
-        "fat": { "value": "0", "unit": "g" },
-        "sodium": { "value": "5", "unit": "mg" },
-        "fiber": { "value": "0", "unit": "g" }
+        "calories": {
+          "value": "15",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "4",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "0",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "0",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1018,14 +1551,35 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, let it cool slightly, and then slice and serve this delicious Lasagna Bolognese!"
       ],
-      "equipments": ["Large Pot", "Baking Dish"],
+      "equipments": [
+        "Large Pot",
+        "Baking Dish"
+      ],
       "nutritionValues": {
-        "calories": { "value": "450", "unit": "kcal" },
-        "carbohydrates": { "value": "40", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "600", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "450",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1060,14 +1614,35 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with grated Parmesan cheese, and let it cool slightly before serving."
       ],
-      "equipments": ["Large Pot", "Baking Dish"],
+      "equipments": [
+        "Large Pot",
+        "Baking Dish"
+      ],
       "nutritionValues": {
-        "calories": { "value": "450", "unit": "kcal" },
-        "carbohydrates": { "value": "35", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "650", "unit": "mg" },
-        "fiber": { "value": "4", "unit": "g" }
+        "calories": {
+          "value": "450",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "650",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1101,14 +1676,35 @@
         "Using an immersion blender, blend the soup until smooth. Add lemon juice, salt, and pepper to taste.",
         "Serve hot, garnished with chopped fresh parsley."
       ],
-      "equipments": ["Pot", "Immersion Blender"],
+      "equipments": [
+        "Pot",
+        "Immersion Blender"
+      ],
       "nutritionValues": {
-        "calories": { "value": "250", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "12", "unit": "g" },
-        "fat": { "value": "10", "unit": "g" },
-        "sodium": { "value": "700", "unit": "mg" },
-        "fiber": { "value": "8", "unit": "g" }
+        "calories": {
+          "value": "250",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "10",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "8",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1139,14 +1735,36 @@
         "In a pan, melt butter and add red pepper flakes. Drizzle the butter over cooked dumplings.",
         "Serve the dumplings with yogurt and garnish with chopped fresh mint."
       ],
-      "equipments": ["Bowl", "Rolling Pin", "Pan"],
+      "equipments": [
+        "Bowl",
+        "Rolling Pin",
+        "Pan"
+      ],
       "nutritionValues": {
-        "calories": { "value": "350", "unit": "kcal" },
-        "carbohydrates": { "value": "25", "unit": "g" },
-        "protein": { "value": "18", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "400", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "18",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1184,14 +1802,36 @@
         "Stir in fresh cilantro just before serving. Adjust seasoning if needed.",
         "Serve the vegetable tagine over cooked couscous."
       ],
-      "equipments": ["Tagine or Dutch Oven", "Chef's Knife", "Serving Spoon"],
+      "equipments": [
+        "Tagine or Dutch Oven",
+        "Chef's Knife",
+        "Serving Spoon"
+      ],
       "nutritionValues": {
-        "calories": { "value": "320", "unit": "kcal" },
-        "carbohydrates": { "value": "65", "unit": "g" },
-        "protein": { "value": "12", "unit": "g" },
-        "fat": { "value": "3", "unit": "g" },
-        "sodium": { "value": "680", "unit": "mg" },
-        "fiber": { "value": "14", "unit": "g" }
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "65",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "3",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "680",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "14",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1219,14 +1859,35 @@
         "Let it cool and set for several hours or overnight.",
         "Cut into small cubes and dust with powdered sugar before serving."
       ],
-      "equipments": ["Saucepan", "Mold"],
+      "equipments": [
+        "Saucepan",
+        "Mold"
+      ],
       "nutritionValues": {
-        "calories": { "value": "80", "unit": "kcal" },
-        "carbohydrates": { "value": "20", "unit": "g" },
-        "protein": { "value": "0", "unit": "g" },
-        "fat": { "value": "0", "unit": "g" },
-        "sodium": { "value": "5", "unit": "mg" },
-        "fiber": { "value": "0", "unit": "g" }
+        "calories": {
+          "value": "80",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "0",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "0",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "0",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1255,14 +1916,35 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, garnish with fresh basil leaves, and let it cool slightly before serving."
       ],
-      "equipments": ["Baking Sheet", "Baking Dish"],
+      "equipments": [
+        "Baking Sheet",
+        "Baking Dish"
+      ],
       "nutritionValues": {
-        "calories": { "value": "300", "unit": "kcal" },
-        "carbohydrates": { "value": "35", "unit": "g" },
-        "protein": { "value": "15", "unit": "g" },
-        "fat": { "value": "12", "unit": "g" },
-        "sodium": { "value": "700", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1289,14 +1971,34 @@
         "Bake in the preheated oven until the crust is golden and the cheese is melted and bubbly.",
         "Slice and enjoy this classic Margherita pizza!"
       ],
-      "equipments": ["Pizza Stone or Baking Sheet"],
+      "equipments": [
+        "Pizza Stone or Baking Sheet"
+      ],
       "nutritionValues": {
-        "calories": { "value": "300", "unit": "kcal" },
-        "carbohydrates": { "value": "35", "unit": "g" },
-        "protein": { "value": "15", "unit": "g" },
-        "fat": { "value": "12", "unit": "g" },
-        "sodium": { "value": "500", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "15",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "12",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "500",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1334,14 +2036,36 @@
         "Pour vegetable broth over the ingredients and bring to a simmer. Cover and cook for 25-30 minutes or until vegetables are tender.",
         "Adjust seasoning if needed. Serve hot, and enjoy the rich flavors of this Moroccan Chickpea Stew."
       ],
-      "equipments": ["Large Pot", "Chef's Knife", "Wooden Spoon"],
+      "equipments": [
+        "Large Pot",
+        "Chef's Knife",
+        "Wooden Spoon"
+      ],
       "nutritionValues": {
-        "calories": { "value": "380", "unit": "kcal" },
-        "carbohydrates": { "value": "68", "unit": "g" },
-        "protein": { "value": "14", "unit": "g" },
-        "fat": { "value": "8", "unit": "g" },
-        "sodium": { "value": "860", "unit": "mg" },
-        "fiber": { "value": "15", "unit": "g" }
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "68",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "14",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "860",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "15",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1373,14 +2097,35 @@
         "Arrange the stuffed mussels in a steamer basket and steam for about 20-25 minutes or until the rice is cooked.",
         "Sprinkle with chopped fresh parsley and serve with lemon wedges."
       ],
-      "equipments": ["Pan", "Steamer Basket"],
+      "equipments": [
+        "Pan",
+        "Steamer Basket"
+      ],
       "nutritionValues": {
-        "calories": { "value": "180", "unit": "kcal" },
-        "carbohydrates": { "value": "25", "unit": "g" },
-        "protein": { "value": "8", "unit": "g" },
-        "fat": { "value": "7", "unit": "g" },
-        "sodium": { "value": "250", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "25",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "8",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "7",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "250",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1411,14 +2156,35 @@
         "Garnish with chopped fresh mint and pomegranate seeds.",
         "Serve Ali Nazik Kebab with flatbread or pita."
       ],
-      "equipments": ["Grill", "Bowl"],
+      "equipments": [
+        "Grill",
+        "Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "280", "unit": "kcal" },
-        "carbohydrates": { "value": "15", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "350", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "280",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "350",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1448,14 +2214,34 @@
         "Season with salt and pepper to taste. Garnish with chopped fresh parsley.",
         "Serve the Kumpir hot as a flavorful baked potato."
       ],
-      "equipments": ["Oven"],
+      "equipments": [
+        "Oven"
+      ],
       "nutritionValues": {
-        "calories": { "value": "300", "unit": "kcal" },
-        "carbohydrates": { "value": "35", "unit": "g" },
-        "protein": { "value": "7", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "200", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "35",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "7",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "200",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1492,14 +2278,35 @@
         "Add the cooked chicken back to the pan along with peanuts and the sauce mixture. Stir-fry until everything is well-coated and heated through.",
         "Garnish with chopped green onions and serve the Kung Pao Chicken over rice."
       ],
-      "equipments": ["Wok", "Pan"],
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
       "nutritionValues": {
-        "calories": { "value": "350", "unit": "kcal" },
-        "carbohydrates": { "value": "18", "unit": "g" },
-        "protein": { "value": "30", "unit": "g" },
-        "fat": { "value": "20", "unit": "g" },
-        "sodium": { "value": "600", "unit": "mg" },
-        "fiber": { "value": "4", "unit": "g" }
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "18",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "20",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1529,14 +2336,35 @@
         "Grill the skewers over medium-high heat until the meat is cooked to your liking.",
         "Serve the Şiş Kebab with flatbread and garnish with chopped fresh parsley."
       ],
-      "equipments": ["Grill", "Bowl"],
+      "equipments": [
+        "Grill",
+        "Bowl"
+      ],
       "nutritionValues": {
-        "calories": { "value": "250", "unit": "kcal" },
-        "carbohydrates": { "value": "5", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "16", "unit": "g" },
-        "sodium": { "value": "300", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "250",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "5",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "16",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "300",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1569,14 +2397,35 @@
         "Pour in chicken or vegetable broth. Simmer for 10-15 minutes until the sauce thickens.",
         "Garnish with sliced green onions and serve Sichuan Mapo Tofu hot over cooked white rice."
       ],
-      "equipments": ["Wok", "Pan"],
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
       "nutritionValues": {
-        "calories": { "value": "300", "unit": "kcal" },
-        "carbohydrates": { "value": "15", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "18", "unit": "g" },
-        "sodium": { "value": "700", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "300",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "700",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1610,14 +2459,35 @@
         "Add the fried chicken to the pan, pour the sauce over, and toss until the chicken is coated and the sauce thickens.",
         "Garnish with toasted sesame seeds and serve the General Tso's Chicken over rice."
       ],
-      "equipments": ["Pan", "Deep Fryer"],
+      "equipments": [
+        "Pan",
+        "Deep Fryer"
+      ],
       "nutritionValues": {
-        "calories": { "value": "380", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "18", "unit": "g" },
-        "sodium": { "value": "600", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1649,14 +2519,35 @@
         "Arrange the dumplings in a steamer basket and steam for about 15-20 minutes or until cooked through.",
         "Serve the Dim Sum with soy sauce and chili oil for dipping."
       ],
-      "equipments": ["Bowl", "Steamer Basket"],
+      "equipments": [
+        "Bowl",
+        "Steamer Basket"
+      ],
       "nutritionValues": {
-        "calories": { "value": "180", "unit": "kcal" },
-        "carbohydrates": { "value": "15", "unit": "g" },
-        "protein": { "value": "12", "unit": "g" },
-        "fat": { "value": "8", "unit": "g" },
-        "sodium": { "value": "400", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "180",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "15",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "12",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "8",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "400",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1686,14 +2577,34 @@
         "Let the duck rest for 15 minutes before carving.",
         "Serve Peking Duck with thin Chinese pancakes, hoisin sauce, julienned cucumber, and sliced scallions."
       ],
-      "equipments": ["Oven"],
+      "equipments": [
+        "Oven"
+      ],
       "nutritionValues": {
-        "calories": { "value": "400", "unit": "kcal" },
-        "carbohydrates": { "value": "10", "unit": "g" },
-        "protein": { "value": "30", "unit": "g" },
-        "fat": { "value": "25", "unit": "g" },
-        "sodium": { "value": "800", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "400",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "10",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "30",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "25",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1726,14 +2637,36 @@
         "Return the crispy beef to the pan and toss until well-coated in the sauce.",
         "Serve Mongolian Beef over cooked white rice."
       ],
-      "equipments": ["Wok", "Pan", "Deep Fryer"],
+      "equipments": [
+        "Wok",
+        "Pan",
+        "Deep Fryer"
+      ],
       "nutritionValues": {
-        "calories": { "value": "400", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "18", "unit": "g" },
-        "sodium": { "value": "800", "unit": "mg" },
-        "fiber": { "value": "3", "unit": "g" }
+        "calories": {
+          "value": "400",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "3",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1741,8 +2674,8 @@
       "title": "CHICKEN AND BROCCOLI STIR-FRY",
       "description": "A quick and flavorful Chinese stir-fry featuring tender chicken, crisp broccoli, and a savory soy-based sauce.",
       "imageUrl": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "rating": 4.8,
-      "thumbnail": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=400",
+      "rating": 4,
+      "thumbnail": "https://images.unsplash.com/photo-1512003867696-6d5ce6835040?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w0Njc4ODF8MHwxfHNlYXJjaHwxfHxDSElDS0VOJTIwQU5EJTIwQlJPQ0NPTEklMjBTVElSLUZSWXxlbnwwfDB8fHwxNzAzODUwNTQ3fDA&ixlib=rb-4.0.3&q=80&w=1080",
       "category": "Chinese",
       "ingredients": [
         "500g boneless, skinless chicken breast, thinly sliced",
@@ -1767,14 +2700,35 @@
         "Return the cooked chicken to the pan and pour the sauce over. Stir-fry until everything is well-coated and heated through.",
         "Serve the Chicken and Broccoli Stir-Fry over cooked white rice."
       ],
-      "equipments": ["Wok", "Pan"],
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
       "nutritionValues": {
-        "calories": { "value": "320", "unit": "kcal" },
-        "carbohydrates": { "value": "20", "unit": "g" },
-        "protein": { "value": "25", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "800", "unit": "mg" },
-        "fiber": { "value": "5", "unit": "g" }
+        "calories": {
+          "value": "320",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "20",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "25",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "5",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1806,14 +2760,35 @@
         "Add the crispy fried pork to the pan and toss until well-coated in the sweet and sour sauce.",
         "Serve Sweet and Sour Pork over cooked white rice."
       ],
-      "equipments": ["Pan", "Deep Fryer"],
+      "equipments": [
+        "Pan",
+        "Deep Fryer"
+      ],
       "nutritionValues": {
-        "calories": { "value": "380", "unit": "kcal" },
-        "carbohydrates": { "value": "30", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "18", "unit": "g" },
-        "sodium": { "value": "600", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "380",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "30",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "18",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "600",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1847,14 +2822,35 @@
         "Return the cooked shrimp and chicken to the pan. Stir-fry until heated through.",
         "Garnish with chopped green onions and serve the Hong Kong Style Noodles hot."
       ],
-      "equipments": ["Wok", "Pan"],
+      "equipments": [
+        "Wok",
+        "Pan"
+      ],
       "nutritionValues": {
-        "calories": { "value": "350", "unit": "kcal" },
-        "carbohydrates": { "value": "40", "unit": "g" },
-        "protein": { "value": "20", "unit": "g" },
-        "fat": { "value": "15", "unit": "g" },
-        "sodium": { "value": "800", "unit": "mg" },
-        "fiber": { "value": "4", "unit": "g" }
+        "calories": {
+          "value": "350",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "40",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "20",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "15",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "800",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "4",
+          "unit": "g"
+        }
       }
     },
     {
@@ -1886,15 +2882,219 @@
         "Slowly pour beaten eggs into the soup, stirring gently to create ribbons of egg.",
         "Garnish with chopped green onions and serve the Hot and Sour Soup hot."
       ],
-      "equipments": ["Pot"],
+      "equipments": [
+        "Pot"
+      ],
       "nutritionValues": {
-        "calories": { "value": "120", "unit": "kcal" },
-        "carbohydrates": { "value": "10", "unit": "g" },
-        "protein": { "value": "8", "unit": "g" },
-        "fat": { "value": "6", "unit": "g" },
-        "sodium": { "value": "500", "unit": "mg" },
-        "fiber": { "value": "2", "unit": "g" }
+        "calories": {
+          "value": "120",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "10",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "8",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "6",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "500",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "2",
+          "unit": "g"
+        }
       }
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204567/recipes_images/Screenshot_2022.06.04_21.08.33.432_ejrmkv.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204567/recipes_images/Screenshot_2022.06.04_21.08.33.432_ejrmkv.png",
+      "title": "Pastila wa3ra",
+      "rating": 5,
+      "description": "best dish ever best dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish everbest dish ever",
+      "ingredients": [
+        "chicken",
+        "sugar",
+        "honey",
+        "eggs"
+      ],
+      "instructions": [
+        "follow the instructions",
+        "follow your heart"
+      ],
+      "equipments": [
+        "your hands",
+        "an oven"
+      ],
+      "category": "Moroccan",
+      "nutritionValues": {
+        "calories": {
+          "value": "999",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "99",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "99",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "99",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "45",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "45",
+          "unit": "g"
+        }
+      },
+      "id": 64
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204105/recipes_images/1703465910680_ee1jpl.gif",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204105/recipes_images/1703465910680_ee1jpl.gif",
+      "title": "eeeeeeeeeeeeeeeeeeeeeeeeeee",
+      "rating": 3,
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 65
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204303/recipes_images/Screenshot_2022.06.04_21.08.30.632_lytudg.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204303/recipes_images/Screenshot_2022.06.04_21.08.30.632_lytudg.png",
+      "title": "dsfdsfdsf",
+      "rating": "3",
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 66
+    },
+    {
+      "imageUrl": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204370/recipes_images/Screenshot_2022.06.04_21.08.30.632_qb1lty.png",
+      "thumbnail": "https://res.cloudinary.com/dj0fgbobx/image/upload/v1704204370/recipes_images/Screenshot_2022.06.04_21.08.30.632_qb1lty.png",
+      "title": "dsfdsfdsf",
+      "rating": "3",
+      "description": "fdsfdsfsdfds",
+      "ingredients": [
+        "fdsf",
+        "fsd"
+      ],
+      "instructions": [
+        "fsdfs"
+      ],
+      "equipments": [
+        "fsfs"
+      ],
+      "category": "Italian",
+      "nutritionValues": {
+        "calories": {
+          "value": "122",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": 0,
+          "unit": "g"
+        },
+        "protein": {
+          "value": 0,
+          "unit": "g"
+        },
+        "fat": {
+          "value": 0,
+          "unit": "g"
+        },
+        "sodium": {
+          "value": 0,
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": 0,
+          "unit": "g"
+        }
+      },
+      "id": 67
     }
   ]
 }

@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { logoImage } from '../assets';
 import { RxHamburgerMenu } from 'react-icons/rx';
 import { IoMdClose } from 'react-icons/io';
@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className=" bg-customGreen relative ">
       <div className="container flex flex-row p-4 items-center justify-between    ">
         {/* logo */}
-        <div className="flex flex-col justify-center items-center gap-y-2">
+        <div className="flex flex-row justify-center items-center gap-y-2">
           <div className="h-[40px] w-[40px] hidden md:block">
             <img
               src={logoImage}
@@ -23,10 +23,12 @@ const Navbar = () => {
               className="w-full h-full  object-contain"
             />
           </div>
-          <p className="text-white uppercase text-xl ">
-            Open <span className="font-extrabold">Recipes</span>
+          <p className="text-white uppercase text-xl md:flex md:flex-col gap-[-1px] md:ml-2">
+            <span className="p-0 md:mb-[-8px]">Open</span>
+            <span className="font-extrabold p-0">Recipes</span>
           </p>
         </div>
+
         {/* mobile nav */}
         <div className="sm:hidden  ">
           <button onClick={toggleMenu}>
@@ -34,7 +36,7 @@ const Navbar = () => {
           </button>
 
           <div
-            className={`fixed top-0 left-0 animate    h-full w-full ${
+            className={`fixed top-0 left-0 animate z-50    h-full w-full ${
               isOpen ? 'translate-x-0' : 'translate-x-[-100%]'
             } `}
           >
@@ -75,7 +77,7 @@ const Navbar = () => {
               <Link to={'/about'}>About</Link>
             </li>
             <li>
-              <Link to={'/recipe'}>Recipes</Link>
+              <Link to={'/recipes'}>Recipes</Link>
             </li>
           </ul>
         </nav>
