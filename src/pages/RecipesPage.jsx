@@ -8,19 +8,34 @@ import { Link } from 'react-router-dom';
 const RecipesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [recipes, setRecipes] = useState([]);
+  // / Assuming categories is an array of objects with id, name, and recipes properties.
+  const [categories, setCategories] = useState([]);
 
-  useEffect(() => {
-    const  fetchData = async () => {
-      const data = await getRecipes();
-      // console.log(data);
-      setRecipes(data);
-    };
-    fetchData();
-  }, []);
+useEffect(() => {
+  const uniqueCategories = [...new Set(recipes.map((recipe) => recipe.category))];
+  const updatedCategories = uniqueCategories.map((categoryName, index) => ({
+    id: index + 1,
+    name: categoryName,
+    recipes: recipes.filter((recipe) => recipe.category === categoryName),
+  }));
+  setCategories(updatedCategories);
+}, [recipes]);
 
-  const categories = [...new Set(recipes.map((recipe) => recipe.category))];
+useEffect(() => {
+  const  fetchData = async () => {
+    const data = await getRecipes();
+    // console.log(data);
+    setRecipes(data);
+  };
+  fetchData();
+},[]);
 
+  const filterRecipes = selectedCategory === null ? recipes : recipes.filter(recipe => recipe.category === selectedCategory);
+
+  console.log('All Categories:', categories);
+  
   const handleCategoryClick = (category) => {
+    console.log('Selected Category:', selectedCategory);
     setSelectedCategory(category);
   };
 return (
@@ -50,16 +65,15 @@ return (
                   <h3 className='text-customBlack font-extrabold	text-2xl my-4'>Recipes Categories</h3>
             </div>
             <ul className='mt-2'>
-              {categories.map((category,index) => (
-
-              <li className=''key={index} onClick={() => handleCategoryClick(category)}>
-                <a href="#" className="text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
-                  <p className="">{category}</p>
-                  <p className="">({category.length})</p>
-                </a>
-              </li>
+              {categories.map((category) => (
+                <li key={category.id} onClick={() => handleCategoryClick(category)}>
+                  <p className="text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
+                    <span className="">{category.name}</span>
+                    <span className="">({category.recipes.length})</span>
+                  </p>
+                </li>
               ))}
-       
+            </ul>
           <div className="mt-11">
             <h5 className="text-customBlack font-extrabold	text-2xl my-4">Best Recipes</h5>
           </div>
@@ -73,7 +87,6 @@ return (
               {/* <button className="mt-2 bg-transparent border w-4/5 hover:bg-customYellow  text-white py-2 px-4 rounded-2xl">Discover Now</button> */}
             </div>
           </div>
-            </ul>
             </div>
             {/* END FILTER SIDEBAR  Section*/}
 
@@ -94,7 +107,10 @@ return (
               <div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-16'>
                   {/* recipes Cards  */}
-                    {recipes.filter((recipe) => recipe.category === selectedCategory).map((recipe,index) => (
+                    {/* {recipes.filter((recipe) => recipe.category === selectedCategory).map((recipe,index) => (
+                      
+                    ))} */}
+                    {filterRecipes.map((recipe,index) => (
                       <div key={index} className='p-2 rounded-2xl border-borderColorCard border max-h-max  flex gap-3 flex-col justify-center'>
                       <img  className='w-full h-3/6 rounded-2xl'
                       src={recipe.imageUrl} alt="" />
@@ -106,6 +122,9 @@ return (
                         </div>
                       </div>
                     ))}
+                    
+                      {/*  */}
+                   
                 </div>
               </div>
             </main>
