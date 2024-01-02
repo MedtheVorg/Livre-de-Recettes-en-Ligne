@@ -8,7 +8,7 @@ import { getRecipeById, updateRecipeById } from '../../server/apiMethods';
 import Spinner from '../components/Spinner';
 import { toast } from 'react-toastify';
 import { useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useNavigate, useParams } from 'react-router-dom';
 import { v4 as uuidGenerator } from 'uuid';
 
 const RecipeUpdatePage = () => {
@@ -52,6 +52,7 @@ const RecipeUpdatePage = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   const params = useParams();
+  const navigate = useNavigate();
 
   async function updateRecipe(eventObject) {
     eventObject.preventDefault();
@@ -164,10 +165,9 @@ const RecipeUpdatePage = () => {
 
       try {
         const fetchedRecipe = await getRecipeById(recipeId);
-        console.log('fetchedRecipe : ', fetchedRecipe);
-
-        if (fetchedRecipe == null) {
-          toast.error('Error occurred while fetching recipe data');
+        if (Object.keys(fetchRecipe).length == 0) {
+          // toast.error('Error occurred while fetching recipe data');
+          navigate('/');
           return;
         } else {
           setDisplayedImage(fetchedRecipe.imageUrl);
