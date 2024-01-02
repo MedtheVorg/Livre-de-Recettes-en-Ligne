@@ -26,17 +26,20 @@ const pageTransition = {
   duration: 0.5,
   ease: 'easeInOut',
 };
-const Animate = ({ children }) => {
-  return (
-    <motion.div
-      variants={pageVariants}
-      initial="start"
-      animate="finish"
-      exit="exit"
-      transition={pageTransition}
-    >
-      {children}
-    </motion.div>
-  );
+const withAnimation = (WrappedComponent) => {
+  const NewComponent = (props) => {
+    return (
+      <motion.div
+        variants={pageVariants}
+        initial="start"
+        animate="finish"
+        exit="exit"
+        transition={pageTransition}
+      >
+        <WrappedComponent {...props} />
+      </motion.div>
+    );
+  };
+  return NewComponent;
 };
-export default Animate;
+export default withAnimation;
