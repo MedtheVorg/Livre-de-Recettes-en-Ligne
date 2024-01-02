@@ -1,5 +1,5 @@
 import ErrorPage from "./ErrorPage";
-import RecipieAddPage from "./RecipieAddPage";
-import RecipiePage from "./RecipiePage";
-
-export { ErrorPage, RecipieAddPage ,RecipiePage};
+import RecipeAddPage from "./RecipeAddPage";
+import RecipePage from "./RecipePage";
+import RecipesPage from "../pages/RecipesPage";
+export { ErrorPage, RecipeAddPage, RecipePage, RecipesPage };
