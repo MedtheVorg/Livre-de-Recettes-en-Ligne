@@ -1,11 +1,17 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ItemsList } from '../components';
-import { uploadImageToCloudinary } from '../utils/cloudinaryConfig';
-import { createRecipe } from '../../server/apiMethods';
+import {
+  removeImageFromCloudinary,
+  uploadImageToCloudinary,
+} from '../utils/cloudinaryConfig';
+import { getRecipeById, updateRecipeById } from '../../server/apiMethods';
 import Spinner from '../components/Spinner';
 import { toast } from 'react-toastify';
+import { useEffect } from 'react';
+import { useParams } from 'react-router-dom';
+import { v4 as uuidGenerator } from 'uuid';
 
-const RecipeAddPage = () => {
+const RecipeUpdatePage = () => {
   const [recipeImage, setRecipeImage] = useState(null);
   const [displayedImage, setDisplayedImage] = useState(null);
   const [title, setTitle] = useState('');
@@ -14,7 +20,7 @@ const RecipeAddPage = () => {
   const [category, setCategory] = useState(null);
   const [ingredients, setIngredients] = useState([]);
   const [instructions, setInstructions] = useState([]);
-  const [equipments, setEquipements] = useState([]);
+  const [equipments, setEquipments] = useState([]);
   const [nutritionValues, setNutritionValues] = useState({
     calories: {
       value: 0,
@@ -43,8 +49,11 @@ const RecipeAddPage = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [isLoading, setIsLoading] = useState(true);
 
-  async function uploadRecipe(eventObject) {
+  const params = useParams();
+
+  async function updateRecipe(eventObject) {
     eventObject.preventDefault();
     setIsSubmitting(true);
     if (
@@ -62,35 +71,69 @@ const RecipeAddPage = () => {
       return;
     }
     try {
-      const uploadedImageUrl = await uploadImageToCloudinary(recipeImage);
-      if (uploadedImageUrl == null) {
-        throw new Error('Error occured while  uploading image to cloudinary');
-      } else {
-        const newRecipe = {
-          imageUrl: uploadedImageUrl,
-          thumbnail: uploadedImageUrl,
-          title: title,
-          rating: rating,
-          description: description,
-          ingredients: ingredients.map((ingredient) => ingredient.text),
-          instructions: instructions.map((intstruction) => intstruction.text),
-          equipments: equipments.map((equipement) => equipement.text),
-          category: category,
-          nutritionValues: {
-            calories: nutritionValues.calories,
-            carbohydrates: nutritionValues.carbohydrates,
-            protein: nutritionValues.protein,
-            fat: nutritionValues.fat,
-            sodium: nutritionValues.sodium,
-            fiber: nutritionValues.fiber,
-          },
-        };
-        const responseData = await createRecipe(newRecipe);
-        if (responseData !== null) {
-          toast.success('recipe Created');
+      let uploadedImageUrl;
+      if (recipeImage !== null) {
+        // we have a new uploaded Image
+        uploadedImageUrl = await uploadImageToCloudinary(recipeImage);
+        if (uploadedImageUrl == null) {
+          throw new Error(
+            'Error occurred while  uploading image to cloudinary'
+          );
         } else {
-          toast.error('something went wrong');
+          // delete the old image
+          const publicId = new URL(displayedImage).pathname.split('/')[4];
+          const isDeleted = await removeImageFromCloudinary(
+            'recipes_images/1703465910680_ee1jpl.gif'
+          );
         }
+      }
+
+      const updatedRecipe = {
+        imageUrl: uploadedImageUrl || displayedImage,
+        thumbnail: uploadedImageUrl || displayedImage,
+        title: title,
+        rating: rating,
+        description: description,
+        ingredients: ingredients.map((ingredient) => ingredient.text),
+        instructions: instructions.map((instruction) => instruction.text),
+        equipments: equipments.map((equipment) => equipment.text),
+        category: category,
+        nutritionValues: {
+          calories: {
+            value: nutritionValues.calories.value,
+            unit: nutritionValues.calories.unit,
+          },
+          carbohydrates: {
+            value: nutritionValues.carbohydrates.value,
+            unit: nutritionValues.carbohydrates.unit,
+          },
+          protein: {
+            value: nutritionValues.protein.value,
+            unit: nutritionValues.protein.unit,
+          },
+          fat: {
+            value: nutritionValues.fat.value,
+            unit: nutritionValues.fat.unit,
+          },
+          sodium: {
+            value: nutritionValues.sodium.value,
+            unit: nutritionValues.sodium.unit,
+          },
+          fiber: {
+            value: nutritionValues.fiber.value,
+            unit: nutritionValues.fiber.unit,
+          },
+        },
+      };
+      const responseData = await updateRecipeById(
+        params.recipeId,
+        updatedRecipe
+      );
+
+      if (responseData !== null) {
+        toast.success('recipe updated Successfully');
+      } else {
+        toast.error('Error occurred while updating the recipe');
       }
     } catch (error) {
       toast.error(error.message);
@@ -114,14 +157,64 @@ const RecipeAddPage = () => {
     };
   }
 
+  useEffect(() => {
+    // fetch recipe corresponding  to Id
+    async function fetchRecipe() {
+      const { recipeId } = params;
+
+      try {
+        const fetchedRecipe = await getRecipeById(recipeId);
+        console.log('fetchedRecipe : ', fetchedRecipe);
+
+        if (fetchedRecipe == null) {
+          toast.error('Error occurred while fetching recipe data');
+          return;
+        } else {
+          setDisplayedImage(fetchedRecipe.imageUrl);
+          setTitle(fetchedRecipe.title);
+          setRating(Math.floor(fetchedRecipe.rating));
+          setDescription(fetchedRecipe.description);
+          setCategory(fetchedRecipe.category);
+          setIngredients(
+            fetchedRecipe.ingredients.map((item) => {
+              return { id: uuidGenerator(), text: item };
+            })
+          );
+          setInstructions(
+            fetchedRecipe.instructions.map((item) => {
+              return { id: uuidGenerator(), text: item };
+            })
+          );
+          setEquipments(
+            fetchedRecipe.equipments.map((item) => {
+              return { id: uuidGenerator(), text: item };
+            })
+          );
+          setNutritionValues(fetchedRecipe.nutritionValues);
+
+          setIsLoading(false);
+        }
+      } catch (error) {
+        toast.error(error.message);
+        console.error(error.message);
+      }
+    }
+
+    fetchRecipe();
+  }, []);
+
   return (
-    <section className="container  h-full p-2 md:p-0  ">
-      <div className="md:mt-6 border-2 border-customBorderColor p-6 max-w-screen-2xl mx-auto rounded-[20px] flex flex-col gap-y-4 bg-white">
+    <section className="container  h-full p-2 md:p-16  ">
+      <div
+        className={`md:mt-6 border-2 border-customBorderColor p-6 max-w-screen-2xl mx-auto rounded-[20px] flex flex-col gap-y-4 bg-white relative ${
+          isLoading ? 'animate-pulse ' : ''
+        }`}
+      >
         <h1
           className="text-4xl capitalize font-semibold text-left
            lg:text-6xl text-customGreen mb-8 p-2"
         >
-          <span className="text-customYellow">new</span> Recipe.
+          <span className="text-customYellow">Update </span> Recipe.
         </h1>
 
         {/* image */}
@@ -150,7 +243,7 @@ const RecipeAddPage = () => {
 
           <input
             required
-            disabled={isSubmitting}
+            disabled={isSubmitting || isLoading}
             type="file"
             accept="image/*"
             className=" file:bg-customGreen file:text-white file:mt-4 file:rounded-full file:p-3  file:uppercase file:text-sm file:font-semibold file:duration-200 file:hover:text-customBlack file:hover:bg-customYellow file:border-none file:cursor-pointer file:mr-6 
@@ -169,7 +262,7 @@ const RecipeAddPage = () => {
           <label className="capitalize text-xl font-semibold">title :</label>
           <input
             required
-            disabled={isSubmitting}
+            disabled={isSubmitting || isLoading}
             type="text"
             className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack
             disabled:bg-customBorderColor
@@ -184,28 +277,28 @@ const RecipeAddPage = () => {
           />
         </div>
 
+        {/*rating  */}
         <hr className="w-1/2 mx-auto my-4" />
-
         <div className="grid grid-cols-2 gap-x-4">
-          {/*rating  */}
           <div className="flex flex-col gap-y-4">
             <label className="capitalize text-xl font-semibold">rating :</label>
             <select
-              disabled={isSubmitting}
+              disabled={isSubmitting || isLoading}
               className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack cursor-pointer text-xl font-bold *:
             disabled:bg-customBorderColor
             disabled:placeholder:text-gray-400
             disabled:cursor-not-allowed
             "
+              value={rating}
               onChange={(eventObject) => {
                 setRating(eventObject.target.value);
               }}
             >
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+              <option value={1}>1</option>
+              <option value={2}>2</option>
+              <option value={3}>3</option>
+              <option value={4}>4</option>
+              <option value={5}>5</option>
             </select>
           </div>
           {/*category  */}
@@ -214,10 +307,11 @@ const RecipeAddPage = () => {
               category :
             </label>
             <select
-              disabled={isSubmitting}
+              disabled={isSubmitting || isLoading}
               className="bg-customLightGray p-4  transition-all duration-200 ease-in-out  border-2 border-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack cursor-pointer text-xl font-bold disabled:bg-customBorderColor
             disabled:placeholder:text-gray-400
             disabled:cursor-not-allowed container"
+              value={category}
               onChange={(eventObject) => {
                 setCategory(eventObject.target.value);
               }}
@@ -238,7 +332,7 @@ const RecipeAddPage = () => {
             description :{' '}
           </label>
           <textarea
-            disabled={isSubmitting}
+            disabled={isSubmitting || isLoading}
             value={description}
             onChange={(eventObject) => {
               setDescription(eventObject.target.value);
@@ -256,6 +350,7 @@ const RecipeAddPage = () => {
           setItemsList={setIngredients}
           label={'ingredients'}
           placeholder={'ingredient'}
+          isLoading={isLoading}
         />
 
         {/* instructions */}
@@ -265,25 +360,27 @@ const RecipeAddPage = () => {
           setItemsList={setInstructions}
           label={'instructions'}
           placeholder={'instruction'}
+          isLoading={isLoading}
         />
         {/* instructions */}
         <ItemsList
           isSubmitting={isSubmitting}
           itemsList={equipments}
-          setItemsList={setEquipements}
+          setItemsList={setEquipments}
           label={'equipments'}
           placeholder={'equipement'}
+          isLoading={isLoading}
         />
 
-        {/* nutritionValues */}
+        {/* NutritionValues */}
         <hr className="w-1/2 mx-auto my-4" />
         <p className="capitalize text-xl font-semibold text-center mb-4 md:text-2xl ">
           nutritionValues
         </p>
         <div className="grid grid-cols-2 gap-8">
-          {Object.entries(nutritionValues).map((nutrition, idx) => {
-            const nutritionName = nutrition[0];
-            const { value, unit } = nutrition[1];
+          {Object.entries(nutritionValues).map((nutritionValue, idx) => {
+            const nutritionName = nutritionValue[0];
+            const { value, unit } = nutritionValue[1];
             return (
               <div className="flex flex-col gap-y-4" key={idx}>
                 <label className="capitalize font-semibold">
@@ -292,7 +389,7 @@ const RecipeAddPage = () => {
                 <div className="flex flex-row  items-center   border-2 border-customBorderColor">
                   <input
                     required
-                    disabled={isSubmitting}
+                    disabled={isSubmitting || isLoading}
                     type="number"
                     name={nutritionName}
                     className=" grow p-4  transition-all duration-200 ease-in-out  border-2 border-transparent bg-transparent  focus:rounded-xl focus-within:border-customBorderColor placeholder:text-customBlack w-full border-r-2 border-r-customBorderColor
@@ -328,8 +425,8 @@ const RecipeAddPage = () => {
         </div>
 
         <button
-          disabled={isSubmitting}
-          onClick={uploadRecipe}
+          disabled={isSubmitting || isLoading}
+          onClick={updateRecipe}
           className="bg-customGreen text-white  rounded-full p-4 uppercase text-sm font-semibold  animate hover:text-customBlack hover:bg-customYellow tracking-wider
           disabled:bg-gray-500
             disabled:text-gray-400
@@ -337,11 +434,11 @@ const RecipeAddPage = () => {
             mt-8
           "
         >
-          {isSubmitting ? <Spinner /> : 'upload'}
+          {isSubmitting ? <Spinner /> : 'update'}
         </button>
       </div>
     </section>
   );
 };
 
-export default RecipeAddPage;
+export default RecipeUpdatePage;
