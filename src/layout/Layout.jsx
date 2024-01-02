@@ -4,7 +4,9 @@ import { ErrorPage, RecipeAddPage, RecipePage, RecipesPage } from '../pages';
 import { AnimatePresence } from 'framer-motion';
 import withAnimation from '../components/withAnimation';
 import RecipeUpdatePage from '../pages/RecipeUpdatePage';
+import HomePage from '../pages/HomePage';
 
+const HomePageWA = withAnimation(HomePage);
 const RecipePageWA = withAnimation(RecipePage);
 const RecipeAddPageWA = withAnimation(RecipeAddPage);
 const RecipeUpdatePageWA = withAnimation(RecipeUpdatePage);
@@ -21,6 +23,7 @@ const Layout = () => {
       <main className="grow bg-customLightGray overflow-hidden ">
         <AnimatePresence initial={false} mode="wait">
           <Routes location={location} key={location.pathname}>
+            <Route path="/" element={<HomePageWA />} />
             <Route path="/recipe/:recipeId" element={<RecipePageWA />} />
             <Route path="/recipe/add" element={<RecipeAddPageWA />} />
             <Route
