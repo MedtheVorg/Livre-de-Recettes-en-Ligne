@@ -33,7 +33,7 @@
         "Stir in lemon juice and season with salt and pepper to taste.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Ladle"],
+      "equipments": ["Large Pot", "Chef's Knife", "Ladle"],
       "nutrition": {
         "calories": "280 kcal",
         "carbohydrates": "48 g",
@@ -74,7 +74,7 @@
         "Prepare couscous according to package instructions.",
         "Serve the vegetable tagine over a bed of couscous. Garnish with fresh parsley."
       ],
-      "equipement": ["Large Pan", "Cooking Pot", "Serving Platter"],
+      "equipments": ["Large Pan", "Cooking Pot", "Serving Platter"],
       "nutrition": {
         "calories": "420 kcal",
         "carbohydrates": "72 g",
@@ -120,7 +120,7 @@
         "Fluff the couscous with a fork and stir in fresh cilantro and parsley.",
         "Serve the Moroccan vegetable couscous with lemon wedges on the side."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Spoon"],
+      "equipments": ["Large Pot", "Chef's Knife", "Serving Spoon"],
       "nutrition": {
         "calories": "320 kcal",
         "carbohydrates": "65 g",
@@ -163,7 +163,7 @@
         "Return browned chicken to the skillet. Cover and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
         "Garnish with fresh parsley before serving. Serve hot."
       ],
-      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "equipments": ["Large Skillet", "Chef's Knife", "Serving Platter"],
       "nutrition": {
         "calories": "380 kcal",
         "carbohydrates": "8 g",
@@ -199,7 +199,7 @@
         "Pour tomatillo salsa over the enchiladas and bake until cheese is melted and bubbly.",
         "Serve hot, topped with sour cream and chopped green onions."
       ],
-      "equipment": ["Baking Dish", "Bowl"],
+      "equipments": ["Baking Dish", "Bowl"],
       "nutrition": {
         "calories": "220 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -242,7 +242,7 @@
         "Bring to a boil, then reduce heat and simmer for 2 to 2.5 hours until lamb is tender.",
         "Season with salt and pepper to taste. Serve the stew over couscous and garnish with fresh mint leaves."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Bowl"],
+      "equipments": ["Large Pot", "Chef's Knife", "Serving Bowl"],
       "nutrition": {
         "calories": "580 kcal",
         "carbohydrates": "65 g",
@@ -278,7 +278,7 @@
         "Season with salt and pepper. Refrigerate for at least 30 minutes to let flavors meld.",
         "Serve chilled with tortilla chips for a delicious Mexican shrimp ceviche."
       ],
-      "equipment": ["Bowl"],
+      "equipments": ["Bowl"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "12 g",
@@ -317,7 +317,7 @@
         "Assemble tacos by placing a portion of the seasoned meat on each tortilla, topping with salsa, and garnishing with additional cilantro and onions.",
         "Serve immediately and enjoy these delicious Mexican street tacos!"
       ],
-      "equipment": ["Skillet", "Bowl", "Pan or Griddle"],
+      "equipments": ["Skillet", "Bowl", "Pan or Griddle"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "12 g",
@@ -362,7 +362,7 @@
         "Sprinkle raisins over the dish and let them plump in the heat for a few minutes.",
         "Garnish with fresh cilantro before serving. Serve hot."
       ],
-      "equipement": ["Large Skillet", "Chef's Knife", "Serving Platter"],
+      "equipments": ["Large Skillet", "Chef's Knife", "Serving Platter"],
       "nutrition": {
         "calories": "480 kcal",
         "carbohydrates": "58 g",
@@ -406,7 +406,7 @@
         "Bake for 25-30 minutes or until the phyllo is golden brown and crispy.",
         "Dust with powdered sugar before serving. Allow to cool slightly before slicing and serving."
       ],
-      "equipement": ["Large Skillet", "Pie Dish", "Pastry Brush"],
+      "equipments": ["Large Skillet", "Pie Dish", "Pastry Brush"],
       "nutrition": {
         "calories": "420 kcal",
         "carbohydrates": "25 g",
@@ -447,7 +447,7 @@
         "Remove from heat and stir in fresh parsley, fresh cilantro, olive oil, and lemon juice.",
         "Let the Zaalouk cool to room temperature before serving. Serve as a salad or side dish."
       ],
-      "equipement": ["Baking Sheet", "Pan", "Chef's Knife"],
+      "equipments": ["Baking Sheet", "Pan", "Chef's Knife"],
       "nutrition": {
         "calories": "120 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -478,7 +478,7 @@
         "Brush each ear of corn with mayonnaise, then roll in crumbled cotija cheese.",
         "Sprinkle with chili powder and serve with lime wedges for squeezing over the top."
       ],
-      "equipment": ["Grill Brush"],
+      "equipments": ["Grill Brush"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "20 g",
@@ -522,7 +522,7 @@
         "Cover the tagine or pot and simmer on low heat for 30-40 minutes or until chicken is cooked through.",
         "Garnish with fresh cilantro before serving. Serve the Moroccan Chicken Tagine with apricots over couscous or rice."
       ],
-      "equipement": [
+      "equipments": [
         "Tagine or Heavy-Bottomed Pot",
         "Chef's Knife",
         "Serving Platter"
@@ -571,7 +571,7 @@
         "Stir in fresh cilantro, fresh parsley, olive oil, and lemon juice. Adjust seasoning if needed.",
         "Serve hot and enjoy this comforting Moroccan Harira Soup."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Serving Ladle"],
+      "equipments": ["Large Pot", "Chef's Knife", "Serving Ladle"],
       "nutrition": {
         "calories": "320 kcal",
         "carbohydrates": "48 g",
@@ -614,7 +614,7 @@
         "In a small bowl, mix Greek yogurt with chopped mint, cilantro, lemon juice, and salt to taste. This will be the dipping sauce for the kebabs.",
         "Serve the Moroccan spiced lamb kebabs hot off the grill with the refreshing yogurt sauce."
       ],
-      "equipement": ["Mixing Bowl", "Grill or Grill Pan", "Wooden Skewers"],
+      "equipments": ["Mixing Bowl", "Grill or Grill Pan", "Wooden Skewers"],
       "nutrition": {
         "calories": "420 kcal",
         "carbohydrates": "5 g",
@@ -651,7 +651,7 @@
         "Fluff rice with a fork and stir in chopped cilantro. Season with salt to taste.",
         "Serve hot as a delicious and aromatic side dish for your Mexican feast."
       ],
-      "equipment": ["Skillet"],
+      "equipments": ["Skillet"],
       "nutrition": {
         "calories": "160 kcal (per serving)",
         "carbohydrates": "30 g",
@@ -689,7 +689,7 @@
         "Remove the cookies from the oven and let them cool on the baking sheet for a few minutes before transferring them to a wire rack to cool completely.",
         "Once cooled, dust the Moroccan date and walnut cookies with powdered sugar before serving."
       ],
-      "equipement": ["Mixing Bowl", "Baking Sheet", "Parchment Paper"],
+      "equipments": ["Mixing Bowl", "Baking Sheet", "Parchment Paper"],
       "nutrition": {
         "calories": "120 kcal (per cookie)",
         "carbohydrates": "14 g",
@@ -724,7 +724,7 @@
         "Cook quesadillas in a skillet over medium heat until cheese is melted and tortillas are golden brown.",
         "Serve hot, topped with salsa, sour cream, and chopped cilantro."
       ],
-      "equipment": ["Skillet"],
+      "equipments": ["Skillet"],
       "nutrition": {
         "calories": "280 kcal (per serving)",
         "carbohydrates": "22 g",
@@ -759,7 +759,7 @@
         "Pour into serving glasses and refrigerate for at least 4 hours or until set.",
         "Top with whipped cream and chocolate shavings before serving."
       ],
-      "equipment": ["Double Boiler", "Electric Mixer", "Serving Glasses"],
+      "equipments": ["Double Boiler", "Electric Mixer", "Serving Glasses"],
       "nutrition": {
         "calories": "280 kcal (per serving)",
         "carbohydrates": "20 g",
@@ -792,7 +792,7 @@
         "Garnish each glass with fresh mint leaves and a slice of orange.",
         "Stir before serving to mix the flavors, and enjoy this Moroccan-inspired Orange Blossom Water Cocktail!"
       ],
-      "equipement": ["Pitcher", "Citrus Juicer", "Glasses"],
+      "equipments": ["Pitcher", "Citrus Juicer", "Glasses"],
       "nutrition": {
         "calories": "80 kcal (per serving)",
         "carbohydrates": "20 g",
@@ -833,7 +833,7 @@
         "Cover and simmer on low heat for 1.5 to 2 hours or until chicken is tender and flavors meld.",
         "Garnish with fresh cilantro before serving. Serve the tagine over couscous or with crusty bread."
       ],
-      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Wooden Spoon"],
+      "equipments": ["Tagine or Dutch Oven", "Chef's Knife", "Wooden Spoon"],
       "nutrition": {
         "calories": "520 kcal",
         "carbohydrates": "35 g",
@@ -866,7 +866,7 @@
         "Chill in the refrigerator for at least 1 hour before serving.",
         "Serve as a refreshing side salad for your Mexican-inspired meals."
       ],
-      "equipment": ["Grill", "Large Bowl"],
+      "equipments": ["Grill", "Large Bowl"],
       "nutrition": {
         "calories": "220 kcal (per serving)",
         "carbohydrates": "18 g",
@@ -906,7 +906,7 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with chopped cilantro, and let it cool slightly before serving."
       ],
-      "equipment": ["Baking Dish", "Bowl"],
+      "equipments": ["Baking Dish", "Bowl"],
       "nutrition": {
         "calories": "300 kcal (per serving)",
         "carbohydrates": "25 g",
@@ -941,7 +941,7 @@
         "Toss cooked fettuccine in the Alfredo sauce until well coated. Garnish with fresh parsley.",
         "Serve hot, and enjoy this decadent Chicken Alfredo pasta!"
       ],
-      "equipment": ["Skillet"],
+      "equipments": ["Skillet"],
       "nutrition": {
         "calories": "500 kcal (per serving)",
         "carbohydrates": "40 g",
@@ -974,7 +974,7 @@
         "Optionally, garnish each cup with a sprig of fresh mint.",
         "Enjoy the authentic taste of Moroccan Mint Tea!"
       ],
-      "equipement": ["Teapot", "Tea Strainer", "Cups"],
+      "equipments": ["Teapot", "Tea Strainer", "Cups"],
       "nutrition": {
         "calories": "15 kcal (per serving)",
         "carbohydrates": "4 g",
@@ -1018,7 +1018,7 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, let it cool slightly, and then slice and serve this delicious Lasagna Bolognese!"
       ],
-      "equipment": ["Large Pot", "Baking Dish"],
+      "equipments": ["Large Pot", "Baking Dish"],
       "nutrition": {
         "calories": "450 kcal (per serving)",
         "carbohydrates": "40 g",
@@ -1060,7 +1060,7 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, sprinkle with grated Parmesan cheese, and let it cool slightly before serving."
       ],
-      "equipment": ["Large Pot", "Baking Dish"],
+      "equipments": ["Large Pot", "Baking Dish"],
       "nutrition": {
         "calories": "450 kcal (per serving)",
         "carbohydrates": "35 g",
@@ -1101,7 +1101,7 @@
         "Using an immersion blender, blend the soup until smooth. Add lemon juice, salt, and pepper to taste.",
         "Serve hot, garnished with chopped fresh parsley."
       ],
-      "equipment": ["Pot", "Immersion Blender"],
+      "equipments": ["Pot", "Immersion Blender"],
       "nutrition": {
         "calories": "250 kcal (per serving)",
         "carbohydrates": "30 g",
@@ -1139,7 +1139,7 @@
         "In a pan, melt butter and add red pepper flakes. Drizzle the butter over cooked dumplings.",
         "Serve the dumplings with yogurt and garnish with chopped fresh mint."
       ],
-      "equipment": ["Bowl", "Rolling Pin", "Pan"],
+      "equipments": ["Bowl", "Rolling Pin", "Pan"],
       "nutrition": {
         "calories": "350 kcal (per serving)",
         "carbohydrates": "25 g",
@@ -1184,7 +1184,7 @@
         "Stir in fresh cilantro just before serving. Adjust seasoning if needed.",
         "Serve the vegetable tagine over cooked couscous."
       ],
-      "equipement": ["Tagine or Dutch Oven", "Chef's Knife", "Serving Spoon"],
+      "equipments": ["Tagine or Dutch Oven", "Chef's Knife", "Serving Spoon"],
       "nutrition": {
         "calories": "320 kcal",
         "carbohydrates": "65 g",
@@ -1219,7 +1219,7 @@
         "Let it cool and set for several hours or overnight.",
         "Cut into small cubes and dust with powdered sugar before serving."
       ],
-      "equipment": ["Saucepan", "Mold"],
+      "equipments": ["Saucepan", "Mold"],
       "nutrition": {
         "calories": "80 kcal (per serving)",
         "carbohydrates": "20 g",
@@ -1255,7 +1255,7 @@
         "Bake in the preheated oven for 25-30 minutes or until the cheese is melted and bubbly.",
         "Remove from the oven, garnish with fresh basil leaves, and let it cool slightly before serving."
       ],
-      "equipment": ["Baking Sheet", "Baking Dish"],
+      "equipments": ["Baking Sheet", "Baking Dish"],
       "nutrition": {
         "calories": "300 kcal (per serving)",
         "carbohydrates": "35 g",
@@ -1289,7 +1289,7 @@
         "Bake in the preheated oven until the crust is golden and the cheese is melted and bubbly.",
         "Slice and enjoy this classic Margherita pizza!"
       ],
-      "equipment": ["Pizza Stone or Baking Sheet"],
+      "equipments": ["Pizza Stone or Baking Sheet"],
       "nutrition": {
         "calories": "300 kcal (per serving)",
         "carbohydrates": "35 g",
@@ -1334,7 +1334,7 @@
         "Pour vegetable broth over the ingredients and bring to a simmer. Cover and cook for 25-30 minutes or until vegetables are tender.",
         "Adjust seasoning if needed. Serve hot, and enjoy the rich flavors of this Moroccan Chickpea Stew."
       ],
-      "equipement": ["Large Pot", "Chef's Knife", "Wooden Spoon"],
+      "equipments": ["Large Pot", "Chef's Knife", "Wooden Spoon"],
       "nutrition": {
         "calories": "380 kcal",
         "carbohydrates": "68 g",
@@ -1373,7 +1373,7 @@
         "Arrange the stuffed mussels in a steamer basket and steam for about 20-25 minutes or until the rice is cooked.",
         "Sprinkle with chopped fresh parsley and serve with lemon wedges."
       ],
-      "equipment": ["Pan", "Steamer Basket"],
+      "equipments": ["Pan", "Steamer Basket"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "25 g",
@@ -1411,7 +1411,7 @@
         "Garnish with chopped fresh mint and pomegranate seeds.",
         "Serve Ali Nazik Kebab with flatbread or pita."
       ],
-      "equipment": ["Grill", "Bowl"],
+      "equipments": ["Grill", "Bowl"],
       "nutrition": {
         "calories": "280 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -1448,7 +1448,7 @@
         "Season with salt and pepper to taste. Garnish with chopped fresh parsley.",
         "Serve the Kumpir hot as a flavorful baked potato."
       ],
-      "equipment": ["Oven"],
+      "equipments": ["Oven"],
       "nutrition": {
         "calories": "300 kcal (per serving)",
         "carbohydrates": "35 g",
@@ -1492,7 +1492,7 @@
         "Add the cooked chicken back to the pan along with peanuts and the sauce mixture. Stir-fry until everything is well-coated and heated through.",
         "Garnish with chopped green onions and serve the Kung Pao Chicken over rice."
       ],
-      "equipment": ["Wok", "Pan"],
+      "equipments": ["Wok", "Pan"],
       "nutrition": {
         "calories": "350 kcal (per serving)",
         "carbohydrates": "18 g",
@@ -1529,7 +1529,7 @@
         "Grill the skewers over medium-high heat until the meat is cooked to your liking.",
         "Serve the Şiş Kebab with flatbread and garnish with chopped fresh parsley."
       ],
-      "equipment": ["Grill", "Bowl"],
+      "equipments": ["Grill", "Bowl"],
       "nutrition": {
         "calories": "250 kcal (per serving)",
         "carbohydrates": "5 g",
@@ -1569,7 +1569,7 @@
         "Pour in chicken or vegetable broth. Simmer for 10-15 minutes until the sauce thickens.",
         "Garnish with sliced green onions and serve Sichuan Mapo Tofu hot over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan"],
+      "equipments": ["Wok", "Pan"],
       "nutrition": {
         "calories": "300 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -1610,7 +1610,7 @@
         "Add the fried chicken to the pan, pour the sauce over, and toss until the chicken is coated and the sauce thickens.",
         "Garnish with toasted sesame seeds and serve the General Tso's Chicken over rice."
       ],
-      "equipment": ["Pan", "Deep Fryer"],
+      "equipments": ["Pan", "Deep Fryer"],
       "nutrition": {
         "calories": "380 kcal (per serving)",
         "carbohydrates": "30 g",
@@ -1649,7 +1649,7 @@
         "Arrange the dumplings in a steamer basket and steam for about 15-20 minutes or until cooked through.",
         "Serve the Dim Sum with soy sauce and chili oil for dipping."
       ],
-      "equipment": ["Bowl", "Steamer Basket"],
+      "equipments": ["Bowl", "Steamer Basket"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -1686,7 +1686,7 @@
         "Let the duck rest for 15 minutes before carving.",
         "Serve Peking Duck with thin Chinese pancakes, hoisin sauce, julienned cucumber, and sliced scallions."
       ],
-      "equipment": ["Oven"],
+      "equipments": ["Oven"],
       "nutrition": {
         "calories": "400 kcal (per serving)",
         "carbohydrates": "10 g",
@@ -1726,7 +1726,7 @@
         "Return the crispy beef to the pan and toss until well-coated in the sauce.",
         "Serve Mongolian Beef over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan", "Deep Fryer"],
+      "equipments": ["Wok", "Pan", "Deep Fryer"],
       "nutrition": {
         "calories": "400 kcal (per serving)",
         "carbohydrates": "30 g",
@@ -1767,7 +1767,7 @@
         "Return the cooked chicken to the pan and pour the sauce over. Stir-fry until everything is well-coated and heated through.",
         "Serve the Chicken and Broccoli Stir-Fry over cooked white rice."
       ],
-      "equipment": ["Wok", "Pan"],
+      "equipments": ["Wok", "Pan"],
       "nutrition": {
         "calories": "320 kcal (per serving)",
         "carbohydrates": "20 g",
@@ -1806,7 +1806,7 @@
         "Add the crispy fried pork to the pan and toss until well-coated in the sweet and sour sauce.",
         "Serve Sweet and Sour Pork over cooked white rice."
       ],
-      "equipment": ["Pan", "Deep Fryer"],
+      "equipments": ["Pan", "Deep Fryer"],
       "nutrition": {
         "calories": "380 kcal (per serving)",
         "carbohydrates": "30 g",
@@ -1847,7 +1847,7 @@
         "Return the cooked shrimp and chicken to the pan. Stir-fry until heated through.",
         "Garnish with chopped green onions and serve the Hong Kong Style Noodles hot."
       ],
-      "equipment": ["Wok", "Pan"],
+      "equipments": ["Wok", "Pan"],
       "nutrition": {
         "calories": "350 kcal (per serving)",
         "carbohydrates": "40 g",
@@ -1886,7 +1886,7 @@
         "Slowly pour beaten eggs into the soup, stirring gently to create ribbons of egg.",
         "Garnish with chopped green onions and serve the Hot and Sour Soup hot."
       ],
-      "equipment": ["Pot"],
+      "equipments": ["Pot"],
       "nutrition": {
         "calories": "120 kcal (per serving)",
         "carbohydrates": "10 g",
@@ -1926,7 +1926,7 @@
         "In a deep fryer or pan, heat vegetable oil and fry the spring rolls until golden brown. Drain on paper towels.",
         "Serve Spring Rolls with sweet and sour dipping sauce."
       ],
-      "equipment": ["Wok", "Pan", "Deep Fryer"],
+      "equipments": ["Wok", "Pan", "Deep Fryer"],
       "nutrition": {
         "calories": "180 kcal (per serving)",
         "carbohydrates": "15 g",
@@ -1935,6 +1935,158 @@
         "sodium": "400 mg",
         "fiber": "2 g"
       }
+    },
+    {
+      "imageUrl": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186593/recipes_images/pastilla-13-1024x1536_coreha.jpg",
+      "thumbnail": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186593/recipes_images/pastilla-13-1024x1536_coreha.jpg",
+      "title": "dqdqsd",
+      "rating": "3",
+      "description": "dsqdqdq",
+      "ingredients": ["dsqd", "dq"],
+      "instructions": ["dqd"],
+      "equipments": ["dqdq"],
+      "category": "Mexican",
+      "nutrition": {
+        "calories": {
+          "value": "4",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "2",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "4",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "4",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
+      },
+      "id": 64
+    },
+    {
+      "imageUrl": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186630/recipes_images/pastilla-13-1024x1536_fqwrjm.jpg",
+      "thumbnail": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186630/recipes_images/pastilla-13-1024x1536_fqwrjm.jpg",
+      "title": "dqdqsd",
+      "rating": "3",
+      "description": "dsqdqdq",
+      "ingredients": ["dsqd", "dq"],
+      "instructions": ["dqd"],
+      "equipments": ["dqdq"],
+      "category": "Mexican",
+      "nutrition": {
+        "calories": {
+          "value": "4",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "2",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "4",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "4",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
+      },
+      "id": 65
+    },
+    {
+      "imageUrl": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186656/recipes_images/pastilla-13-1024x1536_tfckug.jpg",
+      "thumbnail": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186656/recipes_images/pastilla-13-1024x1536_tfckug.jpg",
+      "title": "dqdqsd",
+      "rating": "3",
+      "description": "dsqdqdq",
+      "ingredients": ["dsqd", "dq"],
+      "instructions": ["dqd"],
+      "equipments": ["dqdq"],
+      "category": "Mexican",
+      "nutrition": {
+        "calories": {
+          "value": "4",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "2",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "4",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "4",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
+      },
+      "id": 66
+    },
+    {
+      "imageUrl": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186707/recipes_images/pastilla-13-1024x1536_vjogde.jpg",
+      "thumbnail": "http://res.cloudinary.com/dj0fgbobx/image/upload/v1704186707/recipes_images/pastilla-13-1024x1536_vjogde.jpg",
+      "title": "dqdqsd",
+      "rating": "3",
+      "description": "dsqdqdq",
+      "ingredients": ["dsqd", "dq"],
+      "instructions": ["dqd"],
+      "equipments": ["dqdq"],
+      "category": "Mexican",
+      "nutrition": {
+        "calories": {
+          "value": "4",
+          "unit": "kcal"
+        },
+        "carbohydrates": {
+          "value": "2",
+          "unit": "g"
+        },
+        "protein": {
+          "value": "4",
+          "unit": "g"
+        },
+        "fat": {
+          "value": "4",
+          "unit": "g"
+        },
+        "sodium": {
+          "value": "5",
+          "unit": "mg"
+        },
+        "fiber": {
+          "value": "6",
+          "unit": "g"
+        }
+      },
+      "id": 67
     }
   ]
 }
