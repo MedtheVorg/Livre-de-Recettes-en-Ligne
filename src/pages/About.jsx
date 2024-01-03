@@ -1,5 +1,4 @@
 import React from "react";
-import Footer from "../components/Footer";
 import yassineImage from "../assets/images/yassin.png";
 import mohamedImage from "../assets/images/mohamed.jpg";
 import amineImage from "../assets/images/amine.png";
@@ -92,8 +91,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      <Footer />
     </>
   );
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import platimage from "../assets/images/2.png";
-import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
+// import platimage from '../assets/images/2.png';
 function HomePage() {
   return (
     <>
@@ -27,12 +28,18 @@ function HomePage() {
             </p>
 
             <div className="btn mb-[10px] mt-[20px]  md:mt-20 ">
-              <button className="btn p-3  w-[250px]  bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-customBlack text-white text-center transition-colors duration-200 ease-in-out">
+              <Link
+                to={"/recipes"}
+                className="btn p-3  w-[250px]  bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-customBlack text-white text-center transition-colors duration-200 ease-in-out"
+              >
                 discover our collection
-              </button>
-              <button className="btn p-3 mt-[5px] md:ml-10 w-[250px] text-white bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-black text-center">
+              </Link>
+              <Link
+                to={"/recipe/add"}
+                className="btn p-3 mt-[5px] md:ml-10 w-[250px] text-white bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-black text-center"
+              >
                 Share your recipes
-              </button>
+              </Link>
             </div>
           </div>
           <div className=" w-1/2 container overflow-hidden m-auto md:ml-20 bg-customGreen rounded-b-full">
@@ -40,7 +47,6 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
