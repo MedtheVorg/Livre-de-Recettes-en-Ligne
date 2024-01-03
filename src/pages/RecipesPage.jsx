@@ -9,12 +9,13 @@ const RecipesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [recipes, setRecipes] = useState([]);
   const [categories, setCategories] = useState([]);
-
+  const [search, setSearch] = useState('');
+  console.log(search);
   
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
   };
-  console.log('Selected Category:', selectedCategory);
+  // console.log('Selected Category:', selectedCategory);
 
   useEffect(() => {
     const  fetchData = async () => {
@@ -38,8 +39,8 @@ const RecipesPage = () => {
   const filterRecipes = selectedCategory === null ? recipes : recipes
   .filter((recipe) => recipe.category === selectedCategory.name);
 
-  console.log("filter after click category",filterRecipes);
-  console.log('All Categories:', categories);
+  // console.log("filter after click category",filterRecipes);
+  // console.log('All Categories:', categories);
 return (
       <>
         <div className='mb-6  bg-white' >
@@ -60,7 +61,10 @@ return (
                   <a href="/">Search Your Product</a>
                 </h1>
                 <div className='my-6'>
-                  <input className='p-2 w-full rounded-lg focus:outline-none font-semibold' placeholder="Search For..." type="text" />
+                  <form>
+                    <input onChange={(e) => setSearch(e.target.value)} className='p-2 w-full rounded-lg focus:outline-none font-semibold' placeholder="Search For..." type="text" />
+                    
+                  </form>
                 </div>
               </div>
                 <div>
@@ -112,11 +116,12 @@ return (
                     {/* {recipes.filter((recipe) => recipe.category === selectedCategory).map((recipe,index) => (
                       
                     ))} */}
-                    {filterRecipes.map((recipe,index) => (
+                    {filterRecipes.filter((recipe) => {
+                      return search.toLowerCase() === '' ? recipe : recipe.title.toLowerCase().includes(search)
+                    }).map((recipe,index) => (
                       <div key={index} className='p-2 rounded-2xl border-borderColorCard border max-h-max  flex gap-3 flex-col justify-center'>
                       <img  className='w-full h-3/6 rounded-2xl'
                       src={recipe.imageUrl} alt="" />
-                      
                         <div className='flex gap-4 flex-col justify-center'>
                           <h5 className='text-base  text-customBlack font-extrabold truncate'>{recipe.title}</h5>
                           <p className="text-lg text-customBlack font-semibold mb-2">{recipe.category}</p>
