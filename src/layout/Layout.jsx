@@ -5,8 +5,11 @@ import { AnimatePresence } from "framer-motion";
 import withAnimation from "../components/withAnimation";
 import RecipeUpdatePage from "../pages/RecipeUpdatePage";
 import HomePage from "../pages/HomePage";
+import About from "../pages/About";
+import Footer from "../components/Footer";
 
 const HomePageWA = withAnimation(HomePage);
+const AboutPageWA = withAnimation(About);
 const RecipePageWA = withAnimation(RecipePage);
 const RecipeAddPageWA = withAnimation(RecipeAddPage);
 const RecipeUpdatePageWA = withAnimation(RecipeUpdatePage);
@@ -24,6 +27,7 @@ const Layout = () => {
         <AnimatePresence initial={false} mode="wait">
           <Routes location={location} key={location.pathname}>
             <Route path="/" element={<HomePageWA />} />
+            <Route path="/about" element={<AboutPageWA />} />
             <Route path="/recipe/:recipeId" element={<RecipePageWA />} />
             <Route path="/recipe/add" element={<RecipeAddPageWA />} />
             <Route
@@ -35,6 +39,9 @@ const Layout = () => {
           </Routes>
         </AnimatePresence>
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 };
