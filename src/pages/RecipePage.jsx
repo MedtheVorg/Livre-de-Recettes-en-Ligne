@@ -12,6 +12,7 @@ const RecipePage = () => {
 
   useEffect(() => {
     getRecipeById(recipeId).then(data => {
+      // Check if the ID is Exist
       if(data.id === undefined) {
         handleGoRecipesPage();
       } else {
@@ -21,11 +22,12 @@ const RecipePage = () => {
 
   }, [recipeId])
 
-
+  // Do to Recipes page
   const handleGoRecipesPage = () => {
     navigate('/recipes')
   }
 
+  // Delet function
   const handlDeleteRecipe = () => deleteRecipeById(recipeId);
 
   return <div className="container mx-auto my-8 px-8">
@@ -51,10 +53,11 @@ const RecipePage = () => {
       </div>
     
     <main>
-      <div className="recipe flex mt-8 pb-4">
-        <article className="ingredient w-full mr-4 pb-6">
+      <div className="flex flex-wrap flex-col-reverse sm:flex-row sm:flex-nowrap mt-8 pb-4">
+      {/*Ingredients */}
+      <article className="w-full mr-4 pb-6">
           <h4 className="text-3xl pb-4">Ingredients</h4>
-          <div className="ingredietList">
+          <div>
             {
               recipe?.ingredients?.map((e, i) => {
                 return (
@@ -68,13 +71,11 @@ const RecipePage = () => {
           </div>
         </article>
         <aside className="w-80 w-[18rem]">
-          <article className="p-4 shadow-lg rounded-md bg-gray-100">
-            <div className="flex items-center mb-3">
-              <div className="desc">
+          <article className="p-6 mb-12 shadow-lg rounded-md bg-gray-100">
+            <div className="mb-3">
                 <h3 className="text-yellow-500 text-xl">Nutrition</h3>
-              </div>
             </div>
-            <div className="nutrition text-lg">
+            <div className="Nutrition text-lg">
               <div className="mb-3">
                 <div className="flex mb-1.5">
                   <h6 className="text-green-900 mr-2">calories: </h6>
@@ -124,22 +125,23 @@ const RecipePage = () => {
         </aside>
       </div>
       <article className="pb-6">
-        <div className="Instructions pb-6">
-          <h4 className="text-3xl pb-6">Instructions</h4>
+        <div className="pb-6">
+          {/* Instructions */}
+          <h4 className="text-3xl pb-6">Instructions:</h4>
           <ul>
             {
               recipe?.instructions?.map((e, i) => {
                 return (
-                  <li className="text-1xl mb-6" key={i}>
-                    <span className="text-1xl mb-3 font-bold px-3 py-1.5 text-green-900 bg-yellow-500 rounded-md">{i+1}</span>  
-                    - {e}
+                  <li className="text-1xl leading-8 mb-6" key={i}>
+                    <span className="text-1xl mr-3 font-bold px-3 py-1.5 text-green-900 bg-yellow-500 rounded-md">{i+1}</span>  
+                    {e}
                   </li>
                 )
               })
             }
           </ul>
         </div>
-
+        {/*Equipments */}
         <div className="Equipments">
           <h4 className="text-3xl pb-6">Equipments</h4>
           <ul>
@@ -147,7 +149,7 @@ const RecipePage = () => {
               recipe?.equipments?.map((e, i) => {
                 return (
                   <li className="text-1xl mb-3" key={i}>
-                    - {e}
+                     {e}
                   </li>
                 )
               })
