@@ -430,18 +430,34 @@ const RecipeUpdatePage = () => {
           })}
         </div>
 
-        <button
-          disabled={isSubmitting || isLoading}
-          onClick={updateRecipe}
-          className="bg-customGreen text-white  rounded-full p-4 uppercase text-sm font-semibold  animate hover:text-customBlack hover:bg-customYellow tracking-wider
+        <div className="flex flex-row items-stretch gap-x-4 mt-8">
+          <button
+            disabled={isSubmitting || isLoading}
+            onClick={updateRecipe}
+            className="bg-customGreen text-white  rounded-full p-4 uppercase text-sm font-semibold  animate hover:text-customBlack hover:bg-customYellow tracking-wider
           disabled:bg-gray-500
             disabled:text-gray-400
             disabled:cursor-not-allowed
-            mt-8
+            grow
           "
-        >
-          {isSubmitting ? <Spinner /> : 'update'}
-        </button>
+          >
+            {isSubmitting ? <Spinner /> : 'update'}
+          </button>
+          <button
+            disabled={isSubmitting || isLoading}
+            onClick={function navigateBack() {
+              navigate(-1);
+            }}
+            className="bg-customGreen text-white  rounded-full p-4 uppercase text-sm font-semibold  animate hover:text-customBlack hover:bg-customYellow tracking-wider
+          disabled:bg-gray-500
+            disabled:text-gray-400
+            disabled:cursor-not-allowed
+            grow
+          "
+          >
+            {isSubmitting ? <Spinner /> : 'Cancel'}
+          </button>
+        </div>
       </div>
     </section>
   );
