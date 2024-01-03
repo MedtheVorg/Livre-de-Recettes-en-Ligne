@@ -25,7 +25,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Live Preview
 
-https://livre-de-recettes-en-ligne.vercel.app/
+<a href="https://livre-de-recettes-en-ligne.vercel.app/" target="_blank"> https://livre-de-recettes-en-ligne.vercel.app/</a>
 
 ## Features
 
