@@ -1,13 +1,11 @@
-import React from "react";
-import platimage from "../assets/images/2.png";
-import { Link } from "react-router-dom";
-// import platimage from '../assets/images/2.png';
+import platimage from '../assets/images/2.png';
+import { Link } from 'react-router-dom';
 function HomePage() {
   return (
     <>
-      <div className="Hero">
-        <div className="container flex  items-center flex-col-reverse md:flex-row">
-          <div className="w-1/2">
+      <div className="Hero h-full">
+        <div className="container flex  items-center flex-col-reverse md:flex-row md:gap-x-2 h-full">
+          <div className="md:w-1/2 p-4 md:p-0">
             <h1 className=" font-extrabold text-3xl mt-[20px] md:text-5xl text-titleGreen">
               Welcome to our website
             </h1>
@@ -27,23 +25,24 @@ function HomePage() {
               preferences.
             </p>
 
-            <div className="btn mb-[10px] mt-[20px]  md:mt-20 ">
+            <div className=" flex justify-between lg:justify-start  lg:gap-x-2 mt-8  px-2 items-center text-sm lg:text-base ">
               <Link
-                to={"/recipes"}
-                className="btn p-3  w-[250px]  bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-customBlack text-white text-center transition-colors duration-200 ease-in-out"
+                to={'/recipes'}
+                className=" p-3    bg-customGreen border  rounded-full hover:bg-customYellow hover:text-customBlack text-white text-center transition-colors duration-400 ease-in-out"
               >
                 discover our collection
               </Link>
               <Link
-                to={"/recipe/add"}
-                className="btn p-3 mt-[5px] md:ml-10 w-[250px] text-white bg-customGreen border border-btnHomeB rounded-full hover:bg-customYellow hover:text-black text-center"
+                to={'/recipe/add'}
+                className=" p-3    bg-customGreen border  rounded-full hover:bg-customYellow hover:text-customBlack text-white text-center transition-colors duration-400 ease-in-out"
               >
                 Share your recipes
               </Link>
             </div>
           </div>
-          <div className=" w-1/2 container overflow-hidden m-auto md:ml-20 bg-customGreen rounded-b-full">
-            <img src={platimage} className="w-[600px] spin" />
+
+          <div className=" md:w-1/2   bg-customGreen rounded-b-full md:h-full">
+            <img src={platimage} className=" spin w-full h-full object-cover" />
           </div>
         </div>
       </div>
