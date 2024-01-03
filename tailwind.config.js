@@ -14,6 +14,8 @@ export default {
         customBorderColor: "#e9e9e9",
         customBlack: "#212529",
         customRed: "#F95755",
+        borderColorCard: "#e4e4e4",
+        categoryFilterColor: "#8b8b94",
         titleGreen: "#4DA537",
       },
       container: {
