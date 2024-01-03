@@ -15,7 +15,8 @@ export default {
         customBlack: "#212529",
         customRed: "#F95755",
         borderColorCard: "#e4e4e4",
-        categoryFilterColor  :"#8b8b94",
+        categoryFilterColor: "#8b8b94",
+        titleGreen: "#4DA537",
       },
       container: {
         center: true,
@@ -26,6 +27,9 @@ export default {
           lg: "1024px",
           xl: "1280px",
         },
+      },
+      backgroundImage: {
+        "hero-image": "url('./src/assets/images/1.jpg')",
       },
     },
   },
