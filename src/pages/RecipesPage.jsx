@@ -8,36 +8,38 @@ import { Link } from 'react-router-dom';
 const RecipesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [recipes, setRecipes] = useState([]);
-  // / Assuming categories is an array of objects with id, name, and recipes properties.
   const [categories, setCategories] = useState([]);
 
-useEffect(() => {
-  const uniqueCategories = [...new Set(recipes.map((recipe) => recipe.category))];
-  const updatedCategories = uniqueCategories.map((categoryName, index) => ({
-    id: index + 1,
-    name: categoryName,
-    recipes: recipes.filter((recipe) => recipe.category === categoryName),
-  }));
-  setCategories(updatedCategories);
-}, [recipes]);
-
-useEffect(() => {
-  const  fetchData = async () => {
-    const data = await getRecipes();
-    // console.log(data);
-    setRecipes(data);
-  };
-  fetchData();
-},[]);
-
-  const filterRecipes = selectedCategory === null ? recipes : recipes.filter(recipe => recipe.category === selectedCategory);
-
-  console.log('All Categories:', categories);
   
   const handleCategoryClick = (category) => {
-    console.log('Selected Category:', selectedCategory);
     setSelectedCategory(category);
   };
+  console.log('Selected Category:', selectedCategory);
+
+  useEffect(() => {
+    const  fetchData = async () => {
+      const data = await getRecipes();
+      // console.log(data);
+      setRecipes(data);
+    };
+    fetchData();
+  },[]);
+
+  useEffect(() => {
+    const uniqueCategories = [...new Set(recipes.map((recipe) => recipe.category))];
+    const updatedCategories = uniqueCategories.map((categoryName, index) => ({
+      id: index,
+      name: categoryName,
+      recipes: recipes.filter((recipe) => recipe.category === categoryName),
+    }));
+    setCategories(updatedCategories);
+  }, [recipes]);
+
+  const filterRecipes = selectedCategory === null ? recipes : recipes
+  .filter((recipe) => recipe.category === selectedCategory.name);
+
+  console.log("filter after click category",filterRecipes);
+  console.log('All Categories:', categories);
 return (
       <>
         <div className='mb-6  bg-white' >
@@ -52,7 +54,7 @@ return (
 
           <div className='lg:mx-24 sm:mx-20 mt-24 grid grid-cols-10 gap-4' >
             {/* START FILTER SIDEBAR Section*/}
-            <div className='h-max pb-8 pt-4 rounded-2xl col-span-full mx-2 lg:col-span-3 bg-customLightGray  p-4'>
+            <div className='h-max rounded-2xl col-span-full mx-2 lg:col-span-3 bg-customLightGray px-4'>
               <div className='text-customBlack'>
                 <h1 className='font-extrabold	text-2xl my-4'>
                   <a href="/">Search Your Product</a>
@@ -67,7 +69,7 @@ return (
             <ul className='mt-2'>
               {categories.map((category) => (
                 <li key={category.id} onClick={() => handleCategoryClick(category)}>
-                  <p className="text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
+                  <p   className='cursor-pointer text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen'>
                     <span className="">{category.name}</span>
                     <span className="">({category.recipes.length})</span>
                   </p>
@@ -77,7 +79,7 @@ return (
           <div className="mt-11">
             <h5 className="text-customBlack font-extrabold	text-2xl my-4">Best Recipes</h5>
           </div>
-          <div className='h-80 mt-4 text-customWhite rounded-2xl bg-cover bg-center flex items-center px-3 mb-10' style={{ backgroundImage: 'url(https://premium-html-templates.mgtechnologies.co.in/mg-organics/assets/images/products/side-content-category-img1.png)'}}>
+          <div className='h-80 mt-4 text-customWhite rounded-2xl bg-cover bg-center flex items-center px-3 mb-7' style={{ backgroundImage: 'url(https://premium-html-templates.mgtechnologies.co.in/mg-organics/assets/images/products/side-content-category-img1.png)'}}>
             <div>
               <p className='font-medium	text-lg my-2'>Beverage
               </p>
