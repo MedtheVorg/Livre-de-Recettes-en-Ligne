@@ -7,41 +7,47 @@ import { Link } from 'react-router-dom';
 const RecipesPage = () => {
   const [selectedCategory, setSelectedCategory] = useState(null);
   const [recipes, setRecipes] = useState([]);
-  // / Assuming categories is an array of objects with id, name, and recipes properties.
   const [categories, setCategories] = useState([]);
-
-  // --------------------Unnecessary-------------
-  // useEffect(() => {
-  //   const uniqueCategories = [
-  //     ...new Set(recipes.map((recipe) => recipe.category)),
-  //   ];
-  //   const updatedCategories = uniqueCategories.map((categoryName, index) => ({
-  //     id: index + 1,
-  //     name: categoryName,
-  //     recipes: recipes.filter((recipe) => recipe.category === categoryName),
-  //   }));
-  //   setCategories(updatedCategories);
-  // }, [recipes]);
-
-  useEffect(() => {
-    const fetchData = async () => {
-      const data = await getRecipes();
-      setRecipes(data);
-
-      //get categories from Recipes array
-      setCategories(Array.from(new Set(data.map((ele) => ele.category))));
-    };
-    fetchData();
-  }, []);
-
-  const filterRecipes =
-    selectedCategory === null
-      ? recipes
-      : recipes.filter((recipe) => recipe.category === selectedCategory);
+  const [search, setSearch] = useState('');
 
   const handleCategoryClick = (category) => {
     setSelectedCategory(category);
   };
+  // console.log('Selected Category:', selectedCategory);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const data = await getRecipes();
+      // console.log(data);
+      setRecipes(data);
+    };
+    fetchData();
+  }, []);
+
+  useEffect(() => {
+    const uniqueCategories = [
+      ...new Set(recipes.map((recipe) => recipe.category)),
+    ];
+    const updatedCategories = uniqueCategories.map((categoryName, index) => ({
+      id: index,
+      name: categoryName,
+      recipes: recipes.filter((recipe) => recipe.category === categoryName),
+    }));
+    setCategories(updatedCategories);
+  }, [recipes]);
+
+  const filterRecipes =
+    selectedCategory === null
+      ? recipes
+      : recipes.filter((recipe) => recipe.category === selectedCategory.name);
+  const filterRecipesBySearchQuery = filterRecipes.filter((recipe) => {
+    return search.toLowerCase() === ''
+      ? recipe
+      : recipe.title.toLowerCase().includes(search);
+  });
+
+  // console.log("filter after click category",filterRecipes);
+  // console.log('All Categories:', categories);
   return (
     <>
       <div className="mb-6  bg-white">
@@ -59,17 +65,20 @@ const RecipesPage = () => {
 
         <div className="lg:mx-24 sm:mx-20 mt-24 grid grid-cols-10 gap-4">
           {/* START FILTER SIDEBAR Section*/}
-          <div className="h-max pb-8 pt-4 rounded-2xl col-span-full mx-2 lg:col-span-3 bg-customLightGray  p-4">
+          <div className="h-max rounded-2xl col-span-full mx-2 lg:col-span-3 bg-customLightGray px-4">
             <div className="text-customBlack">
               <h1 className="font-extrabold	text-2xl my-4">
                 <a href="/">Search Your Product</a>
               </h1>
               <div className="my-6">
-                <input
-                  className="p-2 w-full rounded-lg focus:outline-none font-semibold"
-                  placeholder="Search For..."
-                  type="text"
-                />
+                <form>
+                  <input
+                    onChange={(e) => setSearch(e.target.value)}
+                    className="p-2 w-full rounded-lg focus:outline-none font-semibold"
+                    placeholder="Search For..."
+                    type="text"
+                  />
+                </form>
               </div>
             </div>
             <div>
@@ -78,32 +87,20 @@ const RecipesPage = () => {
               </h3>
             </div>
             <ul className="mt-2">
-              {/*  ALL*/}
-              <li
-                onClick={() => handleCategoryClick(null)}
-                className="cursor-pointer"
-              >
-                <p className="text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
+              <li onClick={() => handleCategoryClick(null)}>
+                <p className="cursor-pointer text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
                   <span className="">All</span>
                   <span className="">({recipes.length})</span>
                 </p>
               </li>
-              {categories.map((category, index) => (
+              {categories.map((category) => (
                 <li
-                  key={index}
+                  key={category.id}
                   onClick={() => handleCategoryClick(category)}
-                  className="cursor-pointer"
                 >
-                  <p className="text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
-                    <span className="">{category}</span>
-                    <span className="">
-                      (
-                      {
-                        recipes.filter((ele) => ele.category === category)
-                          .length
-                      }
-                      )
-                    </span>
+                  <p className="cursor-pointer text-base font-semibold flex justify-between mb-2 text-categoryFilterColor hover:text-customGreen">
+                    <span className="">{category.name}</span>
+                    <span className="">({category.recipes.length})</span>
                   </p>
                 </li>
               ))}
@@ -114,7 +111,7 @@ const RecipesPage = () => {
               </h5>
             </div>
             <div
-              className="h-80 mt-4 text-customWhite rounded-2xl bg-cover bg-center flex items-center px-3 mb-10"
+              className="h-80 mt-4 text-customWhite rounded-2xl bg-cover bg-center flex items-center px-3 mb-7"
               style={{
                 backgroundImage:
                   'url(https://premium-html-templates.mgtechnologies.co.in/mg-organics/assets/images/products/side-content-category-img1.png)',
@@ -156,41 +153,46 @@ const RecipesPage = () => {
               </div>
             </div>
             <div>
-              <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-16">
-                {/* recipes Cards  */}
-                {/* {recipes.filter((recipe) => recipe.category === selectedCategory).map((recipe,index) => (
-                      
-                    ))} */}
-                {filterRecipes.map((recipe, index) => (
-                  <div
-                    key={index}
-                    className="p-2 rounded-2xl border-borderColorCard border max-h-max  flex gap-3 flex-col justify-center"
-                  >
-                    <img
-                      className="w-full h-3/6 rounded-2xl"
-                      src={recipe.imageUrl}
-                      alt=""
-                    />
-
-                    <div className="flex gap-4 flex-col justify-center">
-                      <h5 className="text-base  text-customBlack font-extrabold truncate">
-                        {recipe.title}
-                      </h5>
-                      <p className="text-lg text-customBlack font-semibold mb-2">
-                        {recipe.category}
-                      </p>
-                      <Link
-                        to={`/recipe/${recipe.id}`}
-                        className="bg-customGreen w-full hover:bg-customYellow  text-white py-2 px-4 rounded-2xl"
-                      >
-                        Show More
-                      </Link>
+              {/* recipes Cards  */}
+              {/* {recipes.filter((recipe) => recipe.category === selectedCategory).map((recipe,index) => (
+                  
+                ))} */}
+              {filterRecipesBySearchQuery.length > 0 ? (
+                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 mt-16">
+                  {filterRecipesBySearchQuery.map((recipe, index) => (
+                    <div
+                      key={index}
+                      className="p-2 rounded-2xl border-borderColorCard border max-h-max  flex gap-3 flex-col justify-center"
+                    >
+                      <img
+                        className="w-full h-3/6 rounded-2xl object-cover"
+                        src={recipe.imageUrl}
+                        alt=""
+                      />
+                      <div className="flex gap-4 flex-col justify-center">
+                        <h5 className="text-base  text-customBlack font-extrabold truncate">
+                          {recipe.title}
+                        </h5>
+                        <p className="text-lg text-customBlack font-semibold mb-2">
+                          {recipe.category}
+                        </p>
+                        <Link
+                          to={`/recipe/${recipe.id}`}
+                          className="bg-customGreen w-full hover:bg-customYellow  text-white py-2 px-4 rounded-2xl"
+                        >
+                          Show More
+                        </Link>
+                      </div>
                     </div>
-                  </div>
-                ))}
+                  ))}
+                </div>
+              ) : (
+                <p className="grow">
+                  `nothing was found with the search query ${search}`
+                </p>
+              )}
 
-                {/*  */}
-              </div>
+              {/*  */}
             </div>
           </main>
           {/* End Recipes Cards Section */}
