@@ -52,17 +52,29 @@ const Navbar = () => {
                   <IoMdClose className="  bg-customGreen text-white h-12 w-12 p-3 animate hover:scale-95 " />
                 </button>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/'}
+                    className="w-full h-full inline-block"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/about'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/about'}
+                    className="w-full h-full inline-block"
+                  >
                     About
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/recipe'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/recipe'}
+                    className="w-full h-full inline-block"
+                  >
                     Recipes
                   </Link>
                 </li>
