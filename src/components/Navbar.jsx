@@ -15,7 +15,10 @@ const Navbar = () => {
     <div className=" bg-customGreen relative ">
       <div className="container flex flex-row p-4 items-center justify-between    ">
         {/* logo */}
-        <div className="flex flex-row justify-center items-center gap-y-2">
+        <Link
+          to={'/'}
+          className="flex flex-row justify-center items-center gap-y-2"
+        >
           <div className="h-[40px] w-[40px] hidden md:block">
             <img
               src={logoImage}
@@ -27,7 +30,7 @@ const Navbar = () => {
             <span className="p-0 md:mb-[-8px]">Open</span>
             <span className="font-extrabold p-0">Recipes</span>
           </p>
-        </div>
+        </Link>
 
         {/* mobile nav */}
         <div className="sm:hidden  ">

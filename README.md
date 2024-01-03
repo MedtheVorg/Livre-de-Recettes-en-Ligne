@@ -1,7 +1,5 @@
-[![Stargazers][stars-shield]][stars-url][![Forks][forks-shield]][forks-url][![Contributors][contributors-shield]][contributors-url][![MIT License][license-shield]][license-url]
 
 
-<br/>
 <div align="center">
   <a href="https://github.com/MedtheVorg/Livre-de-Recettes-en-Ligne">
     <img src="./src/assets/logoReadMe.PNG" alt="Logo" style='border-radius:8px'>
@@ -12,69 +10,36 @@
  <br/>
  </div>
 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li><a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li><a href="#getting-started">Getting Started</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#sites-using-notionfolio">Sites using palettify</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contributors">Contributors</a></li>
-  </ol>
-</details>
 
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
-<details open><summary>Screenshot</summary>
-  <img src="https://palettify.co/images/thumbnail.png" />
-</details>
+  <img src="./src/assets//appgif.gif" />
 
 ## Demo
+working demo : https://livre-de-recettes-en-ligne.vercel.app/
 
 
-### Supports
+## Built with
 
-- MUI
-- shadcn-ui
+- [React ](https://react.dev/learn) - The library for web and native user interfaces
 
-### Built with
+- [Tailwind](https://tailwindcss.com/docs/installation) - A utility-first CSS framework packed with classes like flex, pt-4, text-center and rotate-90 that can be composed to build any design, directly in your markup..
 
-- Next.js (v14 with app dir) and React
-- Typescript
-- Tailwind CSS
-- Shadcn-ui as starter components
+- [React-Router](https://reactrouter.com/en/main) - React Router is a popular library for handling routing in React applications.
+
+- [Framer-Motion](https://www.framer.com/motion/) - Framer Motion is a production-ready animation library for React that offers declarative syntax, gestures, drag, and path animations. (for page/modal/section transitions)
+- [Json-Server](https://github.com/typicode/json-server) - JSON Server is a project that lets you create a fake REST API with a JSON file and some options. You can customize the routes, middlewares, data, and responses of your API with various features and examples
+
+<br/>
 
 ## Getting Started
 
 If you want to clone the project and use palettify as your starter project
 
-### Configuratuion
 
-- Star the repo
-- Fork this project
 
-## Roadmap
-
-- [x] Site structure
-- [x] Home page
-- [ ] Playground page
-- [ ] Themes page
-- [ ] User management
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-See the [contribution guide](CONTRIBUTING.md) and join our amazing list of [contributors](https://github.com/mehdibha/palettify/graphs/contributors)!
 
 <!-- LICENSE -->
 
@@ -85,6 +50,9 @@ Distributed under the MIT License. See `LICENSE` for more information.
 ## Contributors
 
 <table><tr align="left">
+  <td align="center"><a href="https://github.com/mehdibha"><img src="https://avatars.githubusercontent.com/u/12223900?v=4" width="64px;"alt="Mehdi BHA"/><br/><sub><b>Mehdi BHA</b></sub></a></td>
+  <td align="center"><a href="https://github.com/mehdibha"><img src="https://avatars.githubusercontent.com/u/12223900?v=4" width="64px;"alt="Mehdi BHA"/><br/><sub><b>Mehdi BHA</b></sub></a></td>
+  <td align="center"><a href="https://github.com/mehdibha"><img src="https://avatars.githubusercontent.com/u/12223900?v=4" width="64px;"alt="Mehdi BHA"/><br/><sub><b>Mehdi BHA</b></sub></a></td>
   <td align="center"><a href="https://github.com/mehdibha"><img src="https://avatars.githubusercontent.com/u/12223900?v=4" width="64px;"alt="Mehdi BHA"/><br/><sub><b>Mehdi BHA</b></sub></a></td>
 </tr></table>
 
