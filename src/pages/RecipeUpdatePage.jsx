@@ -47,11 +47,15 @@ const RecipeUpdatePage = () => {
       unit: 'g',
     },
   });
-
+  const [imageToDeleteDetails, setImageToDeleteDetails] = useState({
+    imageToDeleteUrl: null,
+    timestamp: null,
+    publicId: null,
+  });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isLoading, setIsLoading] = useState(true);
 
-  const params = useParams();
+  const { recipeId } = useParams();
   const navigate = useNavigate();
 
   async function updateRecipe(eventObject) {
@@ -72,26 +76,28 @@ const RecipeUpdatePage = () => {
       return;
     }
     try {
-      let uploadedImageUrl;
+      let uploadedImageUrl, timestamp, publicId;
       if (recipeImage !== null) {
         // we have a new uploaded Image
-        uploadedImageUrl = await uploadImageToCloudinary(recipeImage);
+        const uploadedImageDetails = await uploadImageToCloudinary(recipeImage);
+        uploadedImageUrl = uploadedImageDetails.uploadedImageUrl;
+        timestamp = uploadedImageDetails.timestamp;
+        publicId = uploadedImageDetails.publicId;
         if (uploadedImageUrl == null) {
           throw new Error(
-            'Error occurred while  uploading image to cloudinary'
+            'Error occurred while  uploading image to Cloudinary'
           );
         } else {
           // delete the old image
-          const publicId = new URL(displayedImage).pathname.split('/')[4];
-          const isDeleted = await removeImageFromCloudinary(
-            'recipes_images/1703465910680_ee1jpl.gif'
-          );
+          await removeImageFromCloudinary(imageToDeleteDetails);
         }
       }
 
       const updatedRecipe = {
         imageUrl: uploadedImageUrl || displayedImage,
         thumbnail: uploadedImageUrl || displayedImage,
+        timestamp: timestamp || imageToDeleteDetails.timestamp,
+        publicId: publicId || imageToDeleteDetails.publicId,
         title: title,
         rating: rating,
         description: description,
@@ -126,13 +132,11 @@ const RecipeUpdatePage = () => {
           },
         },
       };
-      const responseData = await updateRecipeById(
-        params.recipeId,
-        updatedRecipe
-      );
+      const responseData = await updateRecipeById(recipeId, updatedRecipe);
 
       if (responseData !== null) {
         toast.success('recipe updated Successfully');
+        navigate(`/recipe/${responseData.id}`);
       } else {
         toast.error('Error occurred while updating the recipe');
       }
@@ -161,13 +165,10 @@ const RecipeUpdatePage = () => {
   useEffect(() => {
     // fetch recipe corresponding  to Id
     async function fetchRecipe() {
-      const { recipeId } = params;
-
       try {
         const fetchedRecipe = await getRecipeById(recipeId);
         if (Object.keys(fetchedRecipe).length == 0) {
-          console.log('fetched recipe :', fetchedRecipe);
-          // toast.error('Error occurred while fetching recipe data');
+          // no recipe matches the recipeId
           navigate('/');
           return;
         } else {
@@ -192,7 +193,11 @@ const RecipeUpdatePage = () => {
             })
           );
           setNutritionValues(fetchedRecipe.nutritionValues);
-
+          setImageToDeleteDetails({
+            imageToDeleteUrl: fetchedRecipe.imageUrl,
+            timestamp: fetchedRecipe.timestamp,
+            publicId: fetchedRecipe.publicId,
+          });
           setIsLoading(false);
         }
       } catch (error) {
@@ -369,7 +374,7 @@ const RecipeUpdatePage = () => {
           itemsList={equipments}
           setItemsList={setEquipments}
           label={'equipments'}
-          placeholder={'equipement'}
+          placeholder={'equipment'}
           isLoading={isLoading}
         />
 
@@ -381,7 +386,7 @@ const RecipeUpdatePage = () => {
         <div className="grid grid-cols-2 gap-8">
           {Object.entries(nutritionValues).map((nutritionValue, idx) => {
             const nutritionName = nutritionValue[0];
-            const { value, unit } = nutritionValue[1];
+            const { unit } = nutritionValue[1];
             return (
               <div className="flex flex-col gap-y-4" key={idx}>
                 <label className="capitalize font-semibold">
