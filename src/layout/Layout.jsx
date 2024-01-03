@@ -1,10 +1,10 @@
-import { Routes, Route, useLocation } from 'react-router-dom';
-import { Navbar } from '../components';
-import { ErrorPage, RecipeAddPage, RecipePage, RecipesPage } from '../pages';
-import { AnimatePresence } from 'framer-motion';
-import withAnimation from '../components/withAnimation';
-import RecipeUpdatePage from '../pages/RecipeUpdatePage';
-import HomePage from '../pages/HomePage';
+import { Routes, Route, useLocation } from "react-router-dom";
+import { Navbar } from "../components";
+import { ErrorPage, RecipeAddPage, RecipePage, RecipesPage } from "../pages";
+import { AnimatePresence } from "framer-motion";
+import withAnimation from "../components/withAnimation";
+import RecipeUpdatePage from "../pages/RecipeUpdatePage";
+import HomePage from "../pages/HomePage";
 
 const HomePageWA = withAnimation(HomePage);
 const RecipePageWA = withAnimation(RecipePage);
