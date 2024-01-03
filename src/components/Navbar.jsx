@@ -72,7 +72,7 @@ const Navbar = () => {
                 <li className="p-3 hover:bg-customYellow animate">
                   <Link
                     onClick={toggleMenu}
-                    to={'/recipe'}
+                    to={'/recipes'}
                     className="w-full h-full inline-block"
                   >
                     Recipes
