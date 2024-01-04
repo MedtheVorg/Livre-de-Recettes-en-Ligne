@@ -19,7 +19,7 @@ const RecipePage = () => {
       }
     });
 
-  }, [recipeId])
+  }, [])
 
   // Do to Recipes page
   const handleGoRecipesPage = () => {
