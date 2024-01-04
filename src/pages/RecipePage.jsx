@@ -4,10 +4,12 @@ import { Link, useNavigate } from "react-router-dom";
 import { getRecipeById, deleteRecipeById } from "../../server/apiMethods";
 import dots from "../assets/6dots.svg";
 
+
 const RecipePage = () => {
   const [recipe, setRecipe] = useState([]);
   const {recipeId} = useParams();
   const navigate = useNavigate();
+  const [show, setShow] = useState(false);
 
   useEffect(() => {
     getRecipeById(recipeId).then(data => {
@@ -21,12 +23,12 @@ const RecipePage = () => {
 
   }, [])
 
-  // Do to Recipes page
+  // Go to Recipes page
   const handleGoRecipesPage = () => {
     navigate('/recipes')
   }
 
-  // Delet function
+  // Delete From the database
   const handlDeleteRecipe = () => deleteRecipeById(recipeId);
 
   return <div className="container mx-auto my-8 px-8">
@@ -39,7 +41,19 @@ const RecipePage = () => {
           </div>
           <div className="flex gap-4">
             <Link to={`/recipe/update/${recipeId}`} className="p-3.5 text-center bg-customGreen text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">Update Recipe</Link>
-            <Link to={`/recipes`} onClick={handlDeleteRecipe} className="p-3.5 text-center bg-red-500 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">Delete Recipe</Link>
+            <button onClick={() => setShow(!show)} className="p-3.5 text-center bg-red-600 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">
+              Delete Recipe
+            </button>
+            {/*Alert for deleting*/}
+            <div className={show ? "block" : "hidden"}>
+              <div className="fixed flex flex-col content-center w-full top-0 bottom-0 left-0 right-0 h-screen fixed z-50 flex justify-center items-center bg-red-100 border border-red-400 text-red-700 px-4 py-3">
+                <strong className="font-bold text-xl mb-4">You want to delete this recipe?</strong>
+                <div className="flex">
+                  <Link to={`/recipes`} onClick={handlDeleteRecipe} className="p-3.5 text-center bg-red-600 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow mr-2 w-16">Yes</Link>
+                  <button onClick={() => setShow(!show)} className="p-3.5 text-center bg-green-900 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-16">No</button>
+                </div>
+              </div>
+            </div>
           </div>
       </div>
       </div>
