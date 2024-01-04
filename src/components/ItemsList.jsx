@@ -72,9 +72,8 @@ const ItemsList = ({
               </span>
               <span
                 className="bg-customWhite inline-block rounded-full p-2 cursor-pointer transition-all duration-200 hover:scale-105 hover:bg-customRed hover:text-white"
+                disabled={isSubmitting}
                 onClick={() => {
-                  console.log('item to delete', item);
-                  console.log('items list', itemsList);
                   deleteItem(item.id);
                 }}
               >

@@ -1,9 +1,10 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ItemsList } from '../components';
 import { uploadImageToCloudinary } from '../utils/cloudinaryConfig';
 import { createRecipe } from '../../server/apiMethods';
 import Spinner from '../components/Spinner';
 import { toast } from 'react-toastify';
+import { useNavigate } from 'react-router-dom';
 
 const RecipeAddPage = () => {
   const [recipeImage, setRecipeImage] = useState(null);
@@ -14,7 +15,7 @@ const RecipeAddPage = () => {
   const [category, setCategory] = useState(null);
   const [ingredients, setIngredients] = useState([]);
   const [instructions, setInstructions] = useState([]);
-  const [equipments, setEquipements] = useState([]);
+  const [equipments, setEquipments] = useState([]);
   const [nutritionValues, setNutritionValues] = useState({
     calories: {
       value: 0,
@@ -43,6 +44,7 @@ const RecipeAddPage = () => {
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const navigate = useNavigate();
 
   async function uploadRecipe(eventObject) {
     eventObject.preventDefault();
@@ -62,19 +64,29 @@ const RecipeAddPage = () => {
       return;
     }
     try {
-      const uploadedImageUrl = await uploadImageToCloudinary(recipeImage);
+      const { uploadedImageUrl, timestamp, publicId } =
+        await uploadImageToCloudinary(recipeImage);
+
+      console.log(
+        'uploaded image data ',
+        uploadedImageUrl,
+        timestamp,
+        publicId
+      );
       if (uploadedImageUrl == null) {
-        throw new Error('Error occured while  uploading image to cloudinary');
+        throw new Error('Error occurred while  uploading image to cloudinary');
       } else {
         const newRecipe = {
           imageUrl: uploadedImageUrl,
           thumbnail: uploadedImageUrl,
+          timestamp: timestamp,
+          publicId: publicId,
           title: title,
           rating: rating,
           description: description,
           ingredients: ingredients.map((ingredient) => ingredient.text),
-          instructions: instructions.map((intstruction) => intstruction.text),
-          equipments: equipments.map((equipement) => equipement.text),
+          instructions: instructions.map((instruction) => instruction.text),
+          equipments: equipments.map((equipment) => equipment.text),
           category: category,
           nutritionValues: {
             calories: nutritionValues.calories,
@@ -88,6 +100,7 @@ const RecipeAddPage = () => {
         const responseData = await createRecipe(newRecipe);
         if (responseData !== null) {
           toast.success('recipe Created');
+          navigate(`/recipe/${responseData.id}`);
         } else {
           toast.error('something went wrong');
         }
@@ -270,9 +283,9 @@ const RecipeAddPage = () => {
         <ItemsList
           isSubmitting={isSubmitting}
           itemsList={equipments}
-          setItemsList={setEquipements}
+          setItemsList={setEquipments}
           label={'equipments'}
-          placeholder={'equipement'}
+          placeholder={'equipment'}
         />
 
         {/* nutritionValues */}
@@ -283,7 +296,7 @@ const RecipeAddPage = () => {
         <div className="grid grid-cols-2 gap-8">
           {Object.entries(nutritionValues).map((nutrition, idx) => {
             const nutritionName = nutrition[0];
-            const { value, unit } = nutrition[1];
+            const { unit } = nutrition[1];
             return (
               <div className="flex flex-col gap-y-4" key={idx}>
                 <label className="capitalize font-semibold">

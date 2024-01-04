@@ -15,7 +15,10 @@ const Navbar = () => {
     <div className=" bg-customGreen relative ">
       <div className="container flex flex-row p-4 items-center justify-between    ">
         {/* logo */}
-        <div className="flex flex-row justify-center items-center gap-y-2">
+        <Link
+          to={'/'}
+          className="flex flex-row justify-center items-center gap-y-2"
+        >
           <div className="h-[40px] w-[40px] hidden md:block">
             <img
               src={logoImage}
@@ -27,7 +30,7 @@ const Navbar = () => {
             <span className="p-0 md:mb-[-8px]">Open</span>
             <span className="font-extrabold p-0">Recipes</span>
           </p>
-        </div>
+        </Link>
 
         {/* mobile nav */}
         <div className="sm:hidden  ">
@@ -49,17 +52,29 @@ const Navbar = () => {
                   <IoMdClose className="  bg-customGreen text-white h-12 w-12 p-3 animate hover:scale-95 " />
                 </button>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/'}
+                    className="w-full h-full inline-block"
+                  >
                     Home
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/about'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/about'}
+                    className="w-full h-full inline-block"
+                  >
                     About
                   </Link>
                 </li>
                 <li className="p-3 hover:bg-customYellow animate">
-                  <Link to={'/recipe'} className="w-full h-full inline-block">
+                  <Link
+                    onClick={toggleMenu}
+                    to={'/recipes'}
+                    className="w-full h-full inline-block"
+                  >
                     Recipes
                   </Link>
                 </li>
