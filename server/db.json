@@ -385,62 +385,6 @@
       }
     },
     {
-      "id": 25,
-      "title": "MEXICAN SHRIMP CEVICHE",
-      "description": "Refreshing Mexican shrimp ceviche with marinated shrimp, tomatoes, onions, avocados, and citrus juices.",
-      "imageUrl": "https://images.unsplash.com/photo-1680737365844-ff1ff25f28a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU0hSSU1QJTIwQ0VWSUNIRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=1080",
-      "rating": 4.9,
-      "thumbnail": "https://images.unsplash.com/photo-1680737365844-ff1ff25f28a1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1NDY1MDZ8MHwxfHNlYXJjaHwxfHxNRVhJQ0FOJTIwU0hSSU1QJTIwQ0VWSUNIRXxlbnwwfDB8fHwxNzAzODU2NzY3fDA&ixlib=rb-4.0.3&q=80&w=400",
-      "category": "Mexican",
-      "ingredients": [
-        "1 lb medium shrimp, peeled and deveined",
-        "1 cup diced tomatoes",
-        "1/2 cup finely chopped red onion",
-        "1/4 cup chopped fresh cilantro",
-        "2 avocados, diced",
-        "Juice of 2 limes",
-        "Juice of 1 lemon",
-        "1 jalapeño, seeded and finely chopped",
-        "Salt and pepper to taste",
-        "Tortilla chips for serving"
-      ],
-      "instructions": [
-        "Boil shrimp in salted water until pink and opaque. Drain and chop into bite-sized pieces.",
-        "In a bowl, combine chopped shrimp, diced tomatoes, red onion, cilantro, diced avocados, lime juice, lemon juice, and chopped jalapeño.",
-        "Season with salt and pepper. Refrigerate for at least 30 minutes to let flavors meld.",
-        "Serve chilled with tortilla chips for a delicious Mexican shrimp ceviche."
-      ],
-      "equipments": [
-        "Bowl"
-      ],
-      "nutritionValues": {
-        "calories": {
-          "value": "180",
-          "unit": "kcal"
-        },
-        "carbohydrates": {
-          "value": "12",
-          "unit": "g"
-        },
-        "protein": {
-          "value": "15",
-          "unit": "g"
-        },
-        "fat": {
-          "value": "10",
-          "unit": "g"
-        },
-        "sodium": {
-          "value": "300",
-          "unit": "mg"
-        },
-        "fiber": {
-          "value": "5",
-          "unit": "g"
-        }
-      }
-    },
-    {
       "id": 18,
       "title": "MEXICAN STREET TACOS",
       "description": "Authentic Mexican street tacos filled with flavorful seasoned meat, fresh salsa, and topped with cilantro and onions.",
