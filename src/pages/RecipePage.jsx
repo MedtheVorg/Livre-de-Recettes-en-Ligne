@@ -41,7 +41,7 @@ const RecipePage = () => {
           </div>
           <div className="flex gap-4">
             <Link to={`/recipe/update/${recipeId}`} className="p-3.5 text-center bg-customGreen text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">Update Recipe</Link>
-            <button onClick={() => setShow(!show)} className="p-3.5 text-center bg-red-500 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">
+            <button onClick={() => setShow(!show)} className="p-3.5 text-center bg-red-600 text-white rounded uppercase duration-200 hover:text-customBlack hover:bg-customYellow w-36 h-12 mt-2">
               Delete Recipe
             </button>
             {/*Alert for deleting*/}
