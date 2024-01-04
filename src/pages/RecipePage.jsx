@@ -4,7 +4,6 @@ import { Link, useNavigate } from "react-router-dom";
 import { getRecipeById, deleteRecipeById } from "../../server/apiMethods";
 import dots from "../assets/6dots.svg";
 
-
 const RecipePage = () => {
   const [recipe, setRecipe] = useState([]);
   const {recipeId} = useParams();
